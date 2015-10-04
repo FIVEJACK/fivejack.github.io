@@ -1,0 +1,74 @@
+
+<?php $__env->startSection('title'); ?>
+Games - Configuration
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('css_import'); ?>
+<link rel="stylesheet" type="text/css" href="<?php echo e(Config::get('constant.RESOURCE_URL') . 'css/admin.css'); ?>">
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('js'); ?>
+<script type="text/javascript">
+function confirmDeleteGame(gameId)
+{
+	if (confirm("Are you sure to delete the game?"))
+		location.href = '/admin/game/delete/' + gameId;
+}
+</script>
+
+<script type="text/javascript">
+function confirmDeleteServer(gameId, serverId)
+{
+	if (confirm("Are you sure to delete the server?"))
+		location.href = '/admin/server/delete/' + gameId + '/' + serverId;
+}
+</script>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('main'); ?>
+<div class="row">
+	<div class="col-sm-4">
+		<div class="page-header">
+			<span style="font-size:20px;">Games</span>
+			<button type="button" class="close" data-dismiss="alert" aria-hidden="true" onclick="location.href='/admin/game/new'"><span class="glyphicon glyphicon-plus"></span></button>
+		</div>
+		<ul class="list-group">
+<?php
+	foreach ($data['games'] as $game)
+	{
+?>
+			<li class="list-group-item list-group-item-<?php echo ($game['is_active'] == 1) ? 'success' : 'danger'; ?>">
+				<?php echo $game['name']; ?>
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true" onclick='confirmDeleteGame(<?php echo $game['game_id']; ?>)'><span class="glyphicon glyphicon-remove"></span></button>
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true" onclick="location.href='/admin/game/view/<?php echo $game['game_id']; ?>'"><span class="glyphicon glyphicon-search"></span></button>
+			</li>
+<?php
+	}
+?>
+		</ul>
+	</div>
+	<div id="game_attr_box" class="col-sm-4" style="display:none">
+		<div class="page-header">
+			<span style="font-size:20px;"><?php echo $__env->yieldContent('game_title'); ?></span>
+			<?php echo $__env->yieldContent('game_button'); ?>
+		</div>
+		<?php echo $__env->yieldContent('game_attributes'); ?>
+	</div>
+	<div id="server_box" class="col-sm-4" style="display:none">
+		<div class="page-header">
+			<span style="font-size:20px;">Servers</span>
+			<?php echo $__env->yieldContent('server_add_button'); ?>
+		</div>
+		<?php echo $__env->yieldContent('server_list'); ?>
+	</div>
+	<div id="server_attr_box" class="col-sm-4" style="display:none">
+		<div class="page-header">
+			<span style="font-size:20px;"><?php echo $__env->yieldContent('server_title'); ?></span>
+			<?php echo $__env->yieldContent('server_edit_button'); ?>
+		</div>
+		<?php echo $__env->yieldContent('server_attributes'); ?>
+	</div>
+</div>
+<?php echo $__env->yieldContent('js_game'); ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('template.base', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

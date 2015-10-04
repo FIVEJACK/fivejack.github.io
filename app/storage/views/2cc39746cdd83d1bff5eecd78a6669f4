@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+<meta name="description" content="">
+<meta name="author" content="">
+<?php echo $__env->yieldContent('meta'); ?>
+<title><?php echo $__env->yieldContent('title'); ?></title>
+<script type="text/javascript" language="javascript">
+var resource_url = "<?php echo e(Config::get('constant.RESOURCE_URL')); ?>";
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<?php echo $__env->yieldContent('js_import'); ?>
+<link rel="stylesheet" type="text/css" href="<?php echo e(Config::get('constant.RESOURCE_URL') . 'css/bootstrap.min.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo e(Config::get('constant.RESOURCE_URL') . 'css/common.css'); ?>">
+<?php echo $__env->yieldContent('css_import'); ?>
+<!--<link rel="shortcut icon" href="http://files.fivejack.com/images/logo_rd1.png" type="image/png">-->
+<?php echo $__env->yieldContent('js'); ?>
+</head>
+<body>
+<div class="container" role="main">
+<?php echo $__env->yieldContent('main'); ?>
+</div>
+<script src="<?php echo e(Config::get('constant.RESOURCE_URL') . 'js/bootstrap.min.js'); ?>"></script>
+</body>
+</html>

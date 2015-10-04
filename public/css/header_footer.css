@@ -1,0 +1,99 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+
+h2  {
+	margin-top: 5px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+	padding-top: 0px;
+	margin-bottom: 5px;
+	color: #000;
+	font-size: 20px;
+}
+
+p  {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom:15px;
+ 	color:black;
+	padding-top: 0px;
+}
+
+.container {
+	min-width:980px;
+	width: 100%;
+	height: auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;	
+	background: url("../images/background.jpg") no-repeat center top #f2f2f2;
+}
+
+
+.footer {
+	width:100%;
+	height: 50px;
+	background-color: #ffffff;
+	margin-top:65px;
+	border-top-style: solid;
+	border-top-color: #dddddd;
+	border-top-width: 1px;
+	
+
+}
+
+.footer_context {
+	color:#666666;
+	font-size:11px;
+	padding-top:18px;
+} 
+
+#header {
+	width:100%;
+	height: 50px;
+	background-color:#07445d;
+}
+
+
+.fivejacklogo {
+	float: left;
+	left: 0;
+	margin : auto;
+	padding-top:15px;
+	
+
+}
+
+.fb {
+	
+	float : right;
+	right: 0;
+	margin : auto;
+	padding-top:15px;
+	
+	
+	
+}
+
+.header_context {
+	width:800px;
+	height: 50px;
+	background-color:#07445d;
+	margin:auto;
+	
+}
+	

@@ -1,0 +1,175 @@
+.white {
+	color: white;
+}
+
+p.ex  {
+	margin-top: 0px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: white;
+	font-size: 12px;
+}
+
+p.es  {
+	margin-top: 0;
+	padding-right: 0px;
+	padding-left: 30px;
+	color: white;
+	margin-bottom: 60px;
+	font-size: 12px;
+}
+
+p.job {
+	margin-top: 0;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: black;
+	margin-bottom: 60px;
+	font-size: 12px;
+}
+
+
+
+p.itemku {
+	margin-top: 0px;
+	padding-right: 0px;
+	padding-left: 130px;
+	color: black;
+	padding-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	padding-bottom: 90px;
+}
+
+
+
+.itembox {
+	padding-top: 0px;
+	padding-left: 160px;
+	padding-right: 30px;
+	color: black;
+	font-size: 12px;	
+}
+
+.service_logo {
+	float: left;
+	padding-top: 14px;
+	padding-left: 34px;
+	padding-right: 10px;
+	height: 100px;
+}
+
+
+
+a img { 
+	border: none;
+}
+
+a:link, a:visited {
+	color: #666666;
+	text-decoration: underline; 
+}
+ 
+a:hover, a:active, a:focus { 
+	color: #000000;
+	text-decoration: underline;
+}
+
+	
+
+.aboutus {
+	background-color:#0a7ba7;
+	font-color:white;
+	font-size:12px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+	
+.itemku {
+	background-color: white;
+	font-size:12px
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+.uvpspace {
+	font-size: 25px;
+	margin: auto;
+	width: 980px;
+	height: 150px;
+	color: #767171;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Courgette', cursive;
+
+}
+
+
+.funyou {
+	margin:auto;
+	width:980px;
+	height:150px;
+	padding-top: 35px;
+	color:#FFFFFF;	
+}
+
+
+.background {
+	width:100%
+	height: 00px;
+}
+	
+.dropshadow
+{
+	box-shadow: 100px 100px 200px #888888;
+}
+
+#contact_title {
+	float:left;
+}
+
+#contact_separator {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:3px;
+	height:112px;
+	width:1px;
+	background-color:#FFFFFF;
+	float:left;
+}
+
+
+
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+body {
+	color: #000;
+	font-size: xx-small;
+}
+
+td,th {
+	color: #000;
+	font-size: xx-small;
+	vertical-align:top;
+	-moz-box-shadow: 0 0 2px #888;
+	-webkit-box-shadow: 0 0 2px #888;
+	box-shadow: 0 0 2px #888;
+
+}
+
+table {
+		border:0px solid #666;
+		border-spacing: 1px;
+		table-layout: fixed;
+}

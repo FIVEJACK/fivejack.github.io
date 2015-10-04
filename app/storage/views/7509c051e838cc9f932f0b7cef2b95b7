@@ -1,0 +1,93 @@
+
+<?php $__env->startSection('title'); ?>
+ItemKu
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('css_import'); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('js'); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('main'); ?>
+	<div class="page-header">
+        <span style="font-size:26px;"><?php echo $data['game']['name']; ?></span>
+		<div class="btn-group">
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Other Games <span class="caret"></span></button>
+			<ul class="dropdown-menu" role="menu">
+<?php
+	foreach ($data['games'] as $game)
+	{
+		if ($game['game_id'] == $data['game']['game_id'])
+			continue;
+?>
+				<li><a href="/game/<?php echo $game['game_id']; ?>"><?php echo $game['name']; ?></a></li>
+<?php
+	}
+?>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="thumbnail">
+		<div class="caption">
+			<h4>Servers</h4>
+			<a href="/game/<?php echo $data['game']['game_id']; ?>"><span class="tag_box <?php if ($data['server']['server_id'] == 0) echo 'tag_box_active'; ?>">All Servers</span><br /></a>
+<?php
+	foreach ($data['servers'] as $server)
+	{
+		if ($server['is_active'] == 0)
+			continue;
+?>
+			<a href="/game/<?php echo $data['game']['game_id']; ?>/<?php echo $server['server_id']; ?>"><span class="tag_box <?php if ($data['server']['server_id'] == $server['server_id']) echo 'tag_box_active'; ?>"><?php echo $server['name']; ?></span></a>
+<?php
+	}
+?>
+		</div>
+	</div>
+	
+	<div style="height:500px;">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Username</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Jacob</td>
+					<td>Thornton</td>
+					<td>@fat</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td colspan="2">Larry the Bird</td>
+					<td>@twitter</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<div class="text-center">
+		<ul class="pagination">
+			<li><a href="#">&laquo;</a></li>
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">&raquo;</a></li>
+		</ul>
+	</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('template.base', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
