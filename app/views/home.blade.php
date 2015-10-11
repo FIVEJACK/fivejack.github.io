@@ -43,9 +43,7 @@ Five Jack - Gamer's Heaven
 				<h2 align="left" >Career</h2>
 				<p class="job"> We are looking for<br> 
 				1) <a href='{{{ Config::get("constant.BASE_URL") }}}career/marketer'>Senior Marketer</a><br>
-				2) <a href='{{{ Config::get("constant.BASE_URL") }}}career/sso'>Senior Service Operator</a><br>
-				3) <a href='{{{ Config::get("constant.BASE_URL") }}}career/jso'>Junior Service Operator</a><br>
-				4) <a href='{{{ Config::get("constant.BASE_URL") }}}career/scsm'>Senior Customer Service Manager</a><br>
+				2) <a href='{{{ Config::get("constant.BASE_URL") }}}career/sso'>Senior Service Operator</a><br>				
 				</p>				
 				</td>
 		  
