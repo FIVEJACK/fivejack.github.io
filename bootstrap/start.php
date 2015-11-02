@@ -31,14 +31,13 @@ $env = $app->detectEnvironment(function()
 	{
 		return 'local';
 	}
-	else if($_SERVER['SERVER_ADDR'] === '128.199.199.146')
+	else if($_SERVER['SERVER_ADDR'] === '128.199.64.60')
 	{	
 		if ($_SERVER['REMOTE_ADDR'] === '139.0.21.66' ||
 			$_SERVER['REMOTE_ADDR'] === '139.0.21.67' ||
 			$_SERVER['REMOTE_ADDR'] === '139.0.21.68' ||
 			$_SERVER['REMOTE_ADDR'] === '139.0.21.69' ||
-			$_SERVER['REMOTE_ADDR'] === '139.0.21.70' ||
-			substr($_SERVER['REMOTE_ADDR'], 0, 11) === '182.253.250')
+			$_SERVER['REMOTE_ADDR'] === '139.0.21.70')
 		{
 			return 'beta';
 		}
