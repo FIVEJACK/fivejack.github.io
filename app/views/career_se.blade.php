@@ -29,24 +29,24 @@ Career - FiveJack
 			<span class="sub-title">Qualifications</span><br>
 			- Bachelor degree in computer science, or equivalent study<br>
 			- Solid understanding on computer science fundamentals<br>
+			- Fresh graduate welcome<br>
+			- GPA over 3.00<br>
 			- Proficiency in at least one programming language<br>
 			- Familiarity with SQL<br>
 			- Intermediate English skill to work with foreigners<br>								
+			- Like to learn new tech trend<br>
 			<br>
 			<br>
 			<span class="sub-title">Preferred Qualifications</span><br>
 			- Master degree in computer science, or equivalent study<br>
 			- Familiarity with programming in PHP and it's MVC framework<br>
 			- 1+ years of experience in software development industry as a programmer<br>						
-			- Good communication, and interpersonal skills<br>			
+			- Good interpersonal, written, and verbal communication skills<br>			
 			- Basic understanding on game/e-commerce business<br>
 			<br>
 			<br>
 			<span class="sub-title">Contact</span><br>
-			recruit@fivejack.com<br>
-			<br>
-			Please send us your CV with a cover letter to the e-mail address.<br>
-			We also receive any question regarding this recruit.<br>
+			Please send your amazing CV with great cover letter to recruit@fivejack.com. All documents must be in English.<br>
 			<br>
 		</p>
 	</div>
