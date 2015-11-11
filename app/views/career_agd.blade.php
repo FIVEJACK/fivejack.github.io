@@ -14,13 +14,14 @@ Career - FiveJack
 
 @section('contents')
 	<div class="content">
-		<h2 class="job-title">Software Engineer</h2>
+		<h2 class="job-title">Advertising Graphic Designer</h2>
 		<p class="job-detail">
 			<span class="sub-title">Job Description</span><br>
-			Five Jack is looking for a Software Engineer.<br>
+			Five Jack is looking for an Advertising Graphic Designer.<br>
+			(Especially Online Advertising to Facebook, Google, and so on).<br>
 			<br>
-			The engineer will work for <a href="http://itemku.com">itemku</a> project which Five Jack mainly focused on<br>
-			and will be in charge of creating high performance, stable, and secure e-commerce platform that meet our business requirements.<br>
+			The Designer will work for <a href="http://itemku.com">itemku</a> project which Five Jack mainly focused on<br>
+			and will be in charge of advertising design which includes the overall creative graphic design and creative problem-solving in making the advertising.<br>
 			<br>
 			Five Jack consists of international members(Indonesian, Korean)<br>
 			who already have experiences from global companies.<br>			
@@ -28,26 +29,25 @@ Career - FiveJack
 			<br>
 			<br>
 			<span class="sub-title">Qualifications</span><br>
-			- Bachelor degree in computer science, or equivalent study<br>
-			- Solid understanding on computer science fundamentals<br>
-			- Fresh graduate welcome<br>
+			- Strong in concept, innovative design ideas, good design sense<br>
+			- Proficiency in graphic design software such as Adobe Photoshop & Adobe Illustrator<br>
+			- Skill of video editing software for make advertising video<br>
+			- Excellent communication skill with marketers
+			- Bachelor degree in graphic design, or advertising<br>
 			- GPA over 3.00<br>
-			- Proficiency in at least one programming language<br>
-			- Familiarity with SQL<br>
-			- Intermediate English skill to work with foreigners<br>	
-			- Like to learn new tech trends<br>							
+			- Fresh graduate welcome<br>						
 			<br>
 			<br>
 			<span class="sub-title">Preferred Qualifications</span><br>
-			- Master degree in computer science, or equivalent study<br>
-			- Familiarity with programming in PHP and its MVC framework<br>
-			- 1+ years of experience in software development industry as a programmer<br>						
-			- Good interpersonal, written, and verbal communication skills<br>			
+			- Strong portfolio related to online advertising design<br>
+			- 1+ years of experience in advertising industry as a designer<br>
+			- Intermediate English skill to work with foreigners<br>
 			- Basic understanding on game/e-commerce business<br>
+			- Have some knowledge in digital ads banner and social media banner<br>
 			<br>
 			<br>
 			<span class="sub-title">Benefits</span><br>
-			- Salary Rp 5.000.000 - Rp 6.000.000<br>
+			- Salary Rp 3.500.000 - Rp 6.000.000<br>
 			- Free lunch every workdays<br>
 			<br>
 			<br>
