@@ -42,9 +42,9 @@ Five Jack - Gamer's Heaven
 				<h2 align="left" >&nbsp; </h2>
 				<h2 align="left" >Career</h2>
 				<p class="job"> We are looking for<br> 
-				1) <a href='{{{ Config::get("constant.BASE_URL") }}}career/marketer'>Digital Marketer</a><br>
-				2) <a href='{{{ Config::get("constant.BASE_URL") }}}career/agd'>Advertising Graphic Designer</a><br>
-				3) <a href='{{{ Config::get("constant.BASE_URL") }}}career/se'>Software Engineer</a><br>				
+				1) <a href='{{{ Config::get("constant.BASE_URL") }}}career/agd'>Advertising Graphic Designer</a><br>
+				2) <a href='{{{ Config::get("constant.BASE_URL") }}}career/se'>Software Engineer</a><br>
+				3) <a href='{{{ Config::get("constant.BASE_URL") }}}career/dm'>Digital Marketer</a><br>
 				</p>				
 				</td>
 		  
