@@ -24,7 +24,7 @@ Career - FiveJack
 			<br>
 			Five Jack consists of international members(Indonesian, Korean)<br>
 			who already have experiences from global companies.<br>			
-			As the product grows, we prefer someone who is eager to enhance his digital marketing experience and/or <br>
+			As the product grows, we prefer someone who is eager to enhance their digital marketing experience and/or <br>
 			learn about digital marketing and social media marketing.<br>
 			<br>
 			<br>
@@ -44,11 +44,6 @@ Career - FiveJack
 			- Outstanding interpersonal, written, and verbal communication skills<br>			
 			- Great marketing copywriting and proofreading<br>
 			- Must thrive in a dynamic, fast-paced environment, be a highly-motivated self-starter, flourish on a multi-cultural team, and have a brilliant sense of humor<br>
-			<br>
-			<br>
-			<span class="sub-title">Benefits</span><br>
-			- Salary Rp 4.000.000 - Rp 6.000.000<br>
-			- Free lunch every workdays<br>
 			<br>
 			<br>
 			<span class="sub-title">Contact</span><br>

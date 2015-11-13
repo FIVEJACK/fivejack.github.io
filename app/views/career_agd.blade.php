@@ -18,7 +18,7 @@ Career - FiveJack
 		<p class="job-detail">
 			<span class="sub-title">Job Description</span><br>
 			Five Jack is looking for an Advertising Graphic Designer.<br>
-			(Especially Online Advertising to Facebook, Google, and so on).<br>
+			(Specially Online Advertising to Facebook, Google, and so on).<br>
 			<br>
 			The Designer will work for <a href="http://itemku.com">itemku</a> project which Five Jack mainly focused on<br>
 			and will be in charge of advertising design which includes the overall creative graphic design and creative problem-solving in making the advertising.<br>
@@ -44,11 +44,6 @@ Career - FiveJack
 			- Intermediate English skill to work with foreigners<br>
 			- Basic understanding on game/e-commerce business<br>
 			- Have some knowledge in digital ads banner and social media banner<br>
-			<br>
-			<br>
-			<span class="sub-title">Benefits</span><br>
-			- Salary Rp 3.500.000 - Rp 6.000.000<br>
-			- Free lunch every workdays<br>
 			<br>
 			<br>
 			<span class="sub-title">Contact</span><br>
