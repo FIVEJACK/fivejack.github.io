@@ -46,11 +46,6 @@ Career - FiveJack
 			- Basic understanding on game/e-commerce business<br>
 			<br>
 			<br>
-			<span class="sub-title">Benefits</span><br>
-			- Salary Rp 5.000.000 - Rp 6.000.000<br>
-			- Free lunch every workdays<br>
-			<br>
-			<br>
 			<span class="sub-title">Contact</span><br>
 			recruit@fivejack.com<br>
 			<br>
