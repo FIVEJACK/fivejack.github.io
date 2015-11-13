@@ -20,6 +20,8 @@ Career - FiveJack
 			Five Jack is looking for an Advertising Graphic Designer.<br>
 			(Specially Online Advertising to Facebook, Google, and so on).<br>
 			<br>
+			The advertising graphic designer have to make a creative design strategy & ideas to reach target audience / goals.<br>
+			<br>
 			The Designer will work for <a href="http://itemku.com">itemku</a> project which Five Jack mainly focused on<br>
 			and will be in charge of advertising design which includes the overall creative graphic design and creative problem-solving in making the advertising.<br>
 			<br>
