@@ -51,7 +51,7 @@ Career - FiveJack
 			<span class="sub-title">Contact</span><br>
 			recruit@fivejack.com<br>
 			<br>
-			Please send us your amazing CV with great cover letter to the e-mail address.<br>
+			Please send us your amazing CV with great cover letter and portfolio to the e-mail address.<br>
 			All documents must be in English<br>
 			We also welcome any question regarding this recruitment.<br>
 			<br>
