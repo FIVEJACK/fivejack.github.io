@@ -34,7 +34,7 @@ Career - FiveJack
 			- Strong in concept, innovative design ideas, good design sense<br>
 			- Proficiency in graphic design software such as Adobe Photoshop & Adobe Illustrator<br>
 			- Skill of video editing software for make advertising video<br>
-			- Excellent communication skill with marketers
+			- Excellent communication skill with marketers<br>
 			- Bachelor degree in graphic design, or advertising<br>
 			- GPA over 3.00<br>
 			- Fresh graduate welcome<br>						
