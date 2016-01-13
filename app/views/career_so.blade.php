@@ -14,30 +14,36 @@ Career - FiveJack
 
 @section('contents')
 	<div class="content">
-		<h2 class="job-title">Software Engineer</h2>
+		<h2 class="job-title">Service Operator</h2>
 		<p class="job-detail">
 			Hello!
 			<br><br>
 			We are Five Jack. We have been developing and running "itemku", which is the first C2C marketplace for gamers in Indonesia. Our product has been growing very fast in 2015 which led one of top Venture Capital in Silicon Valley invest in our company. From that, we want to speed up our product development cycle to fulfill our customer's wants and needs.
 			<br><br>
-			To achieve that, we are looking for Software Engineers with a strong sense of ownership and a passion to learn something new. As part of the team, you will be given the chance to design, build, improve, or maintain our web service and back-end system, which are based on open-source technology such as Laravel Framework and Elastic.
+			To achieve that, we are looking for Service Operator:<br>
+				- Who has the ability to handle itemku's payment system and monitor on-going transactions.<br>
+				- Also responsible to users and contents quality inside of itemku product. <br>
+				- Capable to research upcoming updates about game or game item. <br>
+			This role will work together with customer service person to ensure all transactions are done and ensure customer satisfaction.
 			<br><br>
-			Successful candidates must also be innovative, flexible, self-directed, and able to design and write reliable, maintainable code. If you enjoy working in a dynamic environment and want the fun and feel of a start-up company, this may be the career opportunity for you!
+			If you enjoy working in a dynamic environment and want the fun and feel of a start-up company, this may be the career opportunity for you!
 			<br><br>
 			<span class="sub-title">Qualifications</span><br>
-			- Excellent understanding of Object-Oriented design and concepts, design patterns, and algorithms<br>
-			- Fluency in at least one programming language<br>
-			- S1 degree in Computer Science or equivalent from a reputable university(GPA has to be higher than 3.0)<br>
-			- Good interpersonal, written, and verbal communication skills in English<br>
+			- Fresh graduate are welcome<br>
+			- Having passion in gaming, online shopping, and/or e-commerce industry<br>
+			- Excellent in listening skills and communication skill<br>
+			- English skill (Oral and Written) is needed<br>
+			- Can work independently or in a team and have strong initiative mind<br>
+			- Working available at weekend and holiday (5 days working per 1 week)<br>
 			<br>
 			<span class="sub-title">Preferred Qualifications</span><br>
-			- Experience programming in an open source environment<br>
-			- Experience programming in PHP and its MVC framework<br>
-			- Good understanding of SQL and database<br>
+			- 1 or 2+ years working experience in related field<br>
+			- Good communication skill through phone<br>
+			- Good analytical thinking in providing solutions to problems of order product by email and phone<br>
+			- Has experience in leading a team and have strong initiative mind<br>
 			<br>
 			<span class="sub-title">What is the benefit working in Five Jack?</span><br>
-			- Salary Rp 5~8 million : The better you are, the better we can give<br>
-			- Flexible working hour : Flexible creates higher responsibility<br>
+			- Salary Rp 4~6 million : The better you are, the better we can give<br>
 			- Free lunch : You will never get hungry<br>
 			- Monthly member voucher for our product : For every games you love to play<br>
 			- 14 Days Annual Leaves : For every personal matters that you need to do<br>
