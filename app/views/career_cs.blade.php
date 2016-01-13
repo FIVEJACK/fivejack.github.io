@@ -38,7 +38,7 @@ Career - FiveJack
 			- Skills in analysis, planning, management of competing priorities to meet multiple deliverables and deadlines, creativity in seeking new and better solutions, and forward thinking<br>
 			<br>
 			<span class="sub-title">What is the benefit working in Five Jack?</span><br>
-			- Salary Rp 4~6jt : The better you are, the better we can give<br>
+			- Salary Rp 4~6 million : The better you are, the better we can give<br>
 			- Free lunch : You will never get hungry<br>
 			- Monthly member voucher for our product : For every games you love to play<br>
 			- 14 Days Annual Leaves : For every personal matters that you need to do<br>

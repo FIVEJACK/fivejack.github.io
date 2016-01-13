@@ -36,7 +36,7 @@ Career - FiveJack
 			- Good understanding of SQL and database<br>
 			<br>
 			<span class="sub-title">What is the benefit working in Five Jack?</span><br>
-			- Salary Rp 5~8jt : The better you are, the better we can give<br>
+			- Salary Rp 5~8 million : The better you are, the better we can give<br>
 			- Flexible working hour : Flexible creates higher responsibility<br>
 			- Free lunch : You will never get hungry<br>
 			- Monthly member voucher for our product : For every games you love to play<br>
