@@ -34,7 +34,7 @@ Five Jack - Gamer's Heaven
 					<div class="service_logo">
 						<a href="http://itemku.com/" target="_blank" id="itemku_link"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku.png" }}}' alt="itemku" width="102" height="36" align="left"></a>
 					</div>           	  
-					<p class="itembox">itemku.com is the pioneer marketplace platform for game item, currency, and account trading in Indonesia.</p>
+					<p class="itembox">itemku is the pioneer marketplace platform for game item, currency, and account trading in Indonesia.</p>
 				</td>
 			</tr>
 			<tr>
