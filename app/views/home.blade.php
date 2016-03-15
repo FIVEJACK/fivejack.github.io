@@ -45,6 +45,8 @@ Five Jack - Gamer's Heaven
 				1) <a href='{{{ Config::get("constant.BASE_URL") }}}career/agd'>Advertising Graphic Designer</a><br>
 				2) <a href='{{{ Config::get("constant.BASE_URL") }}}career/se'>Software Engineer</a><br>
 				3) <a href='{{{ Config::get("constant.BASE_URL") }}}career/dm'>Digital Marketer</a><br>
+				4) <a href='{{{ Config::get("constant.BASE_URL") }}}career/lux'>Lead UX Desginer</a><br>
+				5) <a href='{{{ Config::get("constant.BASE_URL") }}}career/jux'>Junior UX Designer</a><br>
 				</p>				
 				</td>
 		  
