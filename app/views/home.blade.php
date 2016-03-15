@@ -34,7 +34,7 @@ Five Jack - Gamer's Heaven
 					<div class="service_logo">
 						<a href="http://itemku.com/" target="_blank" id="itemku_link"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku.png" }}}' alt="itemku" width="102" height="36" align="left"></a>
 					</div>           	  
-					<p class="itembox">itemku is the pioneer marketplace platform for game item, currency, and account trading in Indonesia.</p>
+					<p class="itembox">itemku is the pioneer platform in Indonesia to supply information about price of game item and game money. </p>
 				</td>
 			</tr>
 			<tr>
@@ -42,9 +42,11 @@ Five Jack - Gamer's Heaven
 				<h2 align="left" >&nbsp; </h2>
 				<h2 align="left" >Career</h2>
 				<p class="job"> We are looking for<br> 
-				1) <a href='{{{ Config::get("constant.BASE_URL") }}}career/se'>Software Engineer</a><br>
-				2) <a href='{{{ Config::get("constant.BASE_URL") }}}career/cs'>Customer Service</a><br>
-				3) <a href='{{{ Config::get("constant.BASE_URL") }}}career/so'>Service Operator</a><br>
+				1) <a href='{{{ Config::get("constant.BASE_URL") }}}career/agd'>Advertising Graphic Designer</a><br>
+				2) <a href='{{{ Config::get("constant.BASE_URL") }}}career/se'>Software Engineer</a><br>
+				3) <a href='{{{ Config::get("constant.BASE_URL") }}}career/dm'>Digital Marketer</a><br>
+				4) <a href='{{{ Config::get("constant.BASE_URL") }}}career/lux'>Lead UX Desginer</a><br>
+				5) <a href='{{{ Config::get("constant.BASE_URL") }}}career/jux'>Junior UX Designer</a><br>
 				</p>				
 				</td>
 		  
