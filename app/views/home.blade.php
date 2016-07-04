@@ -26,6 +26,9 @@ Five Jack - Gamer's Heaven
 					<h2 align="left" class="white">&nbsp;</h2>
 					<h2 align="left" class="white">About Us				</h2>
 					<p align="justify" class="ex">Five Jack established in 2013, is a start-up company in gaming related products and value added service. In 2014, Fivejack comes with new business strategy that can change the behavior of gamers in Indonesia and Fivejack is committed to build better game service platform.</p>
+					<p align="justify" class="ex">
+						<a href="{{{ Config::get('constant.BASE_URL') }}}announcement">Announcement for shareholders >>></a>
+					</p>
 				</td>
 		 
 				<td width="400" height="280" class="itemku">

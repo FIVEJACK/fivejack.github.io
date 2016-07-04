@@ -28,8 +28,6 @@ p.job {
 	font-size: 12px;
 }
 
-
-
 p.itemku {
 	margin-top: 0px;
 	padding-right: 0px;
@@ -172,4 +170,11 @@ table {
 		border:0px solid #666;
 		border-spacing: 1px;
 		table-layout: fixed;
+}
+
+.ex a, .ex a:hover
+{
+	text-decoration: underline;
+	color: #FFFFFF;
+	cursor: pointer;
 }
