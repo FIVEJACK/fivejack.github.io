@@ -31,3 +31,7 @@ Route::when('*', 'ip_block_for_beta');
 
 Route::get('/', 'HomeController@showHome');
 Route::get('/career/{position}', 'HomeController@showCareer');
+Route::get('/announcement', function ()
+{
+	return View::make('announcement');
+});
