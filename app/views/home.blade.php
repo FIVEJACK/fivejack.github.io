@@ -45,11 +45,16 @@ Five Jack - Gamer's Heaven
 				<h2 align="left" >&nbsp; </h2>
 				<h2 align="left" >Career</h2>
 				<p class="job"> We are looking for<br> 
-				1) <a href='{{{ Config::get("constant.BASE_URL") }}}career/agd'>Advertising Graphic Designer</a><br>
-				2) <a href='{{{ Config::get("constant.BASE_URL") }}}career/se'>Software Engineer</a><br>
-				3) <a href='{{{ Config::get("constant.BASE_URL") }}}career/dm'>Digital Marketer</a><br>
-				4) <a href='{{{ Config::get("constant.BASE_URL") }}}career/lux'>Lead UX Desginer</a><br>
-				5) <a href='{{{ Config::get("constant.BASE_URL") }}}career/jux'>Junior UX Designer</a><br>
+				- <a href="https://www.techinasia.com/jobs/21844a95-03d3-4481-b499-e776f10eacc4">Software Engineer</a><br>
+				- <a href="https://www.techinasia.com/jobs/476b7af9-6702-4692-8acc-7516f1c58d52">Junior UX Designer</a><br>
+				- <a href="https://www.techinasia.com/jobs/4ca1e9cd-4079-43a5-9fa5-7c8a75b07744">Senior UX Designer</a><br>
+				- <a href="https://www.techinasia.com/jobs/3027bd6d-0129-4f87-911c-a3a354689382">itemku Expert</a><br>
+				- <a href="https://www.techinasia.com/jobs/2938151f-b4e1-4b69-984b-a529d10e8a5b">Content Creator</a><br>
+				- <a href="https://www.techinasia.com/jobs/b097cc23-bb9e-482c-a866-e60b77913906">Senior Digital Marketer</a><br>
+				- <a href="https://www.techinasia.com/jobs/32a95765-f43d-4211-9d40-dfa0f3dc75f7">Global Game Researcher</a><br>
+				- <a href="https://www.techinasia.com/jobs/c553b314-71ef-4565-b795-73fc9bac1923">Finance</a><br>
+				- <a href="https://www.techinasia.com/jobs/2014ee1e-3f04-44c2-8e91-dda5a86c94d3">Service Operator</a><br>
+				- <a href="https://www.techinasia.com/jobs/3f72230e-44b1-4778-af49-494fd33271d6">Customer Service</a><br>
 				</p>				
 				</td>
 		  
