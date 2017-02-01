@@ -27,8 +27,13 @@ $(document).ready(function() {
 			<div class="fivejacklogo">
 				<a href='{{{ Config::get("constant.BASE_URL") }}}'><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/logo.png" }}}' width="130" height="20" alt="logo"></a>
 			</div>	
-			<div class="fb">
-				<a href="https://www.facebook.com/Fivejack" target="_blank"  id="facebook_link"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/fb-icon.png" }}}' width="29" height="27" alt="fb logo"></a>
+			<div class="menu">
+				<ul class="all-li">
+					<li>HOME</li>
+					<li>PRODUCT</li>
+					<li>CAREER</li>
+					<li>CONTACT</li>
+				</ul>
 			</div>
 		</div>
 	</div>

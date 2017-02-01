@@ -40,20 +40,15 @@ p  {
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;	
-	background: url("../images/background.jpg") no-repeat center top #f2f2f2;
-}
-
+	}
 
 .footer {
 	width:100%;
 	height: 50px;
 	background-color: #ffffff;
-	margin-top:65px;
 	border-top-style: solid;
 	border-top-color: #dddddd;
 	border-top-width: 1px;
-	
-
 }
 
 .footer_context {
@@ -63,37 +58,40 @@ p  {
 } 
 
 #header {
+	z-index: 100;
+	position: fixed;
 	width:100%;
 	height: 50px;
-	background-color:#07445d;
-}
-
-
-.fivejacklogo {
-	float: left;
-	left: 0;
-	margin : auto;
-	padding-top:15px;
-	
-
-}
-
-.fb {
-	
-	float : right;
-	right: 0;
-	margin : auto;
-	padding-top:15px;
-	
-	
-	
+	background-color: #07445d;
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
 }
 
 .header_context {
-	width:800px;
+	max-width:1100px;
 	height: 50px;
-	background-color:#07445d;
+	background-color: #07445d;
 	margin:auto;
-	
 }
-	
+
+.fivejacklogo {
+	float: left;
+	padding-top:15px;
+}
+
+.menu {
+	font-family: arial;
+	font-size: 14px;
+	color: white;
+	float : right;
+	padding-top: 15px;
+}
+
+.all-li {
+	list-style-type: none;
+	display: inline-block;
+	}
+
+li {
+	display: inline-block;
+	padding-right: 32px;
+}
