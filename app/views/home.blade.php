@@ -17,7 +17,7 @@ Five Jack - Gamer's Heaven
 @section('contents')
 <div class="wallpaper">
 	
-	<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku-team.jpg" }}}' alt="itemku" align="center" class="wallpaper-image">
+	<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/IMG_8387_edit2.jpg" }}}' alt="itemku" align="center" class="wallpaper-image">
 
 	<div class="uvp-container">
 		<p class="uvpspace">We Make	Gamer's Heaven</p>
