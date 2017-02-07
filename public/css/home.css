@@ -1,3 +1,9 @@
+.space {
+	display: block;
+	margin: 120px 0px;
+}
+
+
 .wallpaper {
 	height: 600px;
 }
@@ -79,4 +85,138 @@
 	font-family: 'Keep Calm';
 	color: #07445d;
 	text-transform: uppercase;
+}
+
+.product-page {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 70%;
+    position: relative;
+    margin: 0px auto;
+    text-align: left;
+}
+
+.itemku {
+	float: left;
+	max-width: 360px;
+}
+
+.itemku-logo {
+	width: 100%;
+	position: relative;
+	float: left;
+}
+
+.itemku-description {
+	font-family: "Myriad Pro";
+	color: #444;
+	position: relative;
+	top: 35px;
+	clear: both;
+	font-size: 16px;
+	text-align: left;	
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.situs-jualbeli {
+	color: #f59d26;
+	font-family: "Myriad Pro";
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.itemku-preview-container {
+	float: right;
+	position: relative;
+	max-width: 700px;
+	bottom: 40px;
+}
+
+.itemku-preview {
+	width: 100%;
+}
+
+.reviewed-by {
+	font-family: "Myriad Pro";
+	color: #444;
+	position: relative;
+	font-size: 16px;
+}
+
+.container-reviews {
+	text-align: center;
+    width: 70%;
+    position: relative;
+    margin: 0px auto;
+}
+
+.review-content-outter-container {
+	display: flex;
+	justify-content: space-between;
+	vertical-align: middle;
+}
+
+.review-content-container {
+    width: 400px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.review-content-container-2 {
+    width: 400px;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+
+.review-image {
+    width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.review-text {
+    display: inline-block;
+    width: 210px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 12px;
+    color: #1982ad;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.review-image-2 {
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.review-text-2 {
+    display: inline-block;
+    width: 210px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 12px;
+    color: #1982ad;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.review-text:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.review-text-2:hover {
+	text-decoration: underline;
+	cursor: pointer;
 }

@@ -17,7 +17,7 @@ Five Jack - Gamer's Heaven
 @section('contents')
 <div class="wallpaper">
 	
-	<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/IMG_8387_edit2.jpg" }}}' alt="itemku" align="center" class="wallpaper-image">
+	<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/IMG_8387-offset-small.jpg" }}}' alt="fivejack team" align="center" class="wallpaper-image">
 
 	<div class="uvp-container">
 		<p class="uvpspace">We Make	Gamer's Heaven</p>
@@ -43,6 +43,38 @@ Five Jack - Gamer's Heaven
 		<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/data-driven.png" }}}' alt="data driven" > 
 		<p class="culture-font">Data Driven</p>
 	</div>
+</div>
+
+<div class="space"></div>
+
+<div class="product-page">
+	<div class="itemku">
+		<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku logo.png" }}}' alt="itemku logo" class="itemku-logo">
+		<p class="itemku-description">itemku hadir menjadi <span class="situs-jualbeli">situs jual-beli</span> terbesar dalam komunitas game online di Indonesia dan mempunyai layanan “itemku Safe Trading” yang menjamin 100% keamanan bertransaksi. Tidak hanya keamanan bertransaksi yang diperoleh pembeli dan penjual online, tetapi juga kemudahan bertransaksi karena praktis untuk digunakan.</p>
+
+		<div class="space"></div>
+		<span class="reviewed-by">Reviewed by:</span>
+	</div>
+	<div class="itemku-preview-container">
+		<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku preview.png" }}}' alt="itemku preview" class="itemku-preview">
+	</div>
+</div>
+
+<br>
+
+<div class="container-reviews">
+	
+		<div class="review-content-outter-container">
+			<div class="review-content-container">
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/TIA.jpg" }}}' alt="TIA" class="review-image">
+				<p class="review-text">itemku: marketplace Gold dan Item game online di Indonesia</p>
+			</div>
+
+			<div class="review-content-container-2">
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/daily social.png" }}}' alt="Daily Social" class="review-image-2">
+				<p class="review-text-2">itemku Fokus Menjadi Marketplace dan Situs Pembanding Harga untuk “Game Item” dan “Game Money”</p>
+			</div>
+		</div>
 </div>
 
 @stop

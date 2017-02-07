@@ -49,6 +49,7 @@ p  {
 	border-top-style: solid;
 	border-top-color: #dddddd;
 	border-top-width: 1px;
+	clear: both;
 }
 
 .footer_context {
