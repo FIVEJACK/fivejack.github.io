@@ -169,17 +169,43 @@ Five Jack - Gamer's Heaven
 			<p class="icons-text">A company that you can tell is family at the same time</p>
 		</div>
 	</div>
-
-
 </div>
-
-<div class="contact">
-
-</div>
-
-
-
-
 
 <div class="space"></div>
+
+<div class="contact">
+	<div>Google Maps</div>
+	<div class="contact-container">
+		<div class="contact-address">
+			<div class="contact-address-icon">
+				<img src=>
+				<br>
+				<img src=>
+				<br>
+				<img src=>
+			</div>
+			<div class="contact-address-text">
+				<p>Jl. Kamboja</p>
+				<p>021-dsd</p>
+				<p>support@fivejack.com</p>
+			</div>
+		</div>
+		<div class="keep-in-touch">
+			<p class="keep-in-touch-text">Keep in touch</p>
+			<div class="socmeds">
+				<img src=>
+				<img src=>
+				<img src=>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+
+
+
+
 @stop

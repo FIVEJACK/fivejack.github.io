@@ -343,6 +343,36 @@
 }
 
 .contact {
+	width: 100%;
+	
+}
+
+.contact-container{
+	width: 100%;
+	background-color: #07445d;
+	height: 400px;
+}
+
+.contact-address {
 
 }
 
+.contact-address-icon {
+
+}
+
+.contact-address-text {
+
+}
+
+.keep-in-touch {
+
+}
+
+.keep-in-touch-text {
+
+}
+
+.socmeds {
+	
+}
