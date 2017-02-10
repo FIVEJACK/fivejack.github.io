@@ -58,7 +58,7 @@ p {
 	padding-top:18px;
 } 
 
-#header {
+.header {
 	z-index: 100;
 	position: fixed;
 	width:100%;
@@ -79,7 +79,7 @@ p {
 	padding-top:15px;
 }
 
-.menu {
+#menu {
 	font-family: arial;
 	font-size: 14px;
 	color: white;
@@ -101,4 +101,14 @@ li:hover {
 	background-color: white;
 	transition: 0.3s;
 	cursor: pointer;
+	text-decoration: none;
+}
+
+.menu-link {
+	color: white;
+}
+
+.menu-link:hover {
+	color: #07445d;
+	text-decoration: none !important;
 }

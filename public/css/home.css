@@ -200,10 +200,6 @@ a:hover {
 	cursor: pointer;
 }
 
-a:visited{
-	color: purple;
-}
-
 .review-text {
     display: inline-block;
     width: 210px;
@@ -237,6 +233,14 @@ a:visited{
 }
 
 .review-text-2:active {
+	color: purple;
+}
+
+.review-text:visited {
+	color: purple;
+}
+
+.review-text-2:visited {
 	color: purple;
 }
 
@@ -274,7 +278,7 @@ a:visited{
 }
 
 .software-engineer {
-	visibility: visible;
+	display: block;
 }
 
 .software-description {
