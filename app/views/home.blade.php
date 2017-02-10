@@ -26,9 +26,20 @@ function showJob(jobName)
 	}
 	
 $(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
 
-	
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 1000, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
 });
+
 </script>
 @stop
 
@@ -69,9 +80,9 @@ $(document).ready(function(){
 		</div>
 	</div>
 </section>
-<div class="space"></div>
 
 <section id="product">
+	<div class="space"></div>
 	<div class="product-page">
 		<div class="itemku">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku logo.png" }}}' alt="itemku logo" class="itemku-logo">
@@ -213,8 +224,8 @@ $(document).ready(function(){
 </section>
 
 <div class="space"></div>
-
 <section id="contact">
+
 	<div class="contact">
 		<div id="map"></div>
 	    <script>
