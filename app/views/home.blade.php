@@ -71,12 +71,12 @@ Five Jack - Gamer's Heaven
 	<div class="review-content-outter-container">
 		<div class="review-content-container">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/TIA.jpg" }}}' alt="TIA" class="review-image">
-			<p class="review-text">itemku: marketplace Gold dan Item game online di Indonesia</p>
+			<a href="https://id.techinasia.com/itemku-marketplace-emitemem-dan-uang-game-online-di-indonesia" target="_blank" class="review-text">itemku: marketplace Gold dan Item game online di Indonesia</a>
 		</div>
 
 		<div class="review-content-container-2">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/daily social.png" }}}' alt="Daily Social" class="review-image-2">
-			<p class="review-text-2">itemku Fokus Menjadi Marketplace dan Situs Pembanding Harga untuk “Game Item” dan “Game Money”</p>
+			<a href="https://dailysocial.net/post/itemku-marketplace-game-item-game-money" target="_blank" class="review-text-2">itemku Fokus Menjadi Marketplace dan Situs Pembanding Harga untuk “Game Item” dan “Game Money”</a>
 		</div>
 	</div>
 </div>
@@ -174,28 +174,51 @@ Five Jack - Gamer's Heaven
 <div class="space"></div>
 
 <div class="contact">
-	<div>Google Maps</div>
+	<div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -6.181717, lng: 106.802502};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPFdndwq9kQ_QhBiBFtrAgDnVRk2rX6OI&callback=initMap">
+    </script>
+   
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 	<div class="contact-container">
 		<div class="contact-address">
-			<div class="contact-address-icon">
-				<img src=>
+			<div class="contact-address-icons">
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/location.png" }}}' class="contact-img-location">
 				<br>
-				<img src=>
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/phone.png" }}}' class="contact-img-address">
 				<br>
-				<img src=>
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/email.png" }}}' class="contact-img-email">
 			</div>
 			<div class="contact-address-text">
-				<p>Jl. Kamboja</p>
-				<p>021-dsd</p>
-				<p>support@fivejack.com</p>
+				<p class="contact-address-text">Jl. Kamboja Raya no 15 B,<br>Kel Kota Bambu Utara,<br>Kecamatan Palmerah,<br>Jakarta Barat,<br>11420</p>
+				<p class="contact-address-text">+62 - 21 - 567 - 2785</p>
+				<p class="contact-address-text">support@fivejack.com</p>
 			</div>
 		</div>
 		<div class="keep-in-touch">
-			<p class="keep-in-touch-text">Keep in touch</p>
+			<p class="keep-in-touch-text">Keep in Touch</p>
 			<div class="socmeds">
-				<img src=>
-				<img src=>
-				<img src=>
+				<div class="contact-img-fb"></div>
+				<div class="contact-img-tw"></div>
+				<div class="contact-img-bl"></div>
+				<!--
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/twitter.png" }}}' class="contact-img">
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/blogger.png" }}}' class="contact-img">
+				-->
 			</div>
 		</div>
 	</div>

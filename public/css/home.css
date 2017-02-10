@@ -191,6 +191,19 @@
     vertical-align: middle;
 }
 
+a {
+	text-decoration: none !important;
+}
+
+a:hover {
+	text-decoration: underline !important;
+	cursor: pointer;
+}
+
+a:visited{
+	color: purple;
+}
+
 .review-text {
     display: inline-block;
     width: 210px;
@@ -223,14 +236,8 @@
     margin-left: 30px;
 }
 
-.review-text:hover {
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-.review-text-2:hover {
-	text-decoration: underline;
-	cursor: pointer;
+.review-text-2:active {
+	color: purple;
 }
 
 .career {
@@ -348,13 +355,18 @@
 }
 
 .contact-container{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
 	width: 100%;
 	background-color: #07445d;
-	height: 400px;
+	height: 250px;
 }
 
 .contact-address {
-
+	display: inline-flex;
+	margin-left: 300px;
 }
 
 .contact-address-icon {
@@ -362,17 +374,90 @@
 }
 
 .contact-address-text {
-
+	margin-bottom: 16px;
+	color: white;
+	font-family: 'Myriad Pro';
+	font-size: 14px;
 }
 
 .keep-in-touch {
-
+	margin-top: 45px;
+	margin-right: 300px;
 }
 
 .keep-in-touch-text {
-
+	margin-bottom: 12px !important;
+	margin-left: 10px !important;
+	padding: 0px 0px !important;
+	font-size: 20px;
+	color: white;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
 }
 
 .socmeds {
-	
+
+}
+
+.contact-img-fb {
+	background-image: url("../images/facebook-off.png");
+	width: 60px;
+	height: 60px;
+	margin: 0px 8px;
+	display: inline-block;
+}
+
+.contact-img-fb:hover {
+	background-image: url("../images/facebook.png");
+	cursor: pointer;
+	transition: background-image 0.3s;
+}
+
+.contact-img-tw {
+	background-image: url("../images/twitter-off.png");
+	width: 60px;
+	height: 60px;
+	margin: 0px 8px;
+	display: inline-block;
+}
+
+.contact-img-tw:hover {
+	background-image: url("../images/twitter.png");
+	cursor: pointer;
+	transition: background-image 0.3s;
+}
+
+.contact-img-bl {
+	background-image: url("../images/blogger-off.png");
+	width: 60px;
+	height: 60px;
+	margin: 0px 8px;
+	display: inline-block;
+}
+
+.contact-img-bl:hover {
+	background-image: url("../images/blogger.png");
+	cursor: pointer;
+	transition: background-image 0.3s;
+}
+
+.contact-img-location {
+	width: 30px;
+	margin-bottom: 75px;
+}
+
+.contact-img-address {
+	width: 30px;
+	margin-bottom: 13px;
+}
+
+.contact-img-email {
+	width: 30px;
+}
+
+#map {
+	margin: 0px auto;
+	text-align: center;
+	width: 800px;
+	height: 450px;
 }
