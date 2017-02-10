@@ -35,10 +35,15 @@
 	text-align: center;
 	margin: 0 auto;
 	padding: 0 auto;
-	font-family: 'Keep Calm';
+	font-family: keepCalm;
 	color: white;
 	margin: auto;
 	text-shadow: 0px 2px 30px #000;
+}
+
+@font-face {
+	 font-family: keepCalm;
+    src: url(../font/KeepCalm-Medium.ttf);
 }
 
 .company-explained {
@@ -59,7 +64,7 @@
 
 .fivejack-culture-title {
 	font-size: 36px;
-	font-family: 'Keep Calm';
+	font-family: keepCalm;
 	color: #07445d;
 	text-align: center;
 	margin: 0 auto;
@@ -93,7 +98,7 @@
 
 .culture-font {
 	font-size: 22px;
-	font-family: 'Keep Calm';
+	font-family: keepCalm;
 	color: #07445d;
 	text-transform: uppercase;
 }
@@ -263,12 +268,22 @@ a:hover {
 	padding-left: 0px !important;
 	width: 300px;
 	font-size: 16px;
-	font-family: 'Keep Calm';
+	font-family: keepCalm;
 	color: #07445d !important;
 	text-align: left;
 	position: relative;
 }
+
 .roles:hover {
+	color: #fff !important;
+	background-color: #07445d;
+	padding: 8px !important;
+	width: 210px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.roles-active {
 	color: #fff !important;
 	background-color: #07445d;
 	padding: 8px !important;
