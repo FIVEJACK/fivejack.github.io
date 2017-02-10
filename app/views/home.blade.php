@@ -22,7 +22,7 @@ function showJob(jobName)
 	{
 		$('.job-content').hide();
 		$('#' + jobName).show();
-		$('#' + jobName + menu).addClass('roles-active');
+		$('#' + jobName + menu).addClass('.roles-active');
 	}
 	
 $(document).ready(function(){
