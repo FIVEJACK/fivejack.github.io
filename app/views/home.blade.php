@@ -14,6 +14,24 @@ Five Jack - Gamer's Heaven
 <link rel="stylesheet" type="text/css" href='{{{ Config::get("constant.RESOURCE_URL") . "css/home.css" }}}'>
 @stop
 
+@section('js')
+@parent
+<script type="text/javascript">
+
+function showJob(jobName)
+	{
+		$('.job-content').hide();
+		$('#' + jobName).show();
+		$('#' + jobName + menu).addClass('roles-active');
+	}
+	
+$(document).ready(function(){
+
+	
+});
+</script>
+@stop
+
 @section('contents')
 <div class="wallpaper">
 	
@@ -86,8 +104,8 @@ Five Jack - Gamer's Heaven
 <div class="career">
 	<div class="career-container">
 		<div class="roles-container">
-			<p class="roles">Software Engineer</p>
-			<p class="roles">Junior UX Designer</p>
+			<p class="roles" id="software_engineer_menu" onclick="showJob('software_engineer')">Software Engineer</p>
+			<p class="roles" onclick="showJob('jux_designer')">Junior UX Designer</p>
 			<p class="roles">Senior UX Designer</p>
 			<p class="roles">itemku Expert</p>
 			<p class="roles">Content Creator</p>
@@ -98,8 +116,28 @@ Five Jack - Gamer's Heaven
 			<p class="roles">Customer Service</p>
 		</div>
 	
-		<div class="software-engineer">
+		<div class="software-engineer job-content" id="software_engineer">
 			<p class="software-description">We are looking for Software Engineer with a strong sense of ownership and a passion to learn something new. As part of the team, you will be given the chance to design, build, improve, or maintain our web service and back-end system, which are based on open-source technology such as Laravel Framework and Elastic. Successful candidates must also be innovative, flexible, self-directed, and able to design and write reliable, maintainable code.</p>
+			<br>
+			<p class="qualifications-software">Qualifications</p>
+				<ul>
+					<li class="qualifications-software-li">Excellent understanding of Object-Oriented design and concepts, design patterns, and algorithms.</li>
+					<li class="qualifications-software-li">Fluency in at least one programming language.</li>
+					<li class="qualifications-software-li">S1 degree in Computer Science or equivalent from a reputable university(GPA has to be higher than 3.0).</li>
+					<li class="qualifications-software-li">Good interpersonal, written, and verbal communication skills in English.</li>
+				</ul>
+			<br>
+			<p class="qualifications-software">Preferred Qualifications</p>
+				<ul>
+					<li class="qualifications-software-li">Experience programming in an open source environment.</li>
+					<li class="qualifications-software-li">Experience programming in PHP and its MVC framework.</li>
+					<li class="qualifications-software-li">Good understanding of SQL and database.</li>
+					<li class="qualifications-software-li">Good understanding of Microservice Architecture or Service-oriented Architecture (SOA).</li>
+				</ul>
+		</div>
+		
+		<div class="software-engineer job-content" id="jux_designer" style="display: none">
+			<p class="software-description">asdsdsadsadsadsaWe are looking for Software Engineer with a strong sense of ownership and a passion to learn something new. As part of the team, you will be given the chance to design, build, improve, or maintain our web service and back-end system, which are based on open-source technology such as Laravel Framework and Elastic. Successful candidates must also be innovative, flexible, self-directed, and able to design and write reliable, maintainable code.</p>
 			<br>
 			<p class="qualifications-software">Qualifications</p>
 				<ul>
@@ -225,10 +263,4 @@ Five Jack - Gamer's Heaven
 
 
 </div>
-
-
-
-
-
-
 @stop

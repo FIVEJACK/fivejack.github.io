@@ -264,7 +264,17 @@ a:visited{
 	text-align: left;
 	position: relative;
 }
+
 .roles:hover {
+	color: #fff !important;
+	background-color: #07445d;
+	padding: 8px !important;
+	width: 210px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.roles-active {
 	color: #fff !important;
 	background-color: #07445d;
 	padding: 8px !important;
