@@ -115,10 +115,12 @@ $(document).ready(function(){
 			<p class="culture-font">Data Driven</p>
 		</div>
 	</div>
+	<div class="space"></div>
 </section>
 
 <section id="product">
-	<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
 	<div class="product-page">
 		<div class="itemku">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku logo.png" }}}' alt="itemku logo" class="itemku-logo">
@@ -147,12 +149,16 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
+	<br>
+	<br>
+	<div class="space"></div>
+	
 </section>
 
 <section id="career">
-<div class="space"></div>
 
 <div class="career">
+<div class="space"></div>
 	<div class="career-container">
 		<div class="roles-container">
 			<p class="roles" id="se_menu" onclick="showJob('se')">Software Engineer</p>
@@ -174,7 +180,7 @@ $(document).ready(function(){
 				<ul>
 					<li class="qualifications-li">Excellent understanding of Object-Oriented design and concepts, design patterns, and algorithms.</li>
 					<li class="qualifications-li">Fluency in at least one programming language.</li>
-					<li class="qualifications-li">S1 degree in Computer Science or equivalent from a reputable university(GPA has to be higher than 3.0).</li>
+					<li class="qualifications-li">S1 degree in Computer Science or equivalent from a reputable university (GPA has to be higher than 3.0).</li>
 					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
 				</ul>
 			<br>
