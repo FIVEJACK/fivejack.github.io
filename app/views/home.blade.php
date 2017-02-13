@@ -23,9 +23,8 @@ function initMap() {
 	var mapPosition = {lat: -6.181717, lng: 106.802502};
 	var infowindow = new google.maps.InfoWindow({
           content: '<div id="content">'+
-						'<h1 id="firstHeading" class="firstHeading">Fivejack</h1>'+
+						'<h1 id="firstHeading" class="firstHeading">Five Jack</h1>'+
 						'<div id="bodyContent">'+
-							'<p><b>Fivejack</b> is making the gamer heaven <br/>' +
 							'Kel Kota Bambu Utara, Kecamatan Palmerah, <br/>'+
 							'Jl. Kamboja Raya no 15 B, <br/>'+
 							'Jakarta Barat, 11420</p>'+
