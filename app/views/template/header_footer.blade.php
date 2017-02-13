@@ -30,10 +30,10 @@ $(document).ready(function() {
 			<div id="menu">
 				<nav>
 					<ul class="all-li">
-						<a href="#home" class="menu-link"><li>HOME</li></a>
-						<a href="#product" class="menu-link"><li>PRODUCT</li></a>
-						<a href="#career" class="menu-link"><li>CAREER</li></a>
-						<a href="#contact" class="menu-link"><li>CONTACT</li></a>
+						<a id="menu_home" href="#home" class="menu-link"><li>HOME</li></a>
+						<a id="menu_product" href="#product" class="menu-link"><li>PRODUCT</li></a>
+						<a id="menu_career" href="#career" class="menu-link"><li>CAREER</li></a>
+						<a id="menu_contact" href="#contact" class="menu-link"><li>CONTACT</li></a>
 					</ul>
 				</nav>
 			</div>

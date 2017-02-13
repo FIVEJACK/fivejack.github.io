@@ -16,28 +16,64 @@ Five Jack - Gamer's Heaven
 
 @section('js')
 @parent
+<script type='text/javascript' src='{{ Config::get('constant.RESOURCE_URL') . 'packages/viewport.js' }}' charset='utf-8'></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPFdndwq9kQ_QhBiBFtrAgDnVRk2rX6OI&callback=initMap"></script>
 <script type="text/javascript">
+function initMap() {
+	var mapPosition = {lat: -6.181717, lng: 106.802502};
+	var infowindow = new google.maps.InfoWindow({
+          content: '<div id="content">'+
+						'<h1 id="firstHeading" class="firstHeading">Fivejack</h1>'+
+						'<div id="bodyContent">'+
+							'<p><b>Fivejack</b> is making the gamer heaven <br/>' +
+							'Kel Kota Bambu Utara, Kecamatan Palmerah, <br/>'+
+							'Jl. Kamboja Raya no 15 B, <br/>'+
+							'Jakarta Barat, 11420</p>'+
+						'</div>'+
+					'</div>'
+        });
+
+	var map = new google.maps.Map(document.getElementById('map'), {
+	  zoom: 15,
+	  center: mapPosition
+	});
+	
+	var marker = new google.maps.Marker({
+	  position: mapPosition,
+	  map: map,
+      title: 'Fivejack'
+	});	
+	marker.addListener('click', function() {
+	  infowindow.open(map, marker);
+	});
+}
 
 function showJob(jobName)
-	{
-		$('.job-content').hide();
-		$('#' + jobName).show();
-		$('#' + jobName + menu).addClass('.roles-active');
-	}
+{
+	$('.job-content').hide();
+	$('.roles-active').removeClass('roles-active');
+	$('#' + jobName).show();
+	$('#' + jobName + '_menu').addClass('roles-active');
+}
 	
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
-	    e.preventDefault();
+		e.preventDefault();
 
-	    var target = this.hash;
-	    var $target = $(target);
+		var target = this.hash;
+		var $target = $(target);
 
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 1000, 'swing', function () {
-	        window.location.hash = target;
-	    });
+		$('html, body').stop().animate({ 'scrollTop': $target.offset().top }, 1000, 'swing', function () { window.location.hash = target; });
 	});
+		
+	$(window).bind("scroll", function(event) {		
+        $("section:in-viewport").each(function() {
+			$('.menu-link-active').removeClass('menu-link-active');
+			sectionId = $(this).attr("id");
+			$("#menu_" + sectionId).addClass('menu-link-active');		  
+        });		
+    });
+	
 });
 
 </script>
@@ -119,19 +155,19 @@ $(document).ready(function(){
 <div class="career">
 	<div class="career-container">
 		<div class="roles-container">
-			<p class="roles" id="software_engineer_menu" onclick="showJob('software_engineer')">Software Engineer</p>
-			<p class="roles" onclick="showJob('jux_designer')">Junior UX Designer</p>
-			<p class="roles" onclick="showJob('sux_designer')">Senior UX Designer</p>
-			<p class="roles" onclick="showJob('ie')">itemku Expert</p>
-			<p class="roles" onclick="showJob('cc')">Content Creator</p>
-			<p class="roles" onclick="showJob('sdm')">Senior Digital Marketer</p>
-			<p class="roles" onclick="showJob('ggr')">Global Game Researcher</p>
-			<p class="roles" onclick="showJob('finance')">Finance</p>
-			<p class="roles" onclick="showJob('so')">Service Operator</p>
-			<p class="roles" onclick="showJob('cs')">Customer Service</p>
+			<p class="roles" id="se_menu" onclick="showJob('se')">Software Engineer</p>
+			<p class="roles" id="jux_menu" onclick="showJob('jux')">Junior UX Designer</p>
+			<p class="roles" id="sux_menu" onclick="showJob('sux')">Senior UX Designer</p>
+			<p class="roles" id="ie_menu" onclick="showJob('ie')">itemku Expert</p>
+			<p class="roles" id="cc_menu" onclick="showJob('cc')">Content Creator</p>
+			<p class="roles" id="sdm_menu" onclick="showJob('sdm')">Senior Digital Marketer</p>
+			<p class="roles" id="ggr_menu" onclick="showJob('ggr')">Global Game Researcher</p>
+			<p class="roles" id="finance_menu" onclick="showJob('finance')">Finance</p>
+			<p class="roles" id="so_menu" onclick="showJob('so')">Service Operator</p>
+			<p class="roles" id="cs_menu" onclick="showJob('cs')">Customer Service</p>
 		</div>
 	
-		<div class="software-engineer job-content" id="software_engineer">
+		<div class="software-engineer job-content" id="se">
 			<p class="software-description">We are looking for Software Engineer with a strong sense of ownership and a passion to learn something new. As part of the team, you will be given the chance to design, build, improve, or maintain our web service and back-end system, which are based on open-source technology such as Laravel Framework and Elastic. Successful candidates must also be innovative, flexible, self-directed, and able to design and write reliable, maintainable code.</p>
 			<br>
 			<p class="qualifications-software">Qualifications</p>
@@ -151,7 +187,7 @@ $(document).ready(function(){
 				</ul>
 		</div>
 		
-		<div class="software-engineer job-content" id="jux_designer" style="display: none">
+		<div class="software-engineer job-content" id="jux" style="display: none">
 			<p class="software-description">We are looking for experienced UX Designer with a strong sense of ownership and a passion to create better product to our users. As part of the team, you will be given the chance to design, build, and improve/maintain our web service and front-end design.</p>
 			<br>
 			<p class="qualifications-software">Qualifications</p>
@@ -170,7 +206,7 @@ $(document).ready(function(){
 				</ul>
 		</div>
 
-		<div class="software-engineer job-content" id="sux_designer" style="display: none">
+		<div class="software-engineer job-content" id="sux" style="display: none">
 			<p class="software-description">We are looking for experienced UX Designer with a strong sense of ownership and a passion to create better product to our users. As part of the team, you will be given the chance to lead, design, build, and improve/maintain our web service and front-end design.</p>
 			<br>
 			<p class="qualifications-software">Qualifications</p>
@@ -409,25 +445,6 @@ $(document).ready(function(){
 
 	<div class="contact">
 		<div id="map"></div>
-	    <script>
-	      function initMap() {
-	        var uluru = {lat: -6.181717, lng: 106.802502};
-	        var map = new google.maps.Map(document.getElementById('map'), {
-	          zoom: 15,
-	          center: uluru
-	        });
-	        var marker = new google.maps.Marker({
-	          position: uluru,
-	          map: map
-	        });
-	      }
-	    </script>
-	    <script async defer
-	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPFdndwq9kQ_QhBiBFtrAgDnVRk2rX6OI&callback=initMap">
-	    </script>
-	   
-
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 		<div class="contact-container">
 			<div class="contact-address">
 				<div class="contact-address-icons">

@@ -113,6 +113,14 @@ li:hover {
 	text-decoration: none !important;
 }
 
+.menu-link-active {
+	color: #07445d;
+	background-color: white;
+	transition: 0.3s;
+	cursor: pointer;
+	text-decoration: none;
+}
+
 .li-active {
 		color: #07445d;
 	background-color: white;
