@@ -313,7 +313,7 @@ a:hover {
 	color: #444 !important;
 }
 
-.qualifications-software-li {
+.qualifications-li {
 	display: list-item !important;
 	font-family: 'Myriad Pro';
 	color: #444 !important;
@@ -321,7 +321,7 @@ a:hover {
 	padding: 0px 0px !important;
 }
 
-.qualifications-software-li:hover {
+.qualifications-li:hover {
 	font-weight: normal !important;
 	cursor: auto !important;
 }

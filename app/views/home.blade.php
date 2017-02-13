@@ -121,14 +121,14 @@ $(document).ready(function(){
 		<div class="roles-container">
 			<p class="roles" id="software_engineer_menu" onclick="showJob('software_engineer')">Software Engineer</p>
 			<p class="roles" onclick="showJob('jux_designer')">Junior UX Designer</p>
-			<p class="roles">Senior UX Designer</p>
-			<p class="roles">itemku Expert</p>
-			<p class="roles">Content Creator</p>
-			<p class="roles">Senior Digital Marketer</p>
-			<p class="roles">Global Game Researcher</p>
-			<p class="roles">Finance</p>
-			<p class="roles">Service Operator</p>
-			<p class="roles">Customer Service</p>
+			<p class="roles" onclick="showJob('sux_designer')">Senior UX Designer</p>
+			<p class="roles" onclick="showJob('ie')">itemku Expert</p>
+			<p class="roles" onclick="showJob('cc')">Content Creator</p>
+			<p class="roles" onclick="showJob('sdm')">Senior Digital Marketer</p>
+			<p class="roles" onclick="showJob('ggr')">Global Game Researcher</p>
+			<p class="roles" onclick="showJob('finance')">Finance</p>
+			<p class="roles" onclick="showJob('so')">Service Operator</p>
+			<p class="roles" onclick="showJob('cs')">Customer Service</p>
 		</div>
 	
 		<div class="software-engineer job-content" id="software_engineer">
@@ -136,41 +136,221 @@ $(document).ready(function(){
 			<br>
 			<p class="qualifications-software">Qualifications</p>
 				<ul>
-					<li class="qualifications-software-li">Excellent understanding of Object-Oriented design and concepts, design patterns, and algorithms.</li>
-					<li class="qualifications-software-li">Fluency in at least one programming language.</li>
-					<li class="qualifications-software-li">S1 degree in Computer Science or equivalent from a reputable university(GPA has to be higher than 3.0).</li>
-					<li class="qualifications-software-li">Good interpersonal, written, and verbal communication skills in English.</li>
+					<li class="qualifications-li">Excellent understanding of Object-Oriented design and concepts, design patterns, and algorithms.</li>
+					<li class="qualifications-li">Fluency in at least one programming language.</li>
+					<li class="qualifications-li">S1 degree in Computer Science or equivalent from a reputable university(GPA has to be higher than 3.0).</li>
+					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
 				</ul>
 			<br>
 			<p class="qualifications-software">Preferred Qualifications</p>
 				<ul>
-					<li class="qualifications-software-li">Experience programming in an open source environment.</li>
-					<li class="qualifications-software-li">Experience programming in PHP and its MVC framework.</li>
-					<li class="qualifications-software-li">Good understanding of SQL and database.</li>
-					<li class="qualifications-software-li">Good understanding of Microservice Architecture or Service-oriented Architecture (SOA).</li>
+					<li class="qualifications-li">Experience programming in an open source environment.</li>
+					<li class="qualifications-li">Experience programming in PHP and its MVC framework.</li>
+					<li class="qualifications-li">Good understanding of SQL and database.</li>
+					<li class="qualifications-li">Good understanding of Microservice Architecture or Service-oriented Architecture (SOA).</li>
 				</ul>
 		</div>
 		
 		<div class="software-engineer job-content" id="jux_designer" style="display: none">
-			<p class="software-description">asdsdsadsadsadsaWe are looking for Software Engineer with a strong sense of ownership and a passion to learn something new. As part of the team, you will be given the chance to design, build, improve, or maintain our web service and back-end system, which are based on open-source technology such as Laravel Framework and Elastic. Successful candidates must also be innovative, flexible, self-directed, and able to design and write reliable, maintainable code.</p>
+			<p class="software-description">We are looking for experienced UX Designer with a strong sense of ownership and a passion to create better product to our users. As part of the team, you will be given the chance to design, build, and improve/maintain our web service and front-end design.</p>
 			<br>
 			<p class="qualifications-software">Qualifications</p>
 				<ul>
-					<li class="qualifications-software-li">Excellent understanding of Object-Oriented design and concepts, design patterns, and algorithms.</li>
-					<li class="qualifications-software-li">Fluency in at least one programming language.</li>
-					<li class="qualifications-software-li">S1 degree in Computer Science or equivalent from a reputable university(GPA has to be higher than 3.0).</li>
-					<li class="qualifications-software-li">Good interpersonal, written, and verbal communication skills in English.</li>
+					<li class="qualifications-li">Minimum 1 Year working experience as a UX Designer.</li>
+					<li class="qualifications-li">Bachelor Degree in Graphic Design or any major related</li>
+					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
+					<li class="qualifications-li">Advanced with using Adobe Photoshop and Illustrator.</li>
+					<li class="qualifications-li">Prototyping skills and basic working knowledge of HTML5/CSS3.</li>
+					<li class="qualifications-li">Ability to develop using HTML5/CSS3.</li>
 				</ul>
 			<br>
 			<p class="qualifications-software">Preferred Qualifications</p>
 				<ul>
-					<li class="qualifications-software-li">Experience programming in an open source environment.</li>
-					<li class="qualifications-software-li">Experience programming in PHP and its MVC framework.</li>
-					<li class="qualifications-software-li">Good understanding of SQL and database.</li>
-					<li class="qualifications-software-li">Good understanding of Microservice Architecture or Service-oriented Architecture (SOA).</li>
+					<li class="qualifications-li">Have knowledge in a/b test environment.</li>
+				</ul>
+		</div>
+
+		<div class="software-engineer job-content" id="sux_designer" style="display: none">
+			<p class="software-description">We are looking for experienced UX Designer with a strong sense of ownership and a passion to create better product to our users. As part of the team, you will be given the chance to lead, design, build, and improve/maintain our web service and front-end design.</p>
+			<br>
+			<p class="qualifications-software">Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Minimum 1 Year working experience as a UX Designer.</li>
+					<li class="qualifications-li">Bachelor Degree in Graphic Design or any major related</li>
+					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
+					<li class="qualifications-li">Advanced with using Adobe Photoshop and Illustrator.</li>
+					<li class="qualifications-li">Prototyping skills and basic working knowledge of HTML5/CSS3.</li>
+					<li class="qualifications-li">Ability to develop using HTML5/CSS3.</li>
+				</ul>
+		</div>
+
+		<div class="software-engineer job-content" id="ie" style="display: none">
+			<p class="software-description">We are looking for itemku Expert. This role is will be in charge of our community, planning a strategical contents marketing to distribute to our users in various social networking service channels and the most important being the expertise for our users (buyer and seller side).</p>
+			<br>
+			<p class="qualifications-software">Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Bachelor degree in Communication, PR, Business management or related field.</li>
+					<li class="qualifications-li">GPA over 3.00</li>
+					<li class="qualifications-li">At least 2 years working experiences.</li>
+					<li class="qualifications-li">Advanced in English both oral and written.</li>
+					<li class="qualifications-li">Have experience in editorial and blog management.</li>
+					<li class="qualifications-li">Have excellent communication.</li>
+					<li class="qualifications-li">Have knowledge of game industry also e-commerce industry to understand gamers and connect the dots for e-commerce. and of course enjoy playing games as well.</li>
+					<li class="qualifications-li">Have knowledge and experience of building brand and community exposure through product's blog/social media.</li>
+				</ul>
+			<br>
+			<p class="qualifications-software">Preferred Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Smart hardcore gamer.</li>
+					<li class="qualifications-li">Advanced in contents marketing. Community Management, Social media management and blog management, etc.</li>
+					<li class="qualifications-li">Have portfolio in manage and building exposure of the product or brand.</li>
+					<li class="qualifications-li">Must thrive in a dynamic, fast-paced environment, be a highly-motivated self-starter, flourish on a multi-cultural team, and have a brilliant sense of humor.</li>
+				</ul>
+		</div>
+
+		<div class="software-engineer job-content" id="cc" style="display: none">
+			<p class="software-description">We are looking for itemku Expert. This role is will be in charge of our community, planning a strategical contents marketing to distribute to our users in various social networking service channels and the most important being the expertise for our users (buyer and seller side).</p>
+			<br>
+			<p class="qualifications-software">Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Bachelor degree in Journalist, Visual Communication Design, or related field - GPA over 3.00 - Advanced in English both oral and written.</li>
+					<li class="qualifications-li">At least 2 years work experiences.</li>
+					<li class="qualifications-li">Have good writing skills.</li>
+					<li class="qualifications-li">Have knowledge of game industry to understand gamers and of course play games as well.</li>
+					<li class="qualifications-li">Have knowledge and experience of building brand and community exposure through product's blog/social media.</li>
+				</ul>
+			<br>
+			<p class="qualifications-software">Preferred Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Smart hardcore gamer.</li>
+					<li class="qualifications-li">Have portfolio in writing for games industry (game's articles or blogs).</li>
+					<li class="qualifications-li">Have experience in industrial Graphic design.</li>
+					<li class="qualifications-li">Must thrive in a dynamic, fast-paced environment, be a highly-motivated self-starter, flourish on a multi-cultural team, and have a brilliant sense of humor.</li>
+				</ul>
+		</div>
+
+		<div class="software-engineer job-content" id="sdm" style="display: none">
+			<p class="software-description">We are looking for Senior Digital Marketer. This role will be in charge of delivery our campaign and monitor our data for making decision. Successful candidates must be able to manage and delivery information and needs for game market in Indonesia and other countries..</p>
+			<br>
+			<p class="qualifications-software">Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Bachelor degree or Master degree in mathematics, statistics, business management or related field.</li>
+					<li class="qualifications-li">GPA over 3.00.</li>
+					<li class="qualifications-li">Advanced in English both oral and written.</li>
+					<li class="qualifications-li">Minimum 2 years online marketing field experience in/with IT industry and/or e-commerce.</li>
+					<li class="qualifications-li">Have knowledge of game industry to understand gamers.</li>
+					<li class="qualifications-li">Have knowledge of Facebook Ads / GSN / GDN / SEO.</li>
+				</ul>
+			<br>
+			<p class="qualifications-software">Preferred Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Data-driven marketing and user experience improvements to improve traction and conversion.</li>
+					<li class="qualifications-li">Must thrive in a dynamic, fast-paced environment, be a highly-motivated self-starter, flourish on a multi-cultural team, and have a brilliant sense of humor.</li>
+				</ul>
+		</div>
+
+		<div class="software-engineer job-content" id="ggr" style="display: none">
+			<p class="software-description">We are looking for Global Game Researcher. This role will be in charge to research global game that have a market value of real money trading either in Indonesia or overseas. Successful candidates must able to find a game that have high RMT (Real Money Trading) transactions, research how the practice of RMT for each global game and how it can be applied to itemku users. The research itself are planed by yourself and your target is we can open more and more variety RMT game for our users.</p>
+			<br>
+			<p class="qualifications-software">Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Bachelors Degree in mathematics, statistics, business management or related field.</li>
+					<li class="qualifications-li">Fresh graduate are welcome.</li>
+					<li class="qualifications-li">GPA over 3.00 (Prefer over 3.50).</li>
+					<li class="qualifications-li">Play any kinds of game (Mobile game, PC Online game and Console game) and can differentiate which one are the best for RMT.</li>
+					<li class="qualifications-li">English skill (Oral and Written) is needed.</li>
+				</ul>
+			<br>
+			<p class="qualifications-software">Preferred Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Smart hardcore gamer.</li>
+					<li class="qualifications-li">Have a great experience in RMT.</li>
+					<li class="qualifications-li">Smart in use google or other search engine to assist the research.</li>
+					<li class="qualifications-li">Have passion in games, and/or e-commerce industry.</li>
+					<li class="qualifications-li">1 or 2+ years working experience in related field.</li>
+					<li class="qualifications-li">Good analytical thinking in providing solutions to problems.</li>
+				</ul>
+		</div>
+
+		<div class="software-engineer job-content" id="finance" style="display: none">
+			<p class="software-description">We are looking for a sharp, good-humored Finance and Accounting Coordinator who enjoys working in a constantly changing environment and streamlining a hectic day. You will primarily provide reports dedicated from Director and lead advisers. You will be working in a fast-paced, creative environment with passionate team members who are focused on quality and execution. If you like to tame chaos while remaining calm and flexible in the face of ever-changing priorities and needs, then this is the role for you.</p>
+			<br>
+			<p class="qualifications-software">Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Transactions inputs on integrated accounting systems.</li>
+					<li class="qualifications-li">Create invoices/receive invoices from customers/vendors.</li>
+					<li class="qualifications-li">Prepare monthly income-expense reports for leads and coordinate special projects as needed.</li>
+					<li class="qualifications-li">Determines cost of operations by establishing standard costs; collecting operational data.</li>
+					<li class="qualifications-li">Identified financial status by comparing and analyzing actual results with plans and forecast.</li>
+					<li class="qualifications-li">Perform monthly bank reconciliation processes.</li>
+					<li class="qualifications-li">Report on monthly taxes.</li>
+					<li class="qualifications-li">Co-ordinate with other departments and Lead Advisers on closing monthly reports.</li>
+					<li class="qualifications-li">Maintains database by entering, verifying, and backing up data.</li>
+					<li class="qualifications-li">Protects operation by keeping financial information confidential.</li>
+					<li class="qualifications-li">Involved in making Finance system in company working together with develop team.</li>
+				</ul>
+			<br>
+			<p class="qualifications-software">Preferred Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Bachelor’s Degree in Accounting, qualified and highly exception accounting major.</li>
+					<li class="qualifications-li">Graduate from well-known University with GPA of Minimum 3.5 and above.</li>
+					<li class="qualifications-li">Have 1 years’ experience working is an advantage.</li>
+					<li class="qualifications-li">Fresh graduates are welcome to apply.</li>
+					<li class="qualifications-li">Can Writing and Speak in English very well.</li>
+					<li class="qualifications-li">know basic about Tax issue.</li>
+					<li class="qualifications-li">Awesome time management skills.</li>
+					<li class="qualifications-li">Excellent commitment to results.</li>
+					<li class="qualifications-li">Ability to juggle multiple projects and priorities at once.</li>
+					<li class="qualifications-li">Great communication skills and the ability to work effectively with a spectrum of personalities.</li>
+					<li class="qualifications-li">Strong Excel, PowerPoint, and Google email/calendar/doc skills.</li>
+					<li class="qualifications-li">Ability to maintain composure and sense of humor in high-pressure situations.</li>
+				</ul>
+		</div>
+
+		<div class="software-engineer job-content" id="so" style="display: none">
+			<p class="software-description">We are looking for Service Operator:<br>Who has ability to handling itemku's payment system and monitoring on-going transactions,<br>Also responsible to users and contents quality inside of itemku product,<br>Capable to research upcoming updates about game or game item.</p>
+			<br>
+			<p class="qualifications-software">Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Fresh graduate are welcome.</li>
+					<li class="qualifications-li">Having passion in gaming, online shopping, and/or e-commerce industry.</li>
+					<li class="qualifications-li">Excellent in listening skills and communication skill.</li>
+					<li class="qualifications-li">English skill (Oral and Written) is needed.</li>
+					<li class="qualifications-li">Can work independently or in a team and have strong initiative mind.</li>
+					<li class="qualifications-li">Working available at weekend and holiday (5 days working per 1 week).</li>
+				</ul>
+			<br>
+			<p class="qualifications-software">Preferred Qualifications</p>
+				<ul>
+					<li class="qualifications-li">1 or 2+ years working experience in related field.</li>
+					<li class="qualifications-li">Good communication skill through phone.</li>
+					<li class="qualifications-li">Good analytical thinking in providing solutions to problems of order product by email and phone.</li>
+					<li class="qualifications-li">Has experience in leading a team and have strong initiative mind.</li>
+				</ul>
+		</div>
+
+		<div class="software-engineer job-content" id="cs" style="display: none">
+			<p class="software-description">We are looking for Customer Service. This role will be in charge of ensuring the needs of users are being satisfied and maintaining the good and helpful relationship with the itemku users. Successful candidates must able to manage and develop a customer service policy and keep finding ways to measure customer satisfaction and improve services.
+			<br>
+			<p class="qualifications-software">Qualifications</p>
+				<ul>
+					<li class="qualifications-li">Fresh Graduate are welcome.</li>
+					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
+					<li class="qualifications-li">Native Indonesian language, both oral and written, in accordance with EYD "Ejaan Yang Disempurnakan".</li>
+					<li class="qualifications-li">Excellent in listening skills, understand exactly what customers require.</li>
+					<li class="qualifications-li">Strong problem solving skill.</li>
+					<li class="qualifications-li">Working available at weekend and holiday (5 days working per 1 week).</li>
+				</ul>
+			<br>
+			<p class="qualifications-software">Preferred Qualifications</p>
+				<ul>
+					<li class="qualifications-li">1 or 2+ years customer service field experience in/with IT industry and/or e-commerce.</li>
+					<li class="qualifications-li">Able to Communicates courteously with customers by email, phone and/or face to face if needed.</li>
+					<li class="qualifications-li">Skills in analysis, planning, management of competing priorities to meet multiple deliverables and deadlines, creativity in seeking new and better solutions, and forward thinking.</li>
 				</ul>
 		</div>
 	</div>
+</div>
 
 	<div class="container-BG">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kiri.png" }}}' class="BG">
@@ -221,6 +401,7 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
+
 </section>
 
 <div class="space"></div>
@@ -274,34 +455,6 @@ $(document).ready(function(){
 	</div>
 </section>
 
-<script>
-$(document).ready(function(){
-  // Add scrollspy to <body>
-  $('body').scrollspy({target: ".header", offset: 50});   
-
-  // Add smooth scrolling on all links inside the navbar
-  $("#myNavbar a").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }  // End if
-  });
-});
-</script>
 
   
 @stop

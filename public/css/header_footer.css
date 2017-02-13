@@ -112,3 +112,11 @@ li:hover {
 	color: #07445d;
 	text-decoration: none !important;
 }
+
+.li-active {
+		color: #07445d;
+	background-color: white;
+	transition: 0.3s;
+	cursor: pointer;
+	text-decoration: none;
+}
