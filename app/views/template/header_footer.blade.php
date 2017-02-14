@@ -21,19 +21,21 @@ $(document).ready(function() {
 @stop
 
 @section('body')
-<div class="container"> 
-	<div id="header">
+<div class="container">
+	<div class="header">
 		<div class="header_context">
 			<div class="fivejacklogo">
 				<a href='{{{ Config::get("constant.BASE_URL") }}}'><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/logo.png" }}}' width="130" height="20" alt="logo"></a>
 			</div>	
-			<div class="menu">
-				<ul class="all-li">
-					<li>HOME</li>
-					<li>PRODUCT</li>
-					<li>CAREER</li>
-					<li>CONTACT</li>
-				</ul>
+			<div id="menu">
+				<nav>
+					<ul class="all-li">
+						<a id="menu_home" href="#home" class="menu-link"><li>HOME</li></a>
+						<a id="menu_product" href="#product" class="menu-link"><li>PRODUCT</li></a>
+						<a id="menu_career" href="#career" class="menu-link"><li>CAREER</li></a>
+						<a id="menu_contact" href="#contact" class="menu-link"><li>CONTACT</li></a>
+					</ul>
+				</nav>
 			</div>
 		</div>
 	</div>

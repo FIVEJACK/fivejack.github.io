@@ -1,6 +1,6 @@
 .space {
 	display: block;
-	margin: 120px 0px;
+	height: 120px;
 }
 
 
@@ -14,6 +14,17 @@
 	object-fit: cover;
 }
 
+.container-BG {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+}
+
+.BG {
+	z-index: -100;
+}
+
 .uvp-container {
 	bottom: 60%;
 	position: relative;
@@ -24,10 +35,15 @@
 	text-align: center;
 	margin: 0 auto;
 	padding: 0 auto;
-	font-family: 'Keep Calm';
+	font-family: keepCalm;
 	color: white;
 	margin: auto;
-	text-shadow: 0px 2px 10px #000;
+	text-shadow: 0px 2px 30px #000;
+}
+
+@font-face {
+	 font-family: keepCalm;
+    src: url(../font/KeepCalm-Medium.ttf);
 }
 
 .company-explained {
@@ -39,7 +55,7 @@
 	margin: 0 auto;
 	font-family: arial;
 	margin: auto;
-	text-shadow: 0px 1px 10px #000;
+	text-shadow: 0px 1px 20px #000;
 }
 
 #company_explained {
@@ -48,7 +64,7 @@
 
 .fivejack-culture-title {
 	font-size: 36px;
-	font-family: 'Keep Calm';
+	font-family: keepCalm;
 	color: #07445d;
 	text-align: center;
 	margin: 0 auto;
@@ -82,12 +98,13 @@
 
 .culture-font {
 	font-size: 22px;
-	font-family: 'Keep Calm';
+	font-family: keepCalm;
 	color: #07445d;
 	text-transform: uppercase;
 }
 
 .product-page {
+	
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-between;
@@ -179,6 +196,15 @@
     vertical-align: middle;
 }
 
+a {
+	text-decoration: none !important;
+}
+
+a:hover {
+	text-decoration: underline !important;
+	cursor: pointer;
+}
+
 .review-text {
     display: inline-block;
     width: 210px;
@@ -211,12 +237,246 @@
     margin-left: 30px;
 }
 
-.review-text:hover {
-	text-decoration: underline;
-	cursor: pointer;
+.review-text-2:active {
+	color: purple;
 }
 
-.review-text-2:hover {
-	text-decoration: underline;
+.review-text:visited {
+	color: purple;
+}
+
+.review-text-2:visited {
+	color: purple;
+}
+
+.career {
+	margin: 0px auto;
+	max-width: 70%;
+}
+
+.career-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.roles-container {
+}
+
+.roles {
+	margin: 0px !important;
+	padding-bottom: 16px !important;
+	padding-left: 0px !important;
+	width: 300px;
+	font-size: 16px;
+	font-family: keepCalm;
+	color: #07445d !important;
+	text-align: left;
+	position: relative;
+}
+
+.roles:hover {
+	color: #fff !important;
+	background-color: #07445d;
+	padding: 8px !important;
+	width: 210px;
 	cursor: pointer;
+	transition: 0.8s;
+}
+
+.roles-active {
+	color: #fff !important;
+	background-color: #07445d;
+	padding: 8px !important;
+	width: 210px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.software-engineer {
+	display: block;
+}
+
+.software-description {
+	margin: 0px !important;
+	padding: 0px !important;
+	width: 800px;
+	font-family: 'Myriad Pro';
+	color: #444 !important;
+}
+
+.qualifications-software {
+	font-weight: bold;
+	margin: 0px !important;
+	padding: 0px !important;
+	font-style: italic;
+	font-family: 'Myriad Pro';
+	color: #444 !important;
+}
+
+.qualifications-li {
+	display: list-item !important;
+	font-family: 'Myriad Pro';
+	color: #444 !important;
+	transition: none !important;
+	padding: 0px 0px !important;
+}
+
+.qualifications-li:hover {
+	font-weight: normal !important;
+	cursor: auto !important;
+}
+
+.mascot {
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 250px;
+	margin: 0px auto;
+	padding: 20px 0px 0px 0px;
+}
+
+.what {
+	font-size: 30px;
+	font-weight: bold !important;
+	color: #444 !important;
+	font-family: 'Myriad Pro' !important;
+	text-align: center !important;
+	margin: 0px auto !important;
+}
+
+.icons {
+	width: 55%;
+	margin: 30px auto;
+}
+
+.icons-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.icons-row {
+	text-align: center;
+}
+
+.icons-img {
+	max-width: 160px;
+}
+
+.icons-text {
+	width: 220px;
+	font-family: 'Myriad Pro' !important;
+	color: #444 !important;
+}
+
+.contact {
+	width: 100%;
+	
+}
+
+.contact-container{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	width: 100%;
+	background-color: #07445d;
+	height: 250px;
+}
+
+.contact-address {
+	display: inline-flex;
+	margin-left: 300px;
+}
+
+.contact-address-icon {
+
+}
+
+.contact-address-text {
+	margin-bottom: 16px;
+	color: white;
+	font-family: 'Myriad Pro';
+	font-size: 14px;
+}
+
+.keep-in-touch {
+	margin-top: 45px;
+	margin-right: 300px;
+}
+
+.keep-in-touch-text {
+	margin-bottom: 12px !important;
+	margin-left: 10px !important;
+	padding: 0px 0px !important;
+	font-size: 20px;
+	color: white;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+}
+
+.socmeds {
+
+}
+
+.contact-img-fb {
+	background-image: url("../images/facebook-off.png");
+	width: 60px;
+	height: 60px;
+	margin: 0px 8px;
+	display: inline-block;
+}
+
+.contact-img-fb:hover {
+	background-image: url("../images/facebook.png");
+	cursor: pointer;
+	transition: background-image 0.3s;
+}
+
+.contact-img-tw {
+	background-image: url("../images/twitter-off.png");
+	width: 60px;
+	height: 60px;
+	margin: 0px 8px;
+	display: inline-block;
+}
+
+.contact-img-tw:hover {
+	background-image: url("../images/twitter.png");
+	cursor: pointer;
+	transition: background-image 0.3s;
+}
+
+.contact-img-bl {
+	background-image: url("../images/blogger-off.png");
+	width: 60px;
+	height: 60px;
+	margin: 0px 8px;
+	display: inline-block;
+}
+
+.contact-img-bl:hover {
+	background-image: url("../images/blogger.png");
+	cursor: pointer;
+	transition: background-image 0.3s;
+}
+
+.contact-img-location {
+	width: 30px;
+	margin-bottom: 75px;
+}
+
+.contact-img-address {
+	width: 30px;
+	margin-bottom: 13px;
+}
+
+.contact-img-email {
+	width: 30px;
+}
+
+#map {
+	margin: 0px auto;
+	text-align: center;
+	width: 800px;
+	height: 450px;
 }
