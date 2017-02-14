@@ -1,180 +1,222 @@
-.white {
-	color: white;
-}
-
-p.ex  {
-	margin-top: 0px;
-	padding-right: 30px;
-	padding-left: 30px;
-	color: white;
-	font-size: 12px;
-}
-
-p.es  {
-	margin-top: 0;
-	padding-right: 0px;
-	padding-left: 30px;
-	color: white;
-	margin-bottom: 60px;
-	font-size: 12px;
-}
-
-p.job {
-	margin-top: 0;
-	padding-right: 30px;
-	padding-left: 30px;
-	color: black;
-	margin-bottom: 60px;
-	font-size: 12px;
-}
-
-p.itemku {
-	margin-top: 0px;
-	padding-right: 0px;
-	padding-left: 130px;
-	color: black;
-	padding-top: 0px;
-	margin-bottom: 20px;
-	margin-left: 0px;
-	padding-bottom: 90px;
+.space {
+	display: block;
+	margin: 120px 0px;
 }
 
 
-
-.itembox {
-	padding-top: 0px;
-	padding-left: 160px;
-	padding-right: 30px;
-	color: black;
-	font-size: 12px;	
+.wallpaper {
+	height: 600px;
 }
 
-.service_logo {
-	float: left;
-	padding-top: 14px;
-	padding-left: 34px;
-	padding-right: 10px;
-	height: 100px;
+.wallpaper-image {
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
 }
 
-
-
-a img { 
-	border: none;
+.uvp-container {
+	bottom: 60%;
+	position: relative;
 }
-
-a:link, a:visited {
-	color: #666666;
-	text-decoration: underline; 
-}
- 
-a:hover, a:active, a:focus { 
-	color: #000000;
-	text-decoration: underline;
-}
-
-	
-
-.aboutus {
-	background-color:#0a7ba7;
-	font-color:white;
-	font-size:12px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-}
-	
-.itemku {
-	background-color: white;
-	font-size:12px
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-}
-
 
 .uvpspace {
-	font-size: 25px;
+	font-size: 60px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: 'Keep Calm';
+	color: white;
 	margin: auto;
-	width: 980px;
-	height: 150px;
-	color: #767171;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: 'Courgette', cursive;
+	text-shadow: 0px 2px 10px #000;
+}
+
+.company-explained {
+	position: relative;
+	bottom: 60%;
+	font-size: 14px;
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto;
+	font-family: arial;
+	margin: auto;
+	text-shadow: 0px 1px 10px #000;
+}
+
+#company_explained {
+	color: white;
+}
+
+.fivejack-culture-title {
+	font-size: 36px;
+	font-family: 'Keep Calm';
+	color: #07445d;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 30px;
 
 }
 
-
-.funyou {
-	margin:auto;
-	width:980px;
-	height:150px;
-	padding-top: 35px;
-	color:#FFFFFF;	
+.fivejack-culture {
+	position: relative;
+	margin-top: 10px;
+	text-align: center;
+	margin-left: 64px;
+	max-width: 100%;
 }
 
-
-.background {
-	width:100%
-	height: 00px;
-}
-	
-.dropshadow
-{
-	box-shadow: 100px 100px 200px #888888;
+.culture-agile {
+	display: inline-block;
+	margin: 0px 35px;
 }
 
-#contact_title {
-	float:left;
+.culture-hardcore {
+	display: inline-block;
+	margin: 0px 35px;
 }
 
-#contact_separator {
-	margin-left:10px;
-	margin-right:10px;
-	margin-top:3px;
-	height:112px;
-	width:1px;
-	background-color:#FFFFFF;
-	float:left;
+.culture-data {
+	display: inline-block;
+	margin: 0px 35px;
 }
 
-
-
-.clearfloat { 
-	clear:both;
-	height:0;
-	font-size: 1px;
-	line-height: 0px;
+.culture-font {
+	font-size: 22px;
+	font-family: 'Keep Calm';
+	color: #07445d;
+	text-transform: uppercase;
 }
 
-
-body {
-	color: #000;
-	font-size: xx-small;
+.product-page {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 70%;
+    position: relative;
+    margin: 0px auto;
+    text-align: left;
 }
 
-td,th {
-	color: #000;
-	font-size: xx-small;
-	vertical-align:top;
-	-moz-box-shadow: 0 0 2px #888;
-	-webkit-box-shadow: 0 0 2px #888;
-	box-shadow: 0 0 2px #888;
-
+.itemku {
+	float: left;
+	max-width: 360px;
 }
 
-table {
-		border:0px solid #666;
-		border-spacing: 1px;
-		table-layout: fixed;
+.itemku-logo {
+	width: 100%;
+	position: relative;
+	float: left;
 }
 
-.ex a, .ex a:hover
-{
+.itemku-description {
+	font-family: "Myriad Pro";
+	color: #444;
+	position: relative;
+	top: 35px;
+	clear: both;
+	font-size: 16px;
+	text-align: left;	
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.situs-jualbeli {
+	color: #f59d26;
+	font-family: "Myriad Pro";
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.itemku-preview-container {
+	float: right;
+	position: relative;
+	max-width: 700px;
+	bottom: 40px;
+}
+
+.itemku-preview {
+	width: 100%;
+}
+
+.reviewed-by {
+	font-family: "Myriad Pro";
+	color: #444;
+	position: relative;
+	font-size: 16px;
+}
+
+.container-reviews {
+	text-align: center;
+    width: 70%;
+    position: relative;
+    margin: 0px auto;
+}
+
+.review-content-outter-container {
+	display: flex;
+	justify-content: space-between;
+	vertical-align: middle;
+}
+
+.review-content-container {
+    width: 400px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.review-content-container-2 {
+    width: 400px;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+
+.review-image {
+    width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.review-text {
+    display: inline-block;
+    width: 210px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 12px;
+    color: #1982ad;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.review-image-2 {
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.review-text-2 {
+    display: inline-block;
+    width: 210px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 12px;
+    color: #1982ad;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.review-text:hover {
 	text-decoration: underline;
-	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.review-text-2:hover {
+	text-decoration: underline;
 	cursor: pointer;
 }

@@ -15,67 +15,66 @@ Five Jack - Gamer's Heaven
 @stop
 
 @section('contents')
+<div class="wallpaper">
+	
+	<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/IMG_8387-offset-small.jpg" }}}' alt="fivejack team" align="center" class="wallpaper-image">
 
-	<div class="uvpspace"> 
-		<h1 class="funyou" align="center">&quot;We Create Gamer's Heaven&quot;</h1>
+	<div class="uvp-container">
+		<p class="uvpspace">We Make	Gamer's Heaven</p>
 	</div>
-	<div class="content">
-		<table width="760" height="550" align="center">
-			<tr class="dropshadow">
-				<td width="400" height="280" class="aboutus">
-					<h2 align="left" class="white">&nbsp;</h2>
-					<h2 align="left" class="white">About Us				</h2>
-					<p align="justify" class="ex">Five Jack established in 2013, is a start-up company in gaming related products and value added service. In 2014, Fivejack comes with new business strategy that can change the behavior of gamers in Indonesia and Fivejack is committed to build better game service platform.</p>
-					<p align="justify" class="ex">
-						<a href="{{{ Config::get('constant.BASE_URL') }}}announcement">Announcement for shareholders >>></a>
-					</p>
-				</td>
-		 
-				<td width="400" height="280" class="itemku">
-					<h2 align="left">&nbsp;</h2>
-					<h2 align="left">Our Service           	  </h2>
-					<div class="service_logo">
-						<a href="http://itemku.com/" target="_blank" id="itemku_link"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku.png" }}}' alt="itemku" width="102" height="36" align="left"></a>
-					</div>           	  
-					<p class="itembox">itemku is the pioneer platform in Indonesia to supply information about price of game item and game money. </p>
-				</td>
-			</tr>
-			<tr>
-				<td width="400" height="280" class="itemku">
-				<h2 align="left" >&nbsp; </h2>
-				<h2 align="left" >Career</h2>
-				<p class="job"> We are looking for<br> 
-				- <a href="https://www.techinasia.com/jobs/21844a95-03d3-4481-b499-e776f10eacc4">Software Engineer</a><br>
-				- <a href="https://www.techinasia.com/jobs/476b7af9-6702-4692-8acc-7516f1c58d52">Junior UX Designer</a><br>
-				- <a href="https://www.techinasia.com/jobs/4ca1e9cd-4079-43a5-9fa5-7c8a75b07744">Senior UX Designer</a><br>
-				- <a href="https://www.techinasia.com/jobs/3027bd6d-0129-4f87-911c-a3a354689382">itemku Expert</a><br>
-				- <a href="https://www.techinasia.com/jobs/2938151f-b4e1-4b69-984b-a529d10e8a5b">Content Creator</a><br>
-				- <a href="https://www.techinasia.com/jobs/b097cc23-bb9e-482c-a866-e60b77913906">Senior Digital Marketer</a><br>
-				- <a href="https://www.techinasia.com/jobs/32a95765-f43d-4211-9d40-dfa0f3dc75f7">Global Game Researcher</a><br>
-				- <a href="https://www.techinasia.com/jobs/c553b314-71ef-4565-b795-73fc9bac1923">Finance</a><br>
-				- <a href="https://www.techinasia.com/jobs/2014ee1e-3f04-44c2-8e91-dda5a86c94d3">Service Operator</a><br>
-				- <a href="https://www.techinasia.com/jobs/3f72230e-44b1-4778-af49-494fd33271d6">Customer Service</a><br>
-				</p>				
-				</td>
-		  
-				<td width="400" height="280" class="aboutus"> <h2 align="left" class="white">&nbsp;</h2>
-				<h2 align="left" class="white">Contact</h2>
-				<p id="contact_title" class="es">
-				  Address<br><br><br><br>
-				  Phone<br><br>
-				  Email
-				</p>
-				<div id="contact_separator"></div>
-				<p id="contact_context" class="es">
-					Jl. Kamboja Ujung Blok 1 No.3B,<br>
-					Tomang, Jakarta Barat,<br>
-					Indonesia<br><br>
-					+62 21 567 2785<br><br>				  
-					support@fivejack.com
-				</p>
-				 
-				 </td>
-			</tr>
-		</table>
+
+	<div class="company-explained">
+		<p id="company_explained">Five Jack established in 2013, is a start-up company in gaming related products and value added service. In 2014, Fivejack comes with new business strategy that can change the behavior of gamers in Indonesia and Fivejack is committed to build better game service platform.</p>
 	</div>
+</div>
+
+<p class="fivejack-culture-title">Five Jack Culture</p>
+
+<div class="fivejack-culture">
+	<div class="culture-agile">
+		<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/agile.png" }}}' alt="agile">
+		<p class="culture-font">Agile</p>
+	</div>
+	<div class="culture-hardcore">
+		<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/hardcore-gamer.png" }}}' alt="hardcore gamer">
+		<p class="culture-font">Hardcore Gamers</p>
+	</div>
+	<div class="culture-data">
+		<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/data-driven.png" }}}' alt="data driven" > 
+		<p class="culture-font">Data Driven</p>
+	</div>
+</div>
+
+<div class="space"></div>
+
+<div class="product-page">
+	<div class="itemku">
+		<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku logo.png" }}}' alt="itemku logo" class="itemku-logo">
+		<p class="itemku-description">itemku hadir menjadi <span class="situs-jualbeli">situs jual-beli</span> terbesar dalam komunitas game online di Indonesia dan mempunyai layanan “itemku Safe Trading” yang menjamin 100% keamanan bertransaksi. Tidak hanya keamanan bertransaksi yang diperoleh pembeli dan penjual online, tetapi juga kemudahan bertransaksi karena praktis untuk digunakan.</p>
+
+		<div class="space"></div>
+		<span class="reviewed-by">Reviewed by:</span>
+	</div>
+	<div class="itemku-preview-container">
+		<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku preview.png" }}}' alt="itemku preview" class="itemku-preview">
+	</div>
+</div>
+
+<br>
+
+<div class="container-reviews">
+	
+		<div class="review-content-outter-container">
+			<div class="review-content-container">
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/TIA.jpg" }}}' alt="TIA" class="review-image">
+				<p class="review-text">itemku: marketplace Gold dan Item game online di Indonesia</p>
+			</div>
+
+			<div class="review-content-container-2">
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/daily social.png" }}}' alt="Daily Social" class="review-image-2">
+				<p class="review-text-2">itemku Fokus Menjadi Marketplace dan Situs Pembanding Harga untuk “Game Item” dan “Game Money”</p>
+			</div>
+		</div>
+</div>
+
 @stop
