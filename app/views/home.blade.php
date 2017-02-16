@@ -158,6 +158,8 @@ $(document).ready(function(){
 
 <div class="career">
 <div class="space"></div>
+<p class="what">Hiring Now</p>
+<br>
 	<div class="career-container">
 		<div class="roles-container">
 			<p class="roles" id="se_menu" onclick="showJob('se')">Software Engineer</p>
