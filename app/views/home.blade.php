@@ -617,7 +617,7 @@ $(document).ready(function(){
 		</div>
 
 		<div class="software-engineer job-content" id="so" style="display: none">
-			<p class="software-description">We are looking for Service Operator:<br>Who has ability to handling itemku's payment system and monitoring on-going transactions,<br>Also responsible to users and contents quality inside of itemku product,<br>Capable to research upcoming updates about game or game item.</p>
+			<p class="software-description">We are looking for Service Operator who has the ability to handling itemku's payment system and monitoring on-going transactions, Also responsible to users and contents quality inside of itemku product, Capable to research upcoming updates about game or game item.</p>
 			<br>
 			<p class="qualifications">Qualifications</p>
 				<ul>
@@ -742,7 +742,8 @@ $(document).ready(function(){
 			<div class="keep-in-touch">
 				<h1 class="about-header">Keep in Touch</h1>
 				<div class="socmeds">
-					<div class="contact-img-fb"></div>
+					<div><a href="https://www.facebook.com/itemku/" target="_blank" class="contact-link contact-img-fb"></a></div>
+					<div><a href="https://angel.co/fivejack" target="_blank" class="contact-link contact-img-angellist"></a></div>
 				</div>
 			</div>
 		</div>
