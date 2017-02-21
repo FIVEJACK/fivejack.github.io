@@ -103,15 +103,15 @@ $(document).ready(function(){
 	<div class="fivejack-culture">
 		<div class="culture-agile">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/agile.png" }}}' alt="agile">
-			<p class="culture-font">Agile</p>
+			<p class="culture-font-agile">Agile</p>
 		</div>
 		<div class="culture-hardcore">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/hardcore-gamer.png" }}}' alt="hardcore gamer">
-			<p class="culture-font">Hardcore Gamers</p>
+			<p class="culture-font-hardcore">Hardcore Gamers</p>
 		</div>
 		<div class="culture-data">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/data-driven.png" }}}' alt="data driven" > 
-			<p class="culture-font">Data Driven</p>
+			<p class="culture-font-data">Data Driven</p>
 		</div>
 	</div>
 	<div class="space"></div>
@@ -123,7 +123,7 @@ $(document).ready(function(){
 	<div class="product-page">
 		<div class="itemku">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku logo.png" }}}' alt="itemku logo" class="itemku-logo">
-			<p class="itemku-description">itemku hadir menjadi <span class="situs-jualbeli">situs jual-beli</span> terbesar dalam komunitas game online di Indonesia dan mempunyai layanan “itemku Safe Trading” yang menjamin 100% keamanan bertransaksi. Tidak hanya keamanan bertransaksi yang diperoleh pembeli dan penjual online, tetapi juga kemudahan bertransaksi karena praktis untuk digunakan.</p>
+			<p class="itemku-description">itemku is the biggest <span class="situs-jualbeli">marketplace</span> in the Indonesian online game community and has the <span style="font-style: italic; font-weight: bold">"itemku Safe Trading"</span> service which guarantees 100% safe trading. In itemku, <span style="font-style: italic; font-weight: bold">safe trading</span> is not the only thing that our buyers and sellers have, but they also have the <span style="font-style: italic; font-weight: bold">easiness</span> and <span style="font-style: italic; font-weight: bold">convenience</span> when doing their transactions.</p>
 
 			<div class="space"></div>
 			<span class="reviewed-by">Reviewed by:</span>
@@ -177,7 +177,7 @@ $(document).ready(function(){
 		<div class="software-engineer job-content" id="se">
 			<p class="software-description">We are looking for Software Engineer with a strong sense of ownership and a passion to learn something new. As part of the team, you will be given the chance to design, build, improve, or maintain our web service and back-end system, which are based on open-source technology such as Laravel Framework and Elastic. Successful candidates must also be innovative, flexible, self-directed, and able to design and write reliable, maintainable code.</p>
 			<br>
-			<p class="qualifications-software">Qualifications</p>
+			<p class="qualifications">Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Excellent understanding of Object-Oriented design and concepts, design patterns, and algorithms.</li>
 					<li class="qualifications-li">Fluency in at least one programming language.</li>
@@ -185,7 +185,7 @@ $(document).ready(function(){
 					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
 				</ul>
 			<br>
-			<p class="qualifications-software">Preferred Qualifications</p>
+			<p class="qualifications">Preferred Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Experience programming in an open source environment.</li>
 					<li class="qualifications-li">Experience programming in PHP and its MVC framework.</li>
@@ -197,7 +197,7 @@ $(document).ready(function(){
 		<div class="software-engineer job-content" id="jux" style="display: none">
 			<p class="software-description">We are looking for experienced UX Designer with a strong sense of ownership and a passion to create better product to our users. As part of the team, you will be given the chance to design, build, and improve/maintain our web service and front-end design.</p>
 			<br>
-			<p class="qualifications-software">Qualifications</p>
+			<p class="qualifications">Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Minimum 1 Year working experience as a UX Designer.</li>
 					<li class="qualifications-li">Bachelor Degree in Graphic Design or any major related</li>
@@ -207,7 +207,7 @@ $(document).ready(function(){
 					<li class="qualifications-li">Ability to develop using HTML5/CSS3.</li>
 				</ul>
 			<br>
-			<p class="qualifications-software">Preferred Qualifications</p>
+			<p class="qualifications">Preferred Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Have knowledge in a/b test environment.</li>
 				</ul>
@@ -216,7 +216,7 @@ $(document).ready(function(){
 		<div class="software-engineer job-content" id="sux" style="display: none">
 			<p class="software-description">We are looking for experienced UX Designer with a strong sense of ownership and a passion to create better product to our users. As part of the team, you will be given the chance to lead, design, build, and improve/maintain our web service and front-end design.</p>
 			<br>
-			<p class="qualifications-software">Qualifications</p>
+			<p class="qualifications">Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Minimum 1 Year working experience as a UX Designer.</li>
 					<li class="qualifications-li">Bachelor Degree in Graphic Design or any major related</li>
@@ -230,7 +230,7 @@ $(document).ready(function(){
 		<div class="software-engineer job-content" id="ie" style="display: none">
 			<p class="software-description">We are looking for itemku Expert. This role is will be in charge of our community, planning a strategical contents marketing to distribute to our users in various social networking service channels and the most important being the expertise for our users (buyer and seller side).</p>
 			<br>
-			<p class="qualifications-software">Qualifications</p>
+			<p class="qualifications">Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Bachelor degree in Communication, PR, Business management or related field.</li>
 					<li class="qualifications-li">GPA over 3.00</li>
@@ -242,7 +242,7 @@ $(document).ready(function(){
 					<li class="qualifications-li">Have knowledge and experience of building brand and community exposure through product's blog/social media.</li>
 				</ul>
 			<br>
-			<p class="qualifications-software">Preferred Qualifications</p>
+			<p class="qualifications">Preferred Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Smart hardcore gamer.</li>
 					<li class="qualifications-li">Advanced in contents marketing. Community Management, Social media management and blog management, etc.</li>
@@ -254,7 +254,7 @@ $(document).ready(function(){
 		<div class="software-engineer job-content" id="cc" style="display: none">
 			<p class="software-description">We are looking for itemku Expert. This role is will be in charge of our community, planning a strategical contents marketing to distribute to our users in various social networking service channels and the most important being the expertise for our users (buyer and seller side).</p>
 			<br>
-			<p class="qualifications-software">Qualifications</p>
+			<p class="qualifications">Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Bachelor degree in Journalist, Visual Communication Design, or related field - GPA over 3.00 - Advanced in English both oral and written.</li>
 					<li class="qualifications-li">At least 2 years work experiences.</li>
@@ -263,7 +263,7 @@ $(document).ready(function(){
 					<li class="qualifications-li">Have knowledge and experience of building brand and community exposure through product's blog/social media.</li>
 				</ul>
 			<br>
-			<p class="qualifications-software">Preferred Qualifications</p>
+			<p class="qualifications">Preferred Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Smart hardcore gamer.</li>
 					<li class="qualifications-li">Have portfolio in writing for games industry (game's articles or blogs).</li>
@@ -275,7 +275,7 @@ $(document).ready(function(){
 		<div class="software-engineer job-content" id="sdm" style="display: none">
 			<p class="software-description">We are looking for Senior Digital Marketer. This role will be in charge of delivery our campaign and monitor our data for making decision. Successful candidates must be able to manage and delivery information and needs for game market in Indonesia and other countries..</p>
 			<br>
-			<p class="qualifications-software">Qualifications</p>
+			<p class="qualifications">Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Bachelor degree or Master degree in mathematics, statistics, business management or related field.</li>
 					<li class="qualifications-li">GPA over 3.00.</li>
@@ -285,7 +285,7 @@ $(document).ready(function(){
 					<li class="qualifications-li">Have knowledge of Facebook Ads / GSN / GDN / SEO.</li>
 				</ul>
 			<br>
-			<p class="qualifications-software">Preferred Qualifications</p>
+			<p class="qualifications">Preferred Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Data-driven marketing and user experience improvements to improve traction and conversion.</li>
 					<li class="qualifications-li">Must thrive in a dynamic, fast-paced environment, be a highly-motivated self-starter, flourish on a multi-cultural team, and have a brilliant sense of humor.</li>
@@ -295,7 +295,7 @@ $(document).ready(function(){
 		<div class="software-engineer job-content" id="ggr" style="display: none">
 			<p class="software-description">We are looking for Global Game Researcher. This role will be in charge to research global game that have a market value of real money trading either in Indonesia or overseas. Successful candidates must able to find a game that have high RMT (Real Money Trading) transactions, research how the practice of RMT for each global game and how it can be applied to itemku users. The research itself are planed by yourself and your target is we can open more and more variety RMT game for our users.</p>
 			<br>
-			<p class="qualifications-software">Qualifications</p>
+			<p class="qualifications">Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Bachelors Degree in mathematics, statistics, business management or related field.</li>
 					<li class="qualifications-li">Fresh graduate are welcome.</li>
@@ -304,7 +304,7 @@ $(document).ready(function(){
 					<li class="qualifications-li">English skill (Oral and Written) is needed.</li>
 				</ul>
 			<br>
-			<p class="qualifications-software">Preferred Qualifications</p>
+			<p class="qualifications">Preferred Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Smart hardcore gamer.</li>
 					<li class="qualifications-li">Have a great experience in RMT.</li>
@@ -318,7 +318,7 @@ $(document).ready(function(){
 		<div class="software-engineer job-content" id="finance" style="display: none">
 			<p class="software-description">We are looking for a sharp, good-humored Finance and Accounting Coordinator who enjoys working in a constantly changing environment and streamlining a hectic day. You will primarily provide reports dedicated from Director and lead advisers. You will be working in a fast-paced, creative environment with passionate team members who are focused on quality and execution. If you like to tame chaos while remaining calm and flexible in the face of ever-changing priorities and needs, then this is the role for you.</p>
 			<br>
-			<p class="qualifications-software">Qualifications</p>
+			<p class="qualifications">Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Transactions inputs on integrated accounting systems.</li>
 					<li class="qualifications-li">Create invoices/receive invoices from customers/vendors.</li>
@@ -333,7 +333,7 @@ $(document).ready(function(){
 					<li class="qualifications-li">Involved in making Finance system in company working together with develop team.</li>
 				</ul>
 			<br>
-			<p class="qualifications-software">Preferred Qualifications</p>
+			<p class="qualifications">Preferred Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Bachelor’s Degree in Accounting, qualified and highly exception accounting major.</li>
 					<li class="qualifications-li">Graduate from well-known University with GPA of Minimum 3.5 and above.</li>
@@ -351,9 +351,9 @@ $(document).ready(function(){
 		</div>
 
 		<div class="software-engineer job-content" id="so" style="display: none">
-			<p class="software-description">We are looking for Service Operator:<br>Who has ability to handling itemku's payment system and monitoring on-going transactions,<br>Also responsible to users and contents quality inside of itemku product,<br>Capable to research upcoming updates about game or game item.</p>
+			<p class="software-description">We are looking for Service Operator:<br>Who has ability to handling itemku's payment system and monitoring on-going transactions, Also responsible to users and contents quality inside of itemku product, Capable to research upcoming updates about game or game item.</p>
 			<br>
-			<p class="qualifications-software">Qualifications</p>
+			<p class="qualifications">Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Fresh graduate are welcome.</li>
 					<li class="qualifications-li">Having passion in gaming, online shopping, and/or e-commerce industry.</li>
@@ -363,7 +363,7 @@ $(document).ready(function(){
 					<li class="qualifications-li">Working available at weekend and holiday (5 days working per 1 week).</li>
 				</ul>
 			<br>
-			<p class="qualifications-software">Preferred Qualifications</p>
+			<p class="qualifications">Preferred Qualifications</p>
 				<ul>
 					<li class="qualifications-li">1 or 2+ years working experience in related field.</li>
 					<li class="qualifications-li">Good communication skill through phone.</li>
@@ -373,9 +373,9 @@ $(document).ready(function(){
 		</div>
 
 		<div class="software-engineer job-content" id="cs" style="display: none">
-			<p class="software-description">We are looking for Customer Service. This role will be in charge of ensuring the needs of users are being satisfied and maintaining the good and helpful relationship with the itemku users. Successful candidates must able to manage and develop a customer service policy and keep finding ways to measure customer satisfaction and improve services.
+			<p class="software-description">We are looking for Customer Service. This role will be in charge of ensuring the needs of users are being satisfied and maintaining the good and helpful relationship with the itemku users. Successful candidates must able to manage and develop a customer service policy and keep finding ways to measure customer satisfaction and improve services.</p>
 			<br>
-			<p class="qualifications-software">Qualifications</p>
+			<p class="qualifications">Qualifications</p>
 				<ul>
 					<li class="qualifications-li">Fresh Graduate are welcome.</li>
 					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
@@ -385,7 +385,7 @@ $(document).ready(function(){
 					<li class="qualifications-li">Working available at weekend and holiday (5 days working per 1 week).</li>
 				</ul>
 			<br>
-			<p class="qualifications-software">Preferred Qualifications</p>
+			<p class="qualifications">Preferred Qualifications</p>
 				<ul>
 					<li class="qualifications-li">1 or 2+ years customer service field experience in/with IT industry and/or e-commerce.</li>
 					<li class="qualifications-li">Able to Communicates courteously with customers by email, phone and/or face to face if needed.</li>
@@ -408,39 +408,39 @@ $(document).ready(function(){
 		<div class="icons-container">
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/time.png" }}}' class="icons-img">
-				<p class="icons-text">Flexible working hour:<br>Flexible creates higher responsibility</p>
+				<p class="icons-text-time">Flexible working hour:<br>Flexible creates higher responsibility</p>
 			</div>
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/food.png" }}}' class="icons-img">
-				<p class="icons-text">Free lunch:<br>You will never get hungry</p>
+				<p class="icons-text-food">Free lunch:<br>You will never get hungry</p>
 			</div>
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/voucher.png" }}}' class="icons-img">
-				<p class="icons-text">Monthly itemku member voucher: For every game you love to play</p>
+				<p class="icons-text-voucher">Monthly itemku member voucher: For every game you love to play</p>
 			</div>
 		</div>
 		<div class="icons-container">
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/calendar.png" }}}' class="icons-img">
-				<p class="icons-text">14 Days Annual Leaves:<br>For every personal matter that you need to do</p>
+				<p class="icons-text-calendar">14 Days Annual Leaves:<br>For every personal matter that you need to do</p>
 			</div>
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/agile-dev.png" }}}' class="icons-img">
-				<p class="icons-text">Agile development lifecycle</p>
+				<p class="icons-text-agile">Agile development lifecycle</p>
 			</div>
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/fun.png" }}}' class="icons-img">
-				<p class="icons-text">Surrounded by smart, fun, and very tactical gamers</p>
+				<p class="icons-text-fun">Surrounded by smart, fun, and very tactical gamers</p>
 			</div>
 		</div>
 		<div class="icons-container">
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/challenge.png" }}}' class="icons-img">
-				<p class="icons-text">Everyday is a new challenge</p>
+				<p class="icons-text-challenge">Everyday is a new challenge</p>
 			</div>
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/family.png" }}}' class="icons-img">
-				<p class="icons-text">A company that you can tell is family at the same time</p>
+				<p class="icons-text-family">A company that you can tell is family at the same time</p>
 			</div>
 		</div>
 	</div>
@@ -453,26 +453,32 @@ $(document).ready(function(){
 	<div class="contact">
 		<div id="map"></div>
 		<div class="contact-container">
-			<div class="contact-address">
-				<div class="contact-address-icons">
-					<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/location.png" }}}' class="contact-img-location">
-					<br>
-					<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/phone.png" }}}' class="contact-img-address">
-					<br>
-					<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/email.png" }}}' class="contact-img-email">
-				</div>
-				<div class="contact-address-text">
-					<p class="contact-address-text">Jl. Kamboja Raya no 15 B,<br>Kel Kota Bambu Utara,<br>Kecamatan Palmerah,<br>Jakarta Barat,<br>11420</p>
-					<p class="contact-address-text">+62 - 21 - 567 - 2785</p>
-					<p class="contact-address-text">support@fivejack.com</p>
+			<div class="about">
+				<h1 class="about-header">About Us</h1>
+				<p class="about-text">itemku.com, the marketplace for game item trading in Indonesia.<br><br>Five Jack is a company which creates an e-commerce platform focusing on trading virtual game items in Indonesia called itemku. In 2016, our GMV is growing monthly by 35%, purchase conversion rate by 27%, and user retention rate by 18%.</p>
+			</div>
+			<div class="contact-address-container">
+				<h1 class="about-header">Contact Us</h1>
+				<div class="contact-address">
+					<div class="contact-address-icons">
+						<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/location.png" }}}' class="contact-img-location">
+						<br>
+						<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/phone.png" }}}' class="contact-img-address">
+						<br>
+						<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/email.png" }}}' class="contact-img-email">
+					</div>
+					<div class="contact-address-text">
+						<p class="contact-address-text">Jl. Kamboja Raya no 15 B,<br>Kel Kota Bambu Utara,<br>Kecamatan Palmerah,<br>Jakarta Barat,<br>11420</p>
+						<p class="contact-address-text">+62 - 21 - 567 - 2785</p>
+						<p class="contact-address-text">support@fivejack.com</p>
+					</div>
 				</div>
 			</div>
 			<div class="keep-in-touch">
-				<p class="keep-in-touch-text">Keep in Touch</p>
+				<h1 class="about-header">Keep in Touch</h1>
 				<div class="socmeds">
-					<div class="contact-img-fb"></div>
-					<div class="contact-img-tw"></div>
-					<div class="contact-img-bl"></div>
+					<div><a href="https://www.facebook.com/itemku/" target="_blank" class="contact-link contact-img-fb"></a></div>
+					<div><a href="https://angel.co/fivejack" target="_blank" class="contact-link contact-img-angellist"></a></div>
 				</div>
 			</div>
 		</div>

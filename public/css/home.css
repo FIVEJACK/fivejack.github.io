@@ -26,7 +26,7 @@
 }
 
 .uvp-container {
-	bottom: 60%;
+	bottom: 30%;
 	position: relative;
 }
 
@@ -48,10 +48,10 @@
 
 .company-explained {
 	position: relative;
-	bottom: 60%;
+	bottom: 33%;
 	font-size: 14px;
 	text-align: center;
-	max-width: 700px;
+	max-width: 50%;
 	margin: 0 auto;
 	font-family: arial;
 	margin: auto;
@@ -96,15 +96,28 @@
 	margin: 0px 35px;
 }
 
-.culture-font {
+.culture-font-agile {
 	font-size: 22px;
 	font-family: keepCalm;
 	color: #07445d;
 	text-transform: uppercase;
 }
 
-.product-page {
-	
+.culture-font-hardcore {
+	font-size: 22px;
+	font-family: keepCalm;
+	color: #07445d;
+	text-transform: uppercase;
+}
+
+.culture-font-data {
+	font-size: 22px;
+	font-family: keepCalm;
+	color: #07445d;
+	text-transform: uppercase;
+}
+
+.product-page {	
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-between;
@@ -113,6 +126,7 @@
     position: relative;
     margin: 0px auto;
     text-align: left;
+    vertical-align: middle;
 }
 
 .itemku {
@@ -151,6 +165,7 @@
 	position: relative;
 	max-width: 700px;
 	bottom: 40px;
+	vertical-align: middle;
 }
 
 .itemku-preview {
@@ -160,13 +175,14 @@
 .reviewed-by {
 	font-family: "Myriad Pro";
 	color: #444;
-	position: relative;
+	float: left;
+	display: block;
 	font-size: 16px;
 }
 
 .container-reviews {
 	text-align: center;
-    width: 70%;
+    max-width: 70%;
     position: relative;
     margin: 0px auto;
 }
@@ -178,13 +194,13 @@
 }
 
 .review-content-container {
-    width: 400px;
+    max-width: 600px;
     text-align: left;
     vertical-align: middle;
 }
 
 .review-content-container-2 {
-    width: 400px;
+    max-width: 600px;
     text-align: left;
     vertical-align: middle;
     margin-top: 30px;
@@ -207,7 +223,7 @@ a:hover {
 
 .review-text {
     display: inline-block;
-    width: 210px;
+    max-width: 210px;
     margin: 0;
     padding: 0;
     vertical-align: middle;
@@ -226,7 +242,7 @@ a:hover {
 
 .review-text-2 {
     display: inline-block;
-    width: 210px;
+    max-width: 210px;
     margin: 0;
     padding: 0;
     vertical-align: middle;
@@ -234,7 +250,7 @@ a:hover {
     font-size: 12px;
     color: #1982ad;
     vertical-align: middle;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .review-text-2:active {
@@ -256,7 +272,6 @@ a:hover {
 
 .career-container {
 	display: flex;
-	justify-content: space-between;
 }
 
 .roles-container {
@@ -264,9 +279,8 @@ a:hover {
 
 .roles {
 	margin: 0px !important;
-	padding-bottom: 16px !important;
-	padding-left: 0px !important;
-	width: 300px;
+	padding: 8px !important;
+	width: 210px;
 	font-size: 16px;
 	font-family: keepCalm;
 	color: #07445d !important;
@@ -294,17 +308,19 @@ a:hover {
 
 .software-engineer {
 	display: block;
+	margin-left: 10%;
+	padding-top: 8px;
 }
 
 .software-description {
 	margin: 0px !important;
 	padding: 0px !important;
-	width: 800px;
 	font-family: 'Myriad Pro';
 	color: #444 !important;
+	width: 100%;
 }
 
-.qualifications-software {
+.qualifications {
 	font-weight: bold;
 	margin: 0px !important;
 	padding: 0px !important;
@@ -319,6 +335,7 @@ a:hover {
 	color: #444 !important;
 	transition: none !important;
 	padding: 0px 0px !important;
+	width: 100%;
 }
 
 .qualifications-li:hover {
@@ -345,7 +362,7 @@ a:hover {
 }
 
 .icons {
-	width: 55%;
+	width: 50%;
 	margin: 30px auto;
 }
 
@@ -362,30 +379,108 @@ a:hover {
 	max-width: 160px;
 }
 
-.icons-text {
+.icons-text-time {
+	width: 220px;
+	font-family: 'Myriad Pro' !important;
+	color: #444 !important;
+}
+
+.icons-text-food {
+	width: 220px;
+	font-family: 'Myriad Pro' !important;
+	color: #444 !important;
+}
+
+.icons-text-voucher {
+	width: 220px;
+	font-family: 'Myriad Pro' !important;
+	color: #444 !important;
+}
+
+.icons-text-calendar {
+	width: 220px;
+	font-family: 'Myriad Pro' !important;
+	color: #444 !important;
+}
+
+.icons-text-agile {
+	width: 220px;
+	font-family: 'Myriad Pro' !important;
+	color: #444 !important;
+}
+
+.icons-text-fun {
+	width: 220px;
+	font-family: 'Myriad Pro' !important;
+	color: #444 !important;
+}
+
+.icons-text-challenge {
+	width: 220px;
+	font-family: 'Myriad Pro' !important;
+	color: #444 !important;
+}
+
+.icons-text-family {
 	width: 220px;
 	font-family: 'Myriad Pro' !important;
 	color: #444 !important;
 }
 
 .contact {
-	width: 100%;
-	
+	width: 100%;	
+}
+
+#map {
+	margin: 0px auto;
+	text-align: center;
+	width: 800px;
+	height: 450px;
 }
 
 .contact-container{
 	margin-top: 30px;
 	display: flex;
 	justify-content: space-between;
-	padding-top: 50px;
+	padding-top: 2%;
 	width: 100%;
 	background-color: #07445d;
-	height: 250px;
+	height: 320px;
+	vertical-align: middle;
 }
 
 .contact-address {
+	margin-top: 20px;
 	display: inline-flex;
-	margin-left: 300px;
+	
+}
+
+.about {
+	text-align: left;
+	margin-left: 15%;
+}
+
+.about-header {
+	color: white !important;
+	font-family: 'Myriad Pro';
+	font-size: 36px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.about-text {
+	max-width: 240px;
+	margin-top: 20px;
+	color: white !important;
+	font-family: 'Myriad Pro';
+	font-size: 14px;
+	padding: 0px;
+	text-align: justify;
+}
+
+.contact-address-container {
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 .contact-address-icon {
@@ -397,33 +492,34 @@ a:hover {
 	color: white;
 	font-family: 'Myriad Pro';
 	font-size: 14px;
+	padding-right: 0px !important;
 }
 
 .keep-in-touch {
-	margin-top: 45px;
-	margin-right: 300px;
+	margin-right: 15%;
+	text-align: center;
 }
 
 .keep-in-touch-text {
 	margin-bottom: 12px !important;
-	margin-left: 10px !important;
 	padding: 0px 0px !important;
-	font-size: 20px;
+	font-size: 36px;
 	color: white;
 	font-family: 'Myriad Pro';
 	font-weight: bold;
 }
 
 .socmeds {
-
+	display: inline-flex;
 }
 
 .contact-img-fb {
 	background-image: url("../images/facebook-off.png");
 	width: 60px;
 	height: 60px;
-	margin: 0px 8px;
+	margin: 20px 20px 0px 0px;
 	display: inline-block;
+
 }
 
 .contact-img-fb:hover {
@@ -432,30 +528,16 @@ a:hover {
 	transition: background-image 0.3s;
 }
 
-.contact-img-tw {
-	background-image: url("../images/twitter-off.png");
+.contact-img-angellist {
+	background-image: url("../images/angellist-off.png");
 	width: 60px;
 	height: 60px;
-	margin: 0px 8px;
+	margin: 20px 0px 0px 20px;
 	display: inline-block;
 }
 
-.contact-img-tw:hover {
-	background-image: url("../images/twitter.png");
-	cursor: pointer;
-	transition: background-image 0.3s;
-}
-
-.contact-img-bl {
-	background-image: url("../images/blogger-off.png");
-	width: 60px;
-	height: 60px;
-	margin: 0px 8px;
-	display: inline-block;
-}
-
-.contact-img-bl:hover {
-	background-image: url("../images/blogger.png");
+.contact-img-angellist:hover {
+	background-image: url("../images/angellist.png");
 	cursor: pointer;
 	transition: background-image 0.3s;
 }
@@ -472,6 +554,11 @@ a:hover {
 
 .contact-img-email {
 	width: 30px;
+}
+
+a.contact-link {
+	width: 60px;
+	height: 60px;
 }
 
 #map {
