@@ -33,7 +33,7 @@ p {
 }
 
 .container {
-	min-width:980px;
+	min-width: 980px;
 	width: 100%;
 	height: auto;
 	margin-top: 0;
@@ -76,7 +76,7 @@ p {
 
 .fivejacklogo {
 	float: left;
-	padding-top:15px;
+	padding-top: 8px;
 }
 
 #menu {
@@ -95,7 +95,7 @@ p {
 
 li {
 	display: inline-block;
-	padding: 16px 15px 16px 15px;
+	padding: 16px 15px 17px 15px;
 }
 
 li:hover {
@@ -117,7 +117,7 @@ li:hover {
 
 .menu-link-active {
 	font-weight: bold;
-	padding: 17px 0px 18px 0px;
+	padding: 17px 0px 19px 0px;
 	color: #07445d;
 	background-color: white;
 	cursor: pointer;
@@ -125,7 +125,7 @@ li:hover {
 }
 
 .li-active {
-		color: #07445d;
+	color: #07445d;
 	background-color: white;
 	transition: 0.3s;
 	cursor: pointer;
@@ -133,4 +133,43 @@ li:hover {
 }
 
 .mobile-nav {
+	display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+	.container {
+		max-width: 500px;
+		min-width: 0px;
+	}
+
+	.footer {
+		max-width: 100%;
+	}
+
+	.footer_context {
+		max-width: 500px;
+	}
+
+	.header {
+		width: 100%;
+	}
+
+	.header_context {
+		max-width: 100%;
+	}
+
+	.fivejacklogo {
+		width: 50%;
+		height: 50%;
+		margin: 0% 0% 0% 5%;
+		padding-top: 10px !important;
+	}
+
+	#menu {
+		max-width: 500px;
+	}
+
+
+
 }
