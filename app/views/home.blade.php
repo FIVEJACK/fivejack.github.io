@@ -369,6 +369,8 @@ $(document).ready(function(){
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kiri.png" }}}' class="BG">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kanan.png" }}}' class="BG">
 	</div>
+
+	<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/orang.png" }}}' class="mascot">
 </section>
 
 <section id="what" name="what">
