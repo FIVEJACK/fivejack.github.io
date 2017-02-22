@@ -20,7 +20,7 @@ Five Jack - Gamer's Heaven
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPFdndwq9kQ_QhBiBFtrAgDnVRk2rX6OI&callback=initMap"></script>
 <script type="text/javascript">
 function initMap() {
-	var mapPosition = {lat: -6.181717, lng: 106.802502};
+	var mapPosition = {lat: -6.183977, lng: 106.803069};
 	var infowindow = new google.maps.InfoWindow({
           content: '<div id="content">'+
 						'<h1 id="firstHeading" class="firstHeading">Five Jack</h1>'+
@@ -58,7 +58,6 @@ function showJob(jobName)
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
 		e.preventDefault();
-
 		var target = this.hash;
 		var $target = $(target);
 
@@ -79,6 +78,7 @@ $(document).ready(function(){
 @stop
 
 @section('contents')
+
 <section id="home">
 	<div class="wallpaper">
 		
@@ -94,8 +94,8 @@ $(document).ready(function(){
 	</div>
 
 	<div class="container-BG">
-			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kiri.png" }}}' class="BG">
-			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kanan.png" }}}' class="BG">
+		<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kiri.png" }}}' class="BG">
+		<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kanan.png" }}}' class="BG">
 	</div>
 
 	<p class="fivejack-culture-title">Five Jack Culture</p>
@@ -114,11 +114,10 @@ $(document).ready(function(){
 			<p class="culture-font-data">Data Driven</p>
 		</div>
 	</div>
-	<div class="space"></div>
 </section>
 
+
 <section id="product">
-<div class="space"></div>
 <div class="space"></div>
 	<div class="product-page">
 		<div class="itemku">
@@ -126,15 +125,14 @@ $(document).ready(function(){
 			<p class="itemku-description">itemku is the biggest <span class="situs-jualbeli">marketplace</span> in the Indonesian online game community and has the <span style="font-style: italic; font-weight: bold">"itemku Safe Trading"</span> service which guarantees 100% safe trading. In itemku, <span style="font-style: italic; font-weight: bold">safe trading</span> is not the only thing that our buyers and sellers have, but they also have the <span style="font-style: italic; font-weight: bold">easiness</span> and <span style="font-style: italic; font-weight: bold">convenience</span> when doing their transactions.</p>
 
 			<div class="space"></div>
-			<span class="reviewed-by">Reviewed by:</span>
 		</div>
 		<div class="itemku-preview-container">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku preview.png" }}}' alt="itemku preview" class="itemku-preview">
 		</div>
 	</div>
 
-	<br>
-
+	<div><p class="reviewed-by">Reviewed by:</p></div>
+	
 	<div class="container-reviews">
 		<div class="review-content-outter-container">
 			<div class="review-content-container">
@@ -144,22 +142,17 @@ $(document).ready(function(){
 
 			<div class="review-content-container-2">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/daily social.png" }}}' alt="Daily Social" class="review-image-2">
-				<a href="https://dailysocial.net/post/itemku-marketplace-game-item-game-money" target="_blank" class="review-text-2">itemku Fokus Menjadi Marketplace dan Situs Pembanding Harga untuk “Game Item” dan “Game Money”</a>
+				<a href="https://dailysocial.net/post/itemku-marketplace-game-item-game-money" target="_blank" class="review-text">itemku Fokus Menjadi Marketplace dan Situs Pembanding Harga untuk “Game Item” dan “Game Money”</a>
 			</div>
 		</div>
 	</div>
-	<br>
-	<br>
-	<div class="space"></div>
 	
 </section>
 
 <section id="career">
-
 <div class="career">
 <div class="space"></div>
 <p class="what">Hiring Now</p>
-<br>
 	<div class="career-container">
 		<div class="roles-container">
 			<p class="roles" id="se_menu" onclick="showJob('se')">Software Engineer</p>
@@ -170,7 +163,6 @@ $(document).ready(function(){
 			<p class="roles" id="sdm_menu" onclick="showJob('sdm')">Senior Digital Marketer</p>
 			<p class="roles" id="ggr_menu" onclick="showJob('ggr')">Global Game Researcher</p>
 			<p class="roles" id="finance_menu" onclick="showJob('finance')">Finance</p>
-			<p class="roles" id="so_menu" onclick="showJob('so')">Service Operator</p>
 			<p class="roles" id="cs_menu" onclick="showJob('cs')">Customer Service</p>
 		</div>
 	
@@ -350,28 +342,6 @@ $(document).ready(function(){
 				</ul>
 		</div>
 
-		<div class="software-engineer job-content" id="so" style="display: none">
-			<p class="software-description">We are looking for Service Operator:<br>Who has ability to handling itemku's payment system and monitoring on-going transactions, Also responsible to users and contents quality inside of itemku product, Capable to research upcoming updates about game or game item.</p>
-			<br>
-			<p class="qualifications">Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Fresh graduate are welcome.</li>
-					<li class="qualifications-li">Having passion in gaming, online shopping, and/or e-commerce industry.</li>
-					<li class="qualifications-li">Excellent in listening skills and communication skill.</li>
-					<li class="qualifications-li">English skill (Oral and Written) is needed.</li>
-					<li class="qualifications-li">Can work independently or in a team and have strong initiative mind.</li>
-					<li class="qualifications-li">Working available at weekend and holiday (5 days working per 1 week).</li>
-				</ul>
-			<br>
-			<p class="qualifications">Preferred Qualifications</p>
-				<ul>
-					<li class="qualifications-li">1 or 2+ years working experience in related field.</li>
-					<li class="qualifications-li">Good communication skill through phone.</li>
-					<li class="qualifications-li">Good analytical thinking in providing solutions to problems of order product by email and phone.</li>
-					<li class="qualifications-li">Has experience in leading a team and have strong initiative mind.</li>
-				</ul>
-		</div>
-
 		<div class="software-engineer job-content" id="cs" style="display: none">
 			<p class="software-description">We are looking for Customer Service. This role will be in charge of ensuring the needs of users are being satisfied and maintaining the good and helpful relationship with the itemku users. Successful candidates must able to manage and develop a customer service policy and keep finding ways to measure customer satisfaction and improve services.</p>
 			<br>
@@ -399,11 +369,13 @@ $(document).ready(function(){
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kiri.png" }}}' class="BG">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kanan.png" }}}' class="BG">
 	</div>
+</section>
 
+<section id="what" name="what">
 	<div class="space"></div>
+	<a href="#what" class="menu-link" style="position: relative"><p class="what">What is it like to work in Five Jack ?</p></a>
 
-	<p class="what">What is it like to work in Five Jack ?</p>
-
+	
 	<div class="icons">
 		<div class="icons-container">
 			<div class="icons-row">
@@ -444,12 +416,12 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
+	</section>
 
-</section>
 
-<div class="space"></div>
+
 <section id="contact">
-
+	<div class="space"></div>
 	<div class="contact">
 		<div id="map"></div>
 		<div class="contact-container">

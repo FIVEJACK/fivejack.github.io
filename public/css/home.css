@@ -1,6 +1,6 @@
 .space {
 	display: block;
-	height: 120px;
+	height: 90px;
 }
 
 
@@ -175,14 +175,16 @@
 .reviewed-by {
 	font-family: "Myriad Pro";
 	color: #444;
-	float: left;
 	display: block;
 	font-size: 16px;
+	text-align: center;
+	margin: 0px auto;
+	font-weight: bold;
 }
 
 .container-reviews {
 	text-align: center;
-    max-width: 70%;
+    max-width: 50%;
     position: relative;
     margin: 0px auto;
 }
@@ -194,21 +196,26 @@
 }
 
 .review-content-container {
+	display: block;
     max-width: 600px;
-    text-align: left;
+    text-align: center;
     vertical-align: middle;
 }
 
 .review-content-container-2 {
     max-width: 600px;
-    text-align: left;
+    text-align: center;
     vertical-align: middle;
-    margin-top: 30px;
+    margin-top: 3%;
 }
 
 .review-image {
     width: 120px;
-    display: inline-block;
+    vertical-align: middle;
+}
+
+.review-image-2 {
+    width: 160px;
     vertical-align: middle;
 }
 
@@ -222,46 +229,17 @@ a:hover {
 }
 
 .review-text {
-    display: inline-block;
+    display: block;
     max-width: 210px;
-    margin: 0;
-    padding: 0;
-    vertical-align: middle;
-    text-align: left;
+    margin: 10px auto;
+    padding: 0px;
+    text-align: justify;
     font-size: 12px;
     color: #1982ad;
     vertical-align: middle;
-    margin-left: 20px;
-}
-
-.review-image-2 {
-    width: 150px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.review-text-2 {
-    display: inline-block;
-    max-width: 210px;
-    margin: 0;
-    padding: 0;
-    vertical-align: middle;
-    text-align: left;
-    font-size: 12px;
-    color: #1982ad;
-    vertical-align: middle;
-    margin-left: 20px;
-}
-
-.review-text-2:active {
-	color: purple;
 }
 
 .review-text:visited {
-	color: purple;
-}
-
-.review-text-2:visited {
 	color: purple;
 }
 
@@ -359,6 +337,7 @@ a:hover {
 	font-family: 'Myriad Pro' !important;
 	text-align: center !important;
 	margin: 0px auto !important;
+	text-align: center;
 }
 
 .icons {
