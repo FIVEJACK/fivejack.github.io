@@ -1,6 +1,6 @@
 .space {
 	display: block;
-	height: 120px;
+	height: 90px;
 }
 
 
@@ -26,7 +26,7 @@
 }
 
 .uvp-container {
-	bottom: 60%;
+	bottom: 30%;
 	position: relative;
 }
 
@@ -48,10 +48,10 @@
 
 .company-explained {
 	position: relative;
-	bottom: 60%;
+	bottom: 33%;
 	font-size: 14px;
 	text-align: center;
-	max-width: 700px;
+	max-width: 50%;
 	margin: 0 auto;
 	font-family: arial;
 	margin: auto;
@@ -96,9 +96,6 @@
 	margin: 0px 35px;
 }
 
-.culture-img {
-}
-
 .culture-font-agile {
 	font-size: 22px;
 	font-family: keepCalm;
@@ -120,8 +117,7 @@
 	text-transform: uppercase;
 }
 
-.product-page {
-	
+.product-page {	
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-between;
@@ -130,6 +126,7 @@
     position: relative;
     margin: 0px auto;
     text-align: left;
+    vertical-align: middle;
 }
 
 .itemku {
@@ -168,6 +165,7 @@
 	position: relative;
 	max-width: 700px;
 	bottom: 40px;
+	vertical-align: middle;
 }
 
 .itemku-preview {
@@ -177,13 +175,16 @@
 .reviewed-by {
 	font-family: "Myriad Pro";
 	color: #444;
+	display: block;
 	font-size: 16px;
-	text-align: left !important;
+	text-align: center;
+	margin: 0px auto;
+	font-weight: bold;
 }
 
 .container-reviews {
-	text-align: left;
-    width: 70%;
+	text-align: center;
+    max-width: 50%;
     position: relative;
     margin: 0px auto;
 }
@@ -195,21 +196,26 @@
 }
 
 .review-content-container {
-    width: 400px;
-    text-align: left;
+	display: block;
+    max-width: 600px;
+    text-align: center;
     vertical-align: middle;
 }
 
 .review-content-container-2 {
-    width: 400px;
-    text-align: left;
+    max-width: 600px;
+    text-align: center;
     vertical-align: middle;
-    margin-top: 30px;
+    margin-top: 3%;
 }
 
 .review-image {
     width: 120px;
-    display: inline-block;
+    vertical-align: middle;
+}
+
+.review-image-2 {
+    width: 160px;
     vertical-align: middle;
 }
 
@@ -223,46 +229,17 @@ a:hover {
 }
 
 .review-text {
-    display: inline-block;
-    width: 210px;
-    margin: 0;
-    padding: 0;
-    vertical-align: middle;
-    text-align: left;
+    display: block;
+    max-width: 210px;
+    margin: 10px auto;
+    padding: 0px;
+    text-align: justify;
     font-size: 12px;
     color: #1982ad;
     vertical-align: middle;
-    margin-left: 20px;
-}
-
-.review-image-2 {
-    width: 150px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.review-text-2 {
-    display: inline-block;
-    width: 210px;
-    margin: 0;
-    padding: 0;
-    vertical-align: middle;
-    text-align: left;
-    font-size: 12px;
-    color: #1982ad;
-    vertical-align: middle;
-    margin-left: 30px;
-}
-
-.review-text-2:active {
-	color: purple;
 }
 
 .review-text:visited {
-	color: purple;
-}
-
-.review-text-2:visited {
 	color: purple;
 }
 
@@ -344,6 +321,14 @@ a:hover {
 	cursor: auto !important;
 }
 
+.mascot {
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 250px;
+	margin: 0px auto;
+	padding: 50px 0px 0px 0px;
+}
 
 .what {
 	font-size: 30px;
@@ -352,10 +337,11 @@ a:hover {
 	font-family: 'Myriad Pro' !important;
 	text-align: center !important;
 	margin: 0px auto !important;
+	text-align: center;
 }
 
 .icons {
-	width: 55%;
+	width: 50%;
 	margin: 30px auto;
 }
 
@@ -421,7 +407,7 @@ a:hover {
 }
 
 .contact {
-	width: 100%;
+	width: 100%;	
 }
 
 #map {
@@ -554,13 +540,12 @@ a.contact-link {
 	height: 60px;
 }
 
-.mascot {
-	display: block;
-	width: 300px;
+#map {
 	margin: 0px auto;
 	text-align: center;
+	width: 800px;
+	height: 450px;
 }
-
 
 
 @media screen and (max-width: 500px) {
