@@ -177,7 +177,7 @@
 }
 
 .reviewed-by {
-	font-family: "arial";
+	font-family: arial;
 	color: #444;
 	display: block;
 	font-size: 16px;
@@ -917,7 +917,7 @@ a.contact-link {
 
 	.software-description {
 		margin: 5% 0% 0% -8% !important;
-		font-family: 'Myriad Pro';
+		font-family: arial;
 		color: #444 !important;
 		width: 100%;
 	}
@@ -927,14 +927,14 @@ a.contact-link {
 		margin: 5% 0% 0% -8% !important;
 		padding: 0px !important;
 		font-style: italic;
-		font-family: 'Myriad Pro';
+		font-family: arial;
 		color: #444 !important;
 		width: 100%;
 	}
 
 	.qualifications-li {
 		display: list-item !important;
-		font-family: 'Myriad Pro';
+		font-family: arial;
 		color: #444 !important;
 		transition: none !important;
 		padding: 0px 0px !important;
@@ -951,7 +951,7 @@ a.contact-link {
 		font-size: 20px;
 		font-weight: bold !important;
 		color: #444 !important;
-		font-family: 'Myriad Pro' !important;
+		font-family: arial !important;
 		text-align: center !important;
 		margin: 0px auto !important;
 	}
@@ -982,7 +982,7 @@ a.contact-link {
 
 	.icons-text-time {
 		text-align: left;
-		font-family: 'Myriad Pro' !important;
+		font-family: arial !important;
 		color: #444 !important;
 		position: relative;
 		padding-bottom: 0px;
@@ -992,7 +992,7 @@ a.contact-link {
 
 	.icons-text-food {
 		text-align: left;
-		font-family: 'Myriad Pro' !important;
+		font-family: arial !important;
 		color: #444 !important;
 		position: relative;
 		padding-bottom: 0px;
@@ -1002,7 +1002,7 @@ a.contact-link {
 
 	.icons-text-voucher {
 		text-align: left;
-		font-family: 'Myriad Pro' !important;
+		font-family: arial !important;
 		color: #444 !important;
 		position: relative;
 		padding-bottom: 0px;
@@ -1012,7 +1012,7 @@ a.contact-link {
 
 	.icons-text-calendar {
 		text-align: left;
-		font-family: 'Myriad Pro' !important;
+		font-family: arial !important;
 		color: #444 !important;
 		position: relative;
 		padding-bottom: 0px;
@@ -1022,7 +1022,7 @@ a.contact-link {
 
 	.icons-text-agile {
 		text-align: left;
-		font-family: 'Myriad Pro' !important;
+		font-family: arial !important;
 		color: #444 !important;
 		position: relative;
 		padding-bottom: 0px;
@@ -1032,7 +1032,7 @@ a.contact-link {
 
 	.icons-text-fun {
 		text-align: left;
-		font-family: 'Myriad Pro' !important;
+		font-family: arial !important;
 		color: #444 !important;
 		position: relative;
 		padding-bottom: 0px;
@@ -1042,7 +1042,7 @@ a.contact-link {
 
 	.icons-text-challenge {
 		text-align: left;
-		font-family: 'Myriad Pro' !important;
+		font-family: arial !important;
 		color: #444 !important;
 		position: relative;
 		padding-bottom: 0px;
@@ -1052,7 +1052,7 @@ a.contact-link {
 
 	.icons-text-family {
 		text-align: left;
-		font-family: 'Myriad Pro' !important;
+		font-family: arial !important;
 		color: #444 !important;
 		position: relative;
 		padding-bottom: 0px;
@@ -1079,7 +1079,7 @@ a.contact-link {
 
 	.about-header {
 		color: white !important;
-		font-family: 'Myriad Pro';
+		font-family: arial;
 		font-size: 36px;
 		text-align: center;
 	}
@@ -1087,7 +1087,7 @@ a.contact-link {
 	.about-text {
 		max-width: 80%;
 		color: white !important;
-		font-family: 'Myriad Pro';
+		font-family: arial;
 		font-size: 14px;
 		text-align: justify;
 		margin: 5% auto 10%;
@@ -1109,7 +1109,7 @@ a.contact-link {
 
 	.contact-address-text {
 		color: white;
-		font-family: 'Myriad Pro';
+		font-family: arial;
 		font-size: 14px;
 	}
 
@@ -1123,7 +1123,7 @@ a.contact-link {
 		padding: 0px 0px !important;
 		font-size: 20px;
 		color: white;
-		font-family: 'Myriad Pro';
+		font-family: arial;
 		font-weight: bold;
 		width: 100%;
 	}
