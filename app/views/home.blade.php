@@ -137,7 +137,7 @@ $(document).ready(function(){
 	<div class="container-reviews">
 		<div class="review-content-outter-container">
 			<div class="review-content-container">
-				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/TIA.jpg" }}}' alt="TIA" class="review-image">
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/TIA.png" }}}' alt="TIA" class="review-image">
 				<a href="https://id.techinasia.com/itemku-marketplace-emitemem-dan-uang-game-online-di-indonesia" target="_blank" class="review-text">itemku: marketplace Gold dan Item game online di Indonesia</a>
 			</div>
 
@@ -147,12 +147,13 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
+<div class="space"></div>
 	
 </section>
 
 <section id="career">
-<div class="career">
 <div class="space"></div>
+<div class="career">
 <p class="what">Hiring Now</p>
 	<div class="career-container">
 		<div class="roles-container">
@@ -370,15 +371,15 @@ $(document).ready(function(){
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kiri.png" }}}' class="BG">
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kanan.png" }}}' class="BG">
 	</div>
-	<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/orang.png" }}}' class="mascot">
 
+	<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/orang.png" }}}' class="mascot">
 </section>
 
 <section id="what" name="what">
 	<div class="space"></div>
 	<a href="#what" class="menu-link" style="position: relative"><p class="what">What is it like to work in Five Jack ?</p></a>
 
-	
+<div class="icons-outer">
 	<div class="icons">
 		<div class="icons-container">
 			<div class="icons-row">
@@ -392,6 +393,10 @@ $(document).ready(function(){
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/voucher.png" }}}' class="icons-img">
 				<p class="icons-text-voucher">Monthly itemku member voucher: For every game you love to play</p>
+			</div>
+			<div class="icons-row">
+				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/Challenge.png" }}}' class="icons-img">
+				<p class="icons-text-challenge">Everyday is a new challenge</p>
 			</div>
 		</div>
 		<div class="icons-container">
@@ -407,18 +412,13 @@ $(document).ready(function(){
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/fun.png" }}}' class="icons-img">
 				<p class="icons-text-fun">Surrounded by smart, fun, and very tactical gamers</p>
 			</div>
-		</div>
-		<div class="icons-container">
-			<div class="icons-row">
-				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/challenge.png" }}}' class="icons-img">
-				<p class="icons-text-challenge">Everyday is a new challenge</p>
-			</div>
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/family.png" }}}' class="icons-img">
 				<p class="icons-text-family">A company that you can tell is family at the same time</p>
 			</div>
 		</div>
 	</div>
+</div>
 	</section>
 
 

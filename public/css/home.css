@@ -42,7 +42,7 @@
 }
 
 @font-face {
-	 font-family: keepCalm;
+	font-family: keepCalm;
     src: url(../font/KeepCalm-Medium.ttf);
 }
 
@@ -98,9 +98,11 @@
 
 .culture-font-agile {
 	font-size: 22px;
-	font-family: keepCalm;
+	font-family: keepCalm !important;
 	color: #07445d;
 	text-transform: uppercase;
+	padding-bottom: 0px !important;
+	margin-bottom:  0px !important;
 }
 
 .culture-font-hardcore {
@@ -108,6 +110,8 @@
 	font-family: keepCalm;
 	color: #07445d;
 	text-transform: uppercase;
+	padding-bottom: 0px !important;
+	margin-bottom:  0px !important;
 }
 
 .culture-font-data {
@@ -115,6 +119,8 @@
 	font-family: keepCalm;
 	color: #07445d;
 	text-transform: uppercase;
+	padding-bottom: 0px !important;
+	margin-bottom:  0px !important;
 }
 
 .product-page {	
@@ -125,13 +131,13 @@
     width: 70%;
     position: relative;
     margin: 0px auto;
-    text-align: left;
     vertical-align: middle;
 }
 
 .itemku {
 	float: left;
-	max-width: 360px;
+	max-width: 30%;
+	margin-right: 5%;
 }
 
 .itemku-logo {
@@ -141,7 +147,7 @@
 }
 
 .itemku-description {
-	font-family: "Myriad Pro";
+	font-family: "arial";
 	color: #444;
 	position: relative;
 	top: 35px;
@@ -154,26 +160,24 @@
 
 .situs-jualbeli {
 	color: #f59d26;
-	font-family: "Myriad Pro";
+	font-family: "arial";
 	font-weight: bold;
 	font-size: 20px;
 	font-style: italic;
 }
 
 .itemku-preview-container {
-	float: right;
 	position: relative;
-	max-width: 700px;
-	bottom: 40px;
 	vertical-align: middle;
 }
 
 .itemku-preview {
-	width: 100%;
+	float: right;
+	margin-left: 5%;
 }
 
 .reviewed-by {
-	font-family: "Myriad Pro";
+	font-family: "arial";
 	color: #444;
 	display: block;
 	font-size: 16px;
@@ -184,7 +188,7 @@
 
 .container-reviews {
 	text-align: center;
-    max-width: 50%;
+    max-width: 40%;
     position: relative;
     margin: 0px auto;
 }
@@ -193,29 +197,30 @@
 	display: flex;
 	justify-content: space-between;
 	vertical-align: middle;
+	margin-right: 5%;
 }
 
 .review-content-container {
-	display: block;
     max-width: 600px;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
+    margin-right: 5%;
 }
 
 .review-content-container-2 {
     max-width: 600px;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
-    margin-top: 3%;
+    margin-left: 5%;
 }
 
 .review-image {
-    width: 120px;
+    width: 160px;
     vertical-align: middle;
 }
 
 .review-image-2 {
-    width: 160px;
+    width: 140px;
     vertical-align: middle;
 }
 
@@ -293,7 +298,7 @@ a:hover {
 .software-description {
 	margin: 0px !important;
 	padding: 0px !important;
-	font-family: 'Myriad Pro';
+	font-family: 'arial';
 	color: #444 !important;
 	width: 100%;
 }
@@ -303,13 +308,13 @@ a:hover {
 	margin: 0px !important;
 	padding: 0px !important;
 	font-style: italic;
-	font-family: 'Myriad Pro';
+	font-family: 'arial';
 	color: #444 !important;
 }
 
 .qualifications-li {
 	display: list-item !important;
-	font-family: 'Myriad Pro';
+	font-family: 'arial';
 	color: #444 !important;
 	transition: none !important;
 	padding: 0px 0px !important;
@@ -334,14 +339,18 @@ a:hover {
 	font-size: 30px;
 	font-weight: bold !important;
 	color: #444 !important;
-	font-family: 'Myriad Pro' !important;
+	font-family: 'arial' !important;
 	text-align: center !important;
 	margin: 0px auto !important;
 	text-align: center;
 }
 
+.icons-outer {
+	width: 100%;
+}
+
 .icons {
-	width: 50%;
+	width: 85%;
 	margin: 30px auto;
 }
 
@@ -360,49 +369,49 @@ a:hover {
 
 .icons-text-time {
 	width: 220px;
-	font-family: 'Myriad Pro' !important;
+	font-family: 'arial' !important;
 	color: #444 !important;
 }
 
 .icons-text-food {
 	width: 220px;
-	font-family: 'Myriad Pro' !important;
+	font-family: 'arial' !important;
 	color: #444 !important;
 }
 
 .icons-text-voucher {
 	width: 220px;
-	font-family: 'Myriad Pro' !important;
+	font-family: 'arial' !important;
 	color: #444 !important;
 }
 
 .icons-text-calendar {
 	width: 220px;
-	font-family: 'Myriad Pro' !important;
+	font-family: 'arial' !important;
 	color: #444 !important;
 }
 
 .icons-text-agile {
 	width: 220px;
-	font-family: 'Myriad Pro' !important;
+	font-family: 'arial' !important;
 	color: #444 !important;
 }
 
 .icons-text-fun {
 	width: 220px;
-	font-family: 'Myriad Pro' !important;
+	font-family: 'arial' !important;
 	color: #444 !important;
 }
 
 .icons-text-challenge {
 	width: 220px;
-	font-family: 'Myriad Pro' !important;
+	font-family: 'arial' !important;
 	color: #444 !important;
 }
 
 .icons-text-family {
 	width: 220px;
-	font-family: 'Myriad Pro' !important;
+	font-family: 'arial' !important;
 	color: #444 !important;
 }
 
@@ -441,7 +450,7 @@ a:hover {
 
 .about-header {
 	color: white !important;
-	font-family: 'Myriad Pro';
+	font-family: 'arial';
 	font-size: 36px;
 	padding: 0px;
 	margin: 0px;
@@ -451,7 +460,7 @@ a:hover {
 	max-width: 240px;
 	margin-top: 20px;
 	color: white !important;
-	font-family: 'Myriad Pro';
+	font-family: 'arial';
 	font-size: 14px;
 	padding: 0px;
 	text-align: justify;
@@ -469,7 +478,7 @@ a:hover {
 .contact-address-text {
 	margin-bottom: 16px;
 	color: white;
-	font-family: 'Myriad Pro';
+	font-family: 'arial';
 	font-size: 14px;
 	padding-right: 0px !important;
 }
@@ -484,7 +493,7 @@ a:hover {
 	padding: 0px 0px !important;
 	font-size: 36px;
 	color: white;
-	font-family: 'Myriad Pro';
+	font-family: 'arial';
 	font-weight: bold;
 }
 
