@@ -555,8 +555,9 @@ a.contact-link {
 	height: 450px;
 }
 
-
+/*
 @media screen and (max-width: 500px) {
+	
   ul.all-li a {display: none;}
   a.mobile-nav {
     float: right;
@@ -564,15 +565,16 @@ a.contact-link {
     color: white;
     padding-top: 16px;
   }
-}
+} */
 
 @media screen and (max-width: 500px) {
+	/*
 	ul.responsive {position: relative;}
 	ul.responsive a.mobile-nav {
 	position: absolute;
 	right: 0;
 	top: 0;
-	}
+	} 
 
 	.responsive a {
 	float: none;
@@ -582,7 +584,7 @@ a.contact-link {
 	.responsive a li {
 	display: block;
 	text-align: left;
-	}
+	} */
 
 	body {
 		width: 100%;

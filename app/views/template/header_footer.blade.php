@@ -31,11 +31,11 @@ $(document).ready(function() {
 			<div id="menu">
 				<nav>
 					<ul class="all-li responsive" id="my_all_li">
-						<a id="menu_home" href="#home" class="menu-link"><li>HOME</li></a
-						><a id="menu_product" href="#product" class="menu-link"><li>PRODUCT</li></a
-						><a id="menu_career" href="#career" class="menu-link"><li>CAREER</li></a
-						><a id="menu_contact" href="#contact" class="menu-link"><li>CONTACT</li></a
-						><a href="javascript:void(0);" class="mobile-nav" onclick="myFunction()">&#9776;</a>
+						<a id="menu_home" href="#home" class="menu-link"><li><div class="icons-nav-home"></div><div class="text-nav">HOME</div></li></a
+						><a id="menu_product" href="#product" class="menu-link"><li><div class="icons-nav-product"></div><div class="text-nav">PRODUCT</div></li></a
+						><a id="menu_career" href="#career" class="menu-link"><li><div class="icons-nav-career"></div><div class="text-nav">CAREER</div></li></a
+						><a id="menu_contact" href="#contact" class="menu-link"><li><div class="icons-nav-contact"></div><div class="text-nav">CONTACT</div></li></a
+						>
 					</ul>
 				</nav>
 			</div>

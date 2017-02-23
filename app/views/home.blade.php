@@ -69,7 +69,8 @@ $(document).ready(function(){
         $("section:in-viewport").each(function() {
 			$('.menu-link-active').removeClass('menu-link-active');
 			sectionId = $(this).attr("id");
-			$("#menu_" + sectionId).addClass('menu-link-active');		  
+			$("#menu_" + sectionId).addClass('menu-link-active');
+				  
         });		
     });
 	
