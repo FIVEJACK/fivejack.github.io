@@ -22,7 +22,7 @@
 }
 
 .BG {
-	z-index: -100;
+	z-index: -1;
 }
 
 .uvp-container {
@@ -49,7 +49,6 @@
 .company-explained {
 	position: relative;
 	bottom: 33%;
-	font-size: 14px;
 	text-align: center;
 	max-width: 50%;
 	margin: 0 auto;
@@ -591,7 +590,7 @@ a.contact-link {
 
 	.space {
 		display: block;
-		height: 60px;
+		height: 50px;
 		width: 100%;
 	}
 
@@ -625,15 +624,16 @@ a.contact-link {
 	.uvp-container {
 		position: absolute;
 		width: 100%;
-		bottom: 24% !important;
+		margin-bottom: 40%;
+		bottom: 0%;
 	}
 
 	.uvpspace {
-		font-size: 20px;
+		font-size: 28px;
 		text-align: center;
 		font-family: keepCalm;
 		color: white;
-		margin: auto;
+		margin-bottom: 20%;
 		text-shadow: 0px 2px 30px #000;
 		width: 80%;
 	}
@@ -644,19 +644,19 @@ a.contact-link {
 	}
 
 	.company-explained {
-		position: absolute;
-		font-size: 10px;
-		text-align: center;
-		width: 100%;
+		position: relative;
+		text-align: justify;
+		font-size: 14px;
+		max-width: 80%;
 		font-family: arial;
-		margin: 0px auto;
-		text-shadow: 0px 1px 20px #000;
-		bottom: -8% !important;
-		padding-left: 25%;
+		text-shadow: none;
+		margin-top: 5%;
+		margin-bottom: 10%;
 	}
 
 	#company_explained {
-		color: white;
+		color: #444;
+		padding: 0px;
 	}
 
 	.fivejack-culture-title {
@@ -679,20 +679,20 @@ a.contact-link {
 
 	.culture-agile {
 		display: flex;
-		width: 70%;
+		width: 80%;
 		margin: 0% auto 10%;
 	}
 
 	.culture-hardcore {
 		display: flex;
-		width: 70%;
+		width: 80%;
 		margin: 0% auto 10%;
 	}
 
 	.culture-data {
-		display: inline-flex;
-		width: 70%;
-		margin: 0px auto;
+		display: flex;
+		width: 80%;
+		margin: 0px auto 10%;
 	}
 
 	.culture-img {
@@ -752,7 +752,7 @@ a.contact-link {
 	}
 
 	.itemku-description {
-		font-family: "Myriad Pro";
+		font-family: arial;
 		color: #444;
 		position: relative;
 		top: 35px;
@@ -766,7 +766,7 @@ a.contact-link {
 
 	.situs-jualbeli {
 		color: #f59d26;
-		font-family: "Myriad Pro";
+		font-family: arial;
 		font-weight: bold;
 		font-size: 20px;
 		font-style: italic;
@@ -782,21 +782,22 @@ a.contact-link {
 
 	.itemku-preview {
 		width: 84%;
+		float: none;
 		margin-left: 8%;
+		margin-top: 5%;
 	}
 
 	.reviewed-by {
-		font-family: "Myriad Pro";
+		font-family: arial;
 		color: #444;
 		position: relative;
 		font-size: 16px;
-		width: 100%;
-		margin-left: 3%;
+		margin-top: 15%;
 	}
 
 	.container-reviews {
 	    position: relative;
-	    width: 100%;
+	    max-width: 100%;
 	}
 
 	.review-content-outter-container {
@@ -804,20 +805,20 @@ a.contact-link {
 	}
 
 	.review-content-container {
-	    text-align: left;
+	    text-align: center;
+	    margin: 0%;
 	}
 
 	.review-content-container-2 {
 	   
-	    text-align: left;
-	    margin-top: 45%;
+	    text-align: center;
+	    margin-top: 10%;
 	}
 
 	.review-image {
 	    vertical-align: middle;
 	    width: 50%;
 	    position: relative;
-	    margin-left: -35%;
 	}
 
 	a {
@@ -833,19 +834,15 @@ a.contact-link {
 
 	.review-text {
 	   	text-align: left;
-	    font-size: 10px;
+	    font-size: 12px;
 	    color: #1982ad;
 	    vertical-align: middle;
-	    width: 30%;
-	    margin-left: -30%;
 	}
 
 	.review-image-2 {
 	   	vertical-align: middle;
 	    width: 50%;
 	    position: relative;
-	    margin-left: -35%;
-	    margin-top: -25%
 	}
 
 	.review-text-2 {
@@ -1067,7 +1064,7 @@ a.contact-link {
 	.contact-container{
 		display: block;
 		background-color: #07445d;
-		height: 1500px;
+		height: 850px;
 		width: 100%;
 	}
 
@@ -1075,6 +1072,7 @@ a.contact-link {
 		margin-left: 0px !important;
 		padding: 0px;
 		text-align: center;
+		margin-top: 10%;
 	}
 
 	.about-header {
@@ -1103,14 +1101,14 @@ a.contact-link {
 		width: 100%;
 	}
 
-	.contact-address-icon {
-		width: 100%;
+	.contact-address-icons {
+		margin-left: 6%;
 	}
 
 	.contact-address-text {
 		color: white;
 		font-family: arial;
-		font-size: 14px;
+		padding-left: 0px;
 	}
 
 	.keep-in-touch {
@@ -1130,12 +1128,15 @@ a.contact-link {
 
 	.socmeds {
 		width: 100%;
+		text-align: center;
+		display: block;
+		margin-top: 10px;
 	}
 
 	.contact-img-fb {
 		background-image: url("../images/facebook-off.png");
-		height: 60px;
-		display: inline-block;
+		margin-left: 25%;
+		float: left;
 	}
 
 	.contact-img-fb:hover {
@@ -1144,16 +1145,31 @@ a.contact-link {
 		transition: background-image 0.3s;
 	}
 
+	.contact-img-angellist {
+		background-image: url("../images/angellist-off.png");
+		margin-right: 25%;
+		float: right;
+	}
+
+	.contact-img-angellist:hover {
+		background-image: url("../images/angellist.png");
+		cursor: pointer;
+		transition: background-image 0.3s;
+	}
+
 	.contact-img-location {
-		width: 100%;
+		width: 60%;
+		margin-bottom: 180%;
+		margin-top: 5%;
 	}
 
 	.contact-img-address {
-		width: 100%;
+		width: 60%;
+		margin-bottom: 50%;
 	}
 
 	.contact-img-email {
-		width: 100%;
+		width: 60%;
 	}
 
 	#map {
@@ -1166,7 +1182,8 @@ a.contact-link {
 	.mascot {
 		display: block;
 		width: 48%;
-		padding: 5%;
+		padding: 5% 0% 0% 0%;
+		margin-top: 5%;
 		text-align: center;
 	}
 
