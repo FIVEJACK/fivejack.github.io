@@ -1,6 +1,7 @@
 @extends('template.base')
 
 @section('css_import')
+@yield('meta_tag')
 <link rel="stylesheet" type="text/css" href='{{{ Config::get("constant.RESOURCE_URL") . "css/header_footer.css" }}}'>
 @stop
 
@@ -25,16 +26,16 @@ $(document).ready(function() {
 	<div class="header">
 		<div class="header_context">
 			<div class="fivejacklogo">
-				<a href='{{{ Config::get("constant.BASE_URL") }}}'><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/logo.png" }}}' width="130" height="20" alt="logo"></a>
+				<a href='{{{ Config::get("constant.BASE_URL") }}}'><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/logo.png" }}}' width="130" height="20" alt="logo" class="fivejacklogo"></a>
 			</div>	
 			<div id="menu">
 				<nav>
-					<ul class="all-li" id="my_all_li">
-						<a id="menu_home" href="#home" class="menu-link"><li>HOME</li></a
-						><a id="menu_product" href="#product" class="menu-link"><li>PRODUCT</li></a
-						><a id="menu_career" href="#career" class="menu-link"><li>CAREER</li></a
-						><a id="menu_contact" href="#contact" class="menu-link"><li>CONTACT</li></a
-						><li class="mobile-nav"></li>
+					<ul class="all-li responsive" id="my_all_li">
+						<a id="menu_home" href="#home" class="menu-link"><li><div class="icons-nav-home"></div><div class="text-nav">HOME</div></li></a
+						><a id="menu_product" href="#product" class="menu-link"><li><div class="icons-nav-product"></div><div class="text-nav">PRODUCT</div></li></a
+						><a id="menu_career" href="#career" class="menu-link"><li><div class="icons-nav-career"></div><div class="text-nav">CAREER</div></li></a
+						><a id="menu_contact" href="#contact" class="menu-link"><li><div class="icons-nav-contact"></div><div class="text-nav">CONTACT</div></li></a
+						>
 					</ul>
 				</nav>
 			</div>

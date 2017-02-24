@@ -5,6 +5,7 @@ Five Jack - Gamer's Heaven
 @stop
 
 @section('meta_tag')
+<meta name=viewport content="width=device-width, initial-scale=1">
 <meta name="description" content="Fivejack, a startup company in game related products. Fivejack has committed to be the best service platform for gamer. Itemku is the pioneer platform in Indonesia to supply information about price of game item and game money">
 @stop
 
@@ -68,7 +69,8 @@ $(document).ready(function(){
         $("section:in-viewport").each(function() {
 			$('.menu-link-active').removeClass('menu-link-active');
 			sectionId = $(this).attr("id");
-			$("#menu_" + sectionId).addClass('menu-link-active');		  
+			$("#menu_" + sectionId).addClass('menu-link-active');
+				  
         });		
     });
 	

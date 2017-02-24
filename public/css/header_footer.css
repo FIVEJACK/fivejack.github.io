@@ -33,7 +33,7 @@ p {
 }
 
 .container {
-	min-width:980px;
+	min-width: 980px;
 	width: 100%;
 	height: auto;
 	margin-top: 0;
@@ -68,7 +68,7 @@ p {
 }
 
 .header_context {
-	max-width:1100px;
+	max-width: 1100px;
 	height: 50px;
 	background-color: #07445d;
 	margin: auto;
@@ -76,7 +76,7 @@ p {
 
 .fivejacklogo {
 	float: left;
-	padding-top:15px;
+	padding-top: 8px;
 }
 
 #menu {
@@ -90,12 +90,11 @@ p {
 	list-style-type: none;
 	display: inline-block;
 	position: relative;
-	bottom: 2px;
 }
 
 li {
 	display: inline-block;
-	padding: 16px 15px 16px 15px;
+	padding: 15px 15px 15px 15px;
 }
 
 li:hover {
@@ -117,7 +116,7 @@ li:hover {
 
 .menu-link-active {
 	font-weight: bold;
-	padding: 17px 0px 18px 0px;
+	padding: 17px 0px 17px 0px;
 	color: #07445d;
 	background-color: white;
 	cursor: pointer;
@@ -127,10 +126,194 @@ li:hover {
 .li-active {
 	color: #07445d;
 	background-color: white;
-	transition: 0.3s;
 	cursor: pointer;
 	text-decoration: none;
 }
 
 .mobile-nav {
+	display: none;
+}
+
+.icons-nav-home {
+	display: none;
+}
+
+.icons-nav-product {
+	display: none;
+}
+
+.icons-nav-career {
+	display: none;
+}
+
+.icons-nav-contact {
+	display: none;
+}
+
+.text-nav {
+		display: inline-block;
+	}
+
+@media screen and (max-width: 500px) {
+
+	.container {
+		max-width: 500px;
+		min-width: 0px;
+	}
+
+	.footer {
+		max-width: 100%;
+	}
+
+	.footer_context {
+		max-width: 500px;
+	}
+
+	.header {
+		width: 100%;
+	}
+
+	.header_context {
+		max-width: 100%;
+	}
+
+	.fivejacklogo {
+		width: 50%;
+		height: 50%;
+		margin: 0% 0% 0% 25%;
+		padding-top: 10px !important;
+	}
+
+	#menu {
+		width: 100%;
+		bottom: 0;
+		position: fixed;
+	}
+
+	ul.all-li {
+		text-align: center;
+		width: 100%;
+		position: relative;
+		display: block;
+		background: #07445d;
+		overflow: auto;
+		overflow-scrolling: touch;
+		box-shadow: 0px -4px 10px rgba(0,0,0,0.5);
+		height: 10%;
+	}
+
+	li.all-li {
+		display: none;
+		text-align: center;
+		position: relative;
+		display: inline-block;
+		background: #07445d;
+		overflow: auto;
+		overflow-scrolling: touch;
+	}
+
+	li {
+		display: inline-block;
+		padding: 3px 14px;
+	}
+
+	li:hover {
+		transition: 0s;
+		background-color: transparent;
+	}
+	
+	.icons-nav-home {
+		display: inline-block;
+	}
+
+	.icons-nav-home {
+		background-image: url("../images/icon-home-invert.png");
+		position: relative;
+    	top: 5px;
+    	height: 45px;
+    	width: 45px;
+
+	}
+
+	.icons-nav-product {
+		display: inline-block;
+	}
+
+	.icons-nav-product {
+		background-image: url("../images/icon-product-invert.png");
+		position: relative;
+		top: 5px;
+    	height: 45px;
+    	width: 45px;
+	}
+
+	.icons-nav-career {
+		display: inline-block;
+	}
+
+	.icons-nav-career {
+		background-image: url("../images/icon-career-invert.png");
+		position: relative;
+    	top: 5px;
+    	height: 45px;
+    	width: 45px;
+	}
+
+	.icons-nav-contact {
+		display: inline-block;
+	}
+
+	.icons-nav-contact {
+		background-image: url("../images/icon-contact-invert.png");
+		position: relative;
+    	top: 5px;
+    	height: 45px;
+    	width: 45px;
+	}
+
+	.menu-link {
+		opacity: 1;
+	}
+
+	.menu-link-active {
+		font-weight: bold;
+	    padding: 59px 0px 5px 0px;
+	    cursor: pointer;
+		text-decoration: none;
+		background-color: transparent;
+		opacity: 1;
+	}
+
+/*
+	.menu-link-active .icons-nav-home {
+		background-image: url("../images/icon-home.png");
+	}	
+*/
+
+	.menu-link-active .icons-nav-home {
+		background-image: url("../images/icon-home.png");
+	}
+
+	.menu-link-active .icons-nav-product {
+		background-image: url("../images/icon-product.png");
+	}
+
+	.menu-link-active .icons-nav-career {
+		background-image: url("../images/icon-career.png");
+	}
+
+	.menu-link-active .icons-nav-contact {
+		background-image: url("../images/icon-contact.png");
+	}
+
+	.text-nav {
+		display: block;
+		color: white;
+	}
+
+	a {
+		padding: 0px;
+	}
+
+
 }
