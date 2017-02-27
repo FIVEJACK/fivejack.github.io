@@ -285,12 +285,6 @@ li:hover {
 		opacity: 1;
 	}
 
-/*
-	.menu-link-active .icons-nav-home {
-		background-image: url("../images/icon-home.png");
-	}	
-*/
-
 	.menu-link-active .icons-nav-home {
 		background-image: url("../images/icon-home.png");
 	}
