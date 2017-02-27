@@ -2,6 +2,7 @@
 
 @section('css_import')
 @yield('meta_tag')
+<link rel="icon" href="/image/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href='{{{ Config::get("constant.RESOURCE_URL") . "css/header_footer.css" }}}'>
 @stop
 

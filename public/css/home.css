@@ -26,7 +26,7 @@
 }
 
 .uvp-container {
-	bottom: 30%;
+	bottom: 35%;
 	position: relative;
 }
 
@@ -48,7 +48,7 @@
 
 .company-explained {
 	position: relative;
-	bottom: 33%;
+	bottom: 38%;
 	text-align: center;
 	max-width: 50%;
 	margin: 0 auto;
@@ -181,7 +181,7 @@
 	display: block;
 	font-size: 16px;
 	text-align: center;
-	margin: 0px auto;
+	margin: 0px auto 1%;
 	font-weight: bold;
 }
 
@@ -196,14 +196,13 @@
 	display: flex;
 	justify-content: space-between;
 	vertical-align: middle;
-	margin-right: 5%;
 }
 
 .review-content-container {
     max-width: 600px;
     text-align: left;
     vertical-align: middle;
-    margin-right: 5%;
+    margin-right: 0%;
 }
 
 .review-content-container-2 {
@@ -218,8 +217,8 @@
     vertical-align: middle;
 }
 
-.review-image-2 {
-    width: 140px;
+.review-image-e27 {
+    width: 60px;
     vertical-align: middle;
 }
 
@@ -234,7 +233,7 @@ a:hover {
 
 .review-text {
     display: block;
-    max-width: 210px;
+    max-width: 180px;
     margin: 10px auto;
     padding: 0px;
     text-align: justify;
@@ -555,6 +554,10 @@ a.contact-link {
 	height: 450px;
 }
 
+.other-jobs {
+	display: none;
+}
+
 /*
 @media screen and (max-width: 500px) {
 	
@@ -626,16 +629,14 @@ a.contact-link {
 	.uvp-container {
 		position: absolute;
 		width: 100%;
-		margin-bottom: 40%;
-		bottom: 0%;
 	}
 
 	.uvpspace {
-		font-size: 28px;
+		font-size: 160%;
 		text-align: center;
 		font-family: keepCalm;
 		color: white;
-		margin-bottom: 15%;
+		margin-bottom: 9%;
 		text-shadow: 0px 2px 30px #000;
 		width: 80%;
 	}
@@ -795,6 +796,7 @@ a.contact-link {
 		position: relative;
 		font-size: 16px;
 		margin-top: 15%;
+		padding: 0px;
 	}
 
 	.container-reviews {
@@ -808,13 +810,15 @@ a.contact-link {
 
 	.review-content-container {
 	    text-align: center;
-	    margin: 0%;
+	    margin-top: 10%;
+	    margin-right: 0px;
+	    margin-left: 0px;
 	}
 
 	.review-content-container-2 {
-	   
 	    text-align: center;
 	    margin-top: 10%;
+	    margin-left: 0px;
 	}
 
 	.review-image {
@@ -835,38 +839,13 @@ a.contact-link {
 	}
 
 	.review-text {
-	   	text-align: left;
+	   	text-align: justify;
 	    font-size: 12px;
 	    color: #1982ad;
 	    vertical-align: middle;
-	}
-
-	.review-image-2 {
-	   	vertical-align: middle;
-	    width: 50%;
-	    position: relative;
-	}
-
-	.review-text-2 {
-	    text-align: left;
-	    font-size: 12px;
-	    color: #1982ad;
-	    vertical-align: middle;
-	    width: 50%;
-	    margin-left: 5%;
-	}
-
-	.review-text-2:active {
-		color: purple;
-		width: 100%;
 	}
 
 	.review-text:visited {
-		color: purple;
-		width: 100%;
-	}
-
-	.review-text-2:visited {
 		color: purple;
 		width: 100%;
 	}
@@ -1063,10 +1042,10 @@ a.contact-link {
 		width: 100%;
 	}
 
-	.contact-container{
+	.contact-container {
 		display: block;
 		background-color: #07445d;
-		height: 850px;
+		height: 800px;
 		width: 100%;
 	}
 
@@ -1184,13 +1163,77 @@ a.contact-link {
 	.mascot {
 		display: block;
 		width: 48%;
-		padding: 5% 0% 0% 0%;
+		padding: 0%;
 		margin-top: 5%;
 		text-align: center;
 	}
 
-	.coba {
-		background-attachment: 
+	.other-jobs {
+		display: block;
+		vertical-align: middle;
+		width: 100%;
+		text-align: center;
+		margin: 10% auto 3%;
+		font-family: keepCalm;
 	}
 
+	.other-jobs-text {
+		color: #07445d;
+		font-weight: bold;
+		margin-top: 0.5%;
+	}
+
+	.fa-chevron-circle-up {
+		font-size: 30px;
+		color: #07445d;
+	}
+
+}
+
+@media screen and (max-width: 1025px) and (min-width: 501px) {
+
+	.icons-img {
+		max-width: 120px;
+	}
+
+	.icons-text-time {
+		width: 90%;
+	}
+
+	.icons-text-food {
+		width: 90%;
+	}
+
+	.icons-text-voucher {
+		width: 90%;
+	}
+
+	.icons-text-challenge {
+		width: 90%;
+	}
+
+	.icons-text-calendar {
+		width: 90%;
+	}
+
+	.icons-text-agile {
+		width: 90%;
+	}
+
+	.icons-text-fun {
+		width: 90%;
+	}
+
+	.icons-text-family {
+		width: 90%;
+	}
+
+	.icons-row {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+
+	.contact-container {
+		height: 400px;
+	}
 }
