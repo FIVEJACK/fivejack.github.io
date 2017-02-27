@@ -75,6 +75,15 @@ $(document).ready(function(){
 				  
         });		
     });
+
+    $(window).bind("scroll", function(event) {		
+        $("section:in-viewport").each(function() {
+			$('.menu-link-active').removeClass('menu-link-active');
+			sectionId = $(this).attr("id");
+			$("#menu_" + sectionId).addClass('menu-link-active');
+				  
+        });		
+    });
 	
 });
 
@@ -140,16 +149,13 @@ $(document).ready(function(){
 	<div class="container-reviews">
 		<div class="review-content-outter-container">
 			<div class="review-content-container">
-				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/TIA.png" }}}' alt="TIA" class="review-image">
-				<a href="https://id.techinasia.com/itemku-marketplace-emitemem-dan-uang-game-online-di-indonesia" target="_blank" class="review-text">itemku: marketplace Gold dan Item game online di Indonesia</a>
+				<a href="https://id.techinasia.com/itemku-marketplace-emitemem-dan-uang-game-online-di-indonesia" target="_blank"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/TIA.png" }}}' alt="TIA" class="review-image"></a>
 			</div>
 			<div class="review-content-container-2">
-				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/500startups.png" }}}' alt="500 startup" class="review-image">
-				<a href="http://500distro.asia/distro-growth-report/itemku/" target="_blank" class="review-text">Supercharged A Low-Converting Funnel By 45%</a>
+				<a href="http://500distro.asia/distro-growth-report/itemku/" target="_blank"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/500startups.png" }}}' alt="500 startup" class="review-image"></a>
 			</div>
 			<div class="review-content-container-2">
-				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/e27.png" }}}' alt="e27" class="review-image-e27">
-				<a href="https://e27.co/online-gaming-marketplace-itemku-raises-seed-funding-500-startups-20160115/" target="_blank" class="review-text">Online gaming marketplace itemku raises seed funding from 500 Startups</a>
+				<a href="https://e27.co/online-gaming-marketplace-itemku-raises-seed-funding-500-startups-20160115/" target="_blank"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/e27.png" }}}' alt="e27" class="review-image-e27"></a>
 			</div>
 		</div>
 	</div>
@@ -163,14 +169,15 @@ $(document).ready(function(){
 <p class="what">Hiring Now</p>
 	<div class="career-container">
 		<div class="roles-container">
-			<p class="roles" id="se_menu" onclick="showJob('se')">Software Engineer</p>
-			<p class="roles" id="sdm_menu" onclick="showJob('sdm')">Senior Digital Marketer</p>
-			<p class="roles" id="finance_menu" onclick="showJob('finance')">Finance</p>
-			<p class="roles" id="ggr_menu" onclick="showJob('ggr')">Global Game Researcher</p>
-			<p class="roles" id="ie_menu" onclick="showJob('ie')">Product Manager</p>
-			<p class="roles" id="sux_menu" onclick="showJob('sux')">Senior UX Designer</p>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('se')">Software Engineer</p></a>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('sdm')">Senior Digital Marketer</p></a>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('finance')">Finance</p></a>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('ggr')">Global Game Researcher</p></a>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('ie')">Product Manager</p></a>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('sux')">Senior UX Designer</p></a>
 		</div>
-	
+		
+		<section id="job_content">
 		<div class="software-engineer job-content" id="se">
 			<p class="software-description">We are looking for <span style="font-weight: bold;">Software Engineer</span> with a strong sense of ownership and a passion to learn something new. As part of the team, you will be given the chance to <span style="font-weight: bold;">design, build, improve, or maintain our web service and back-end system, which are based on open-source technology such as Laravel Framework and Elastic</span>. Successful candidates must also be <span style="font-weight: bold;">innovative, flexible, self-directed, and able to design and write reliable, maintainable code</span>.</p>
 			<br>
@@ -316,6 +323,7 @@ $(document).ready(function(){
 					<li class="qualifications-li">Ability to maintain composure and sense of humor in high-pressure situations.</li>
 				</ul>
 		</div>
+		</section>
 	</div>
 </div>
 

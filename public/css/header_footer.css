@@ -231,8 +231,8 @@ li:hover {
 		background-image: url("../images/icon-home-invert.png");
 		position: relative;
     	top: 5px;
-    	height: 35px;
-    	width: 35px;
+    	height: 30px;
+    	width: 30px;
 
 	}
 
@@ -244,8 +244,8 @@ li:hover {
 		background-image: url("../images/icon-product-invert.png");
 		position: relative;
 		top: 5px;
-    	height: 35px;
-    	width: 35px;
+    	height: 30px;
+    	width: 30px;
 	}
 
 	.icons-nav-career {
@@ -256,8 +256,8 @@ li:hover {
 		background-image: url("../images/icon-career-invert.png");
 		position: relative;
     	top: 5px;
-    	height: 35px;
-    	width: 35px;
+    	height: 30px;
+    	width: 30px;
 	}
 
 	.icons-nav-contact {
@@ -268,8 +268,8 @@ li:hover {
 		background-image: url("../images/icon-contact-invert.png");
 		position: relative;
     	top: 5px;
-    	height: 35px;
-    	width: 35px;
+    	height: 30px;
+    	width: 30px;
 	}
 
 	.menu-link {
