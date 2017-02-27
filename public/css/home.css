@@ -1042,7 +1042,7 @@ a.contact-link {
 		width: 100%;
 	}
 
-	.contact-container{
+	.contact-container {
 		display: block;
 		background-color: #07445d;
 		height: 800px;
@@ -1231,5 +1231,9 @@ a.contact-link {
 	.icons-row {
 		margin-left: 3%;
 		margin-right: 3%;
+	}
+
+	.contact-container {
+		height: 400px;
 	}
 }
