@@ -195,7 +195,7 @@
 .review-content-outter-container {
 	display: flex;
 	justify-content: space-between;
-	vertical-align: middle;
+	align-items: center;
 }
 
 .review-content-container {
@@ -328,13 +328,21 @@ a:hover {
 	cursor: auto !important;
 }
 
+.sendcv {
+	margin: 35px auto;
+	text-align: center;
+	padding: 0px;
+	font-family: 'arial';
+	color: #444 !important;
+	}
+
 .mascot {
 	position: relative;
 	display: block;
 	text-align: center;
 	width: 250px;
 	margin: 0px auto;
-	padding: 50px 0px 0px 0px;
+	padding: 0px;
 }
 
 .what {
@@ -817,12 +825,14 @@ a.contact-link {
 	    margin-top: 10%;
 	    margin-right: 0px;
 	    margin-left: 0px;
+	    vertical-align: middle;
 	}
 
 	.review-content-container-2 {
 	    text-align: center;
 	    margin-top: 10%;
 	    margin-left: 0px;
+	    vertical-align: middle;
 	}
 
 	.review-image {
@@ -1153,13 +1163,13 @@ a.contact-link {
 
 	.contact-img-location {
 		width: 60%;
-		margin-bottom: 180%;
+		margin-bottom: 255%;
 		margin-top: 5%;
 	}
 
 	.contact-img-address {
 		width: 60%;
-		margin-bottom: 50%;
+		margin-bottom: 60%;
 	}
 
 	.contact-img-email {
@@ -1171,6 +1181,14 @@ a.contact-link {
 		text-align: center;
 		height: 450px;
 		width: 100%;
+	}
+
+	.sendcv {
+	margin: 35px auto;
+	text-align: center;
+	padding: 0px;
+	font-family: 'arial';
+	color: #444 !important;
 	}
 
 	.mascot {
@@ -1248,5 +1266,20 @@ a.contact-link {
 
 	.contact-container {
 		height: 400px;
+	}
+
+	.contact-img-location {
+		width: 60%;
+		margin-bottom: 335%;
+		margin-top: 5%;
+	}
+
+	.contact-img-address {
+		width: 60%;
+		margin-bottom: 70%;
+	}
+
+	.contact-img-email {
+		width: 60%;
 	}
 }
