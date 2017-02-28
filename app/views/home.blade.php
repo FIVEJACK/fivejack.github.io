@@ -70,7 +70,7 @@ $(document).ready(function(){
 		
 	// Highlight function
 	$(window).bind("scroll", function(event) {		
-        $("section:in-viewport").each(function() {
+        $($("section:in-viewport").get().reverse()).each(function() {
 			$('.menu-link-active').removeClass('menu-link-active');
 			sectionId = $(this).attr("id");
 			$("#menu_" + sectionId).addClass('menu-link-active');
@@ -377,14 +377,12 @@ $(document).ready(function(){
 </div>
 </section>
 
-
-
-
 <div class="space"></div>
+
 <div class="contact">
-<section id="office_address">
-	<div id="map"></div>
-</section>
+	<div id="office_address">
+		<div id="map"></div>
+	</div>
 <section id="contact">
 		<div class="contact-container">
 			<div class="about">
