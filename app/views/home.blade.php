@@ -127,7 +127,7 @@ $(document).ready(function(){
 <div class="space"></div>
 	<div class="product-page">
 		<div class="itemku">
-			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku logo.png" }}}' alt="itemku logo" class="itemku-logo">
+			<a href="https://itemku.com/" target="_blank"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku logo.png" }}}' alt="itemku logo" class="itemku-logo"></a>
 			<p class="itemku-description">itemku is the biggest <span class="situs-jualbeli">marketplace</span> in the Indonesian online game community and has the <span style="font-style: italic; font-weight: bold">"itemku Safe Trading"</span> service which guarantees 100% safe trading. In itemku, <span style="font-style: italic; font-weight: bold">safe trading</span> is not the only thing that our buyers and sellers have, but they also have the <span style="font-style: italic; font-weight: bold">easiness</span> and <span style="font-style: italic; font-weight: bold">convenience</span> when doing their transactions.</p>
 
 			<div class="space"></div>
