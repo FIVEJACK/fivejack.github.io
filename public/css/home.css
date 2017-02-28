@@ -1139,24 +1139,28 @@ a.contact-link {
 		background-image: url("../images/facebook-off.png");
 		margin-left: 25%;
 		float: left;
+		background-repeat: no-repeat;
 	}
 
 	.contact-img-fb:hover {
 		background-image: url("../images/facebook.png");
 		cursor: pointer;
 		transition: background-image 0.3s;
+		width: 60px;
 	}
 
 	.contact-img-angellist {
 		background-image: url("../images/angellist-off.png");
 		margin-right: 25%;
 		float: right;
+		background-repeat: no-repeat;
 	}
 
 	.contact-img-angellist:hover {
 		background-image: url("../images/angellist.png");
 		cursor: pointer;
 		transition: background-image 0.3s;
+		width: 60px;
 	}
 
 	.contact-img-location {
