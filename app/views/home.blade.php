@@ -5,12 +5,14 @@ Five Jack - Gamer's Heaven
 @stop
 
 @section('meta_tag')
+
 <meta name=viewport content="width=device-width, initial-scale=1">
 <meta name="description" content="Fivejack, a startup company in game related products. Fivejack has committed to be the best service platform for gamer. Itemku is the pioneer platform in Indonesia to supply information about price of game item and game money">
 @stop
 
 @section('css_import')
 @parent
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href='{{{ Config::get("constant.RESOURCE_URL") . "css/home.css" }}}'>
 @stop
@@ -57,6 +59,7 @@ function showJob(jobName)
 }
 	
 $(document).ready(function(){
+	// Scroll function
 	$('a[href^="#"]').on('click',function (e) {
 		e.preventDefault();
 		var target = this.hash;
@@ -65,6 +68,7 @@ $(document).ready(function(){
 		$('html, body').stop().animate({ 'scrollTop': $target.offset().top }, 1000, 'swing', function () { window.location.hash = target; });
 	});
 		
+	// Highlight function
 	$(window).bind("scroll", function(event) {		
         $("section:in-viewport").each(function() {
 			$('.menu-link-active').removeClass('menu-link-active');
@@ -73,7 +77,6 @@ $(document).ready(function(){
 				  
         });		
     });
-	
 });
 
 </script>
@@ -133,18 +136,18 @@ $(document).ready(function(){
 		</div>
 	</div>
 
-	<div><p class="reviewed-by">Reviewed by:</p></div>
+	<div><p class="reviewed-by">Featured in:</p></div>
 	
 	<div class="container-reviews">
 		<div class="review-content-outter-container">
 			<div class="review-content-container">
-				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/TIA.png" }}}' alt="TIA" class="review-image">
-				<a href="https://id.techinasia.com/itemku-marketplace-emitemem-dan-uang-game-online-di-indonesia" target="_blank" class="review-text">itemku: marketplace Gold dan Item game online di Indonesia</a>
+				<a href="https://id.techinasia.com/itemku-marketplace-emitemem-dan-uang-game-online-di-indonesia" target="_blank"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/TIA.png" }}}' alt="TIA" class="review-image"></a>
 			</div>
-
 			<div class="review-content-container-2">
-				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/daily social.png" }}}' alt="Daily Social" class="review-image-2">
-				<a href="https://dailysocial.net/post/itemku-marketplace-game-item-game-money" target="_blank" class="review-text">itemku Fokus Menjadi Marketplace dan Situs Pembanding Harga untuk “Game Item” dan “Game Money”</a>
+				<a href="http://500distro.asia/distro-growth-report/itemku/" target="_blank"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/500startups.png" }}}' alt="500 startup" class="review-image"></a>
+			</div>
+			<div class="review-content-container-2">
+				<a href="https://e27.co/online-gaming-marketplace-itemku-raises-seed-funding-500-startups-20160115/" target="_blank"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/e27.png" }}}' alt="e27" class="review-image-e27"></a>
 			</div>
 		</div>
 	</div>
@@ -158,212 +161,160 @@ $(document).ready(function(){
 <p class="what">Hiring Now</p>
 	<div class="career-container">
 		<div class="roles-container">
-			<p class="roles" id="se_menu" onclick="showJob('se')">Software Engineer</p>
-			<p class="roles" id="jux_menu" onclick="showJob('jux')">Junior UX Designer</p>
-			<p class="roles" id="sux_menu" onclick="showJob('sux')">Senior UX Designer</p>
-			<p class="roles" id="ie_menu" onclick="showJob('ie')">itemku Expert</p>
-			<p class="roles" id="cc_menu" onclick="showJob('cc')">Content Creator</p>
-			<p class="roles" id="sdm_menu" onclick="showJob('sdm')">Senior Digital Marketer</p>
-			<p class="roles" id="ggr_menu" onclick="showJob('ggr')">Global Game Researcher</p>
-			<p class="roles" id="finance_menu" onclick="showJob('finance')">Finance</p>
-			<p class="roles" id="cs_menu" onclick="showJob('cs')">Customer Service</p>
-		</div>
-	
-		<div class="software-engineer job-content" id="se">
-			<p class="software-description">We are looking for Software Engineer with a strong sense of ownership and a passion to learn something new. As part of the team, you will be given the chance to design, build, improve, or maintain our web service and back-end system, which are based on open-source technology such as Laravel Framework and Elastic. Successful candidates must also be innovative, flexible, self-directed, and able to design and write reliable, maintainable code.</p>
-			<br>
-			<p class="qualifications">Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Excellent understanding of Object-Oriented design and concepts, design patterns, and algorithms.</li>
-					<li class="qualifications-li">Fluency in at least one programming language.</li>
-					<li class="qualifications-li">S1 degree in Computer Science or equivalent from a reputable university (GPA has to be higher than 3.0).</li>
-					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
-				</ul>
-			<br>
-			<p class="qualifications">Preferred Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Experience programming in an open source environment.</li>
-					<li class="qualifications-li">Experience programming in PHP and its MVC framework.</li>
-					<li class="qualifications-li">Good understanding of SQL and database.</li>
-					<li class="qualifications-li">Good understanding of Microservice Architecture or Service-oriented Architecture (SOA).</li>
-				</ul>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('se')">Software Engineer</p></a>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('sdm')">Senior Digital Marketer</p></a>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('finance')">Finance</p></a>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('ggr')">Global Game Researcher</p></a>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('ie')">Product Manager</p></a>
+			<a href="#job_content" class="menu-link"><p class="roles" onclick="showJob('sux')">Senior UX Designer</p></a>
 		</div>
 		
-		<div class="software-engineer job-content" id="jux" style="display: none">
-			<p class="software-description">We are looking for experienced UX Designer with a strong sense of ownership and a passion to create better product to our users. As part of the team, you will be given the chance to design, build, and improve/maintain our web service and front-end design.</p>
-			<br>
-			<p class="qualifications">Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Minimum 1 Year working experience as a UX Designer.</li>
-					<li class="qualifications-li">Bachelor Degree in Graphic Design or any major related</li>
-					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
-					<li class="qualifications-li">Advanced with using Adobe Photoshop and Illustrator.</li>
-					<li class="qualifications-li">Prototyping skills and basic working knowledge of HTML5/CSS3.</li>
-					<li class="qualifications-li">Ability to develop using HTML5/CSS3.</li>
-				</ul>
-			<br>
-			<p class="qualifications">Preferred Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Have knowledge in a/b test environment.</li>
-				</ul>
-		</div>
+		<div id="job_content">
+			<div class="software-engineer job-content" id="se">
+				<p class="software-description">We are looking for <span style="font-weight: bold;">Software Engineer</span> with a strong sense of ownership and a passion to learn something new. As part of the team, you will be given the chance to <span style="font-weight: bold;">design, build, improve, or maintain our web service and back-end system, which are based on open-source technology such as Laravel Framework and Elastic</span>. Successful candidates must also be <span style="font-weight: bold;">innovative, flexible, self-directed, and able to design and write reliable, maintainable code</span>.</p>
+				<br>
+				<p class="qualifications">Interview Process</p>
+					<ul>
+						<li class="qualifications-li">Online coding interview.</li>
+						<li class="qualifications-li">Phone interview.</li>
+						<li class="qualifications-li">Live coding interview.</li>
+					</ul>
+				<br>
+				<p class="qualifications">Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Excellent understanding of Object-Oriented design and concepts, design patterns, and <span style="font-weight: bold; text-transform: uppercase;">algorithms</span>.</li>
+						<li class="qualifications-li">Fluency in at least one programming language.</li>
+						<li class="qualifications-li">S1 degree in Computer Science or equivalent from a reputable university (GPA has to be higher than 3.0).</li>
+						<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
+					</ul>
+				<br>
+				<p class="qualifications">Preferred Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Experience programming in an open source environment.</li>
+						<li class="qualifications-li">Experience programming in PHP and its MVC framework.</li>
+						<li class="qualifications-li">Good understanding of SQL and database.</li>
+						<li class="qualifications-li">Good understanding of Microservice Architecture or Service-oriented Architecture (SOA).</li>
+					</ul>
+			</div>
 
-		<div class="software-engineer job-content" id="sux" style="display: none">
-			<p class="software-description">We are looking for experienced UX Designer with a strong sense of ownership and a passion to create better product to our users. As part of the team, you will be given the chance to lead, design, build, and improve/maintain our web service and front-end design.</p>
-			<br>
-			<p class="qualifications">Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Minimum 1 Year working experience as a UX Designer.</li>
-					<li class="qualifications-li">Bachelor Degree in Graphic Design or any major related</li>
-					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
-					<li class="qualifications-li">Advanced with using Adobe Photoshop and Illustrator.</li>
-					<li class="qualifications-li">Prototyping skills and basic working knowledge of HTML5/CSS3.</li>
-					<li class="qualifications-li">Ability to develop using HTML5/CSS3.</li>
-				</ul>
-		</div>
+			<div class="software-engineer job-content" id="sux" style="display: none">
+				<p class="software-description">We are looking for experienced UX Designer with a strong sense of ownership and a passion to create better product to our users. As part of the team, you will be given the chance to lead, design, build, and improve/maintain our web service and front-end design.</p>
+				<br>
+				<p class="qualifications">Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Minimum 1 Year working experience as a UX Designer.</li>
+						<li class="qualifications-li">Bachelor Degree in Graphic Design or any major related</li>
+						<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
+						<li class="qualifications-li">Advanced with using Adobe Photoshop and Illustrator.</li>
+						<li class="qualifications-li">Prototyping skills and basic working knowledge of HTML5/CSS3.</li>
+						<li class="qualifications-li">Ability to develop using HTML5/CSS3.</li>
+					</ul>
+			</div>
 
-		<div class="software-engineer job-content" id="ie" style="display: none">
-			<p class="software-description">We are looking for itemku Expert. This role is will be in charge of our community, planning a strategical contents marketing to distribute to our users in various social networking service channels and the most important being the expertise for our users (buyer and seller side).</p>
-			<br>
-			<p class="qualifications">Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Bachelor degree in Communication, PR, Business management or related field.</li>
-					<li class="qualifications-li">GPA over 3.00</li>
-					<li class="qualifications-li">At least 2 years working experiences.</li>
-					<li class="qualifications-li">Advanced in English both oral and written.</li>
-					<li class="qualifications-li">Have experience in editorial and blog management.</li>
-					<li class="qualifications-li">Have excellent communication.</li>
-					<li class="qualifications-li">Have knowledge of game industry also e-commerce industry to understand gamers and connect the dots for e-commerce. and of course enjoy playing games as well.</li>
-					<li class="qualifications-li">Have knowledge and experience of building brand and community exposure through product's blog/social media.</li>
-				</ul>
-			<br>
-			<p class="qualifications">Preferred Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Smart hardcore gamer.</li>
-					<li class="qualifications-li">Advanced in contents marketing. Community Management, Social media management and blog management, etc.</li>
-					<li class="qualifications-li">Have portfolio in manage and building exposure of the product or brand.</li>
-					<li class="qualifications-li">Must thrive in a dynamic, fast-paced environment, be a highly-motivated self-starter, flourish on a multi-cultural team, and have a brilliant sense of humor.</li>
-				</ul>
-		</div>
+			<div class="software-engineer job-content" id="ie" style="display: none">
+				<p class="software-description">itemku are looking for <span style="font-weight: bold;">Product Manager</span>. This role is will be in building <span style="font-weight: bold;">delightful, high-growth consumer products for our community microsite</span>. The ideal candidate is passionate about digital media and is a collaborative person who has a demonstrated ability to lead team in launching and iterating on products with great user experiences.<br><br>Successful candidates must able to build and manage a <span style="font-weight: bold;">best-in-class and high standard product</span> and <span style="font-weight: bold;">build community around itemku</span>. Product manager will responsible in facilitating the conversation amongst key stakeholders <span style="font-weight: bold;">to inform product strategy, design, roadmaps and timelines. A data driven person is a must</span>, the product have to be leveraged by well detailed research and well analysed market research and analysis.</p>
+				<br>
+				<p class="qualifications">Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Experience launching products and optimize it to drive and scale key revenue metrics.</li>
+						<li class="qualifications-li">Experience in understanding of user interface design and best practices for optimizing KPIs</li>
+						<li class="qualifications-li">Please have proven experience bringing projects and/or digital products from concept to completion, doing everything possible to ensure their success.</li>
+						<li class="qualifications-li">ABS/BA degree.</li>
+						<li class="qualifications-li">Background/experience in Information Technology (IT).</li>
+						<li class="qualifications-li">Advanced in English both oral and written.</li>
+					</ul>
+				<br>
+				<p class="qualifications">Preferred Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Deeply familiar with the latest trends in social media, are an active user of social products, and are familiar with trends in digital and mobile advertising.</li>
+						<li class="qualifications-li">Highly data-driven and understand how to measure and optimize KPIs.</li>
+						<li class="qualifications-li">Experience working with authors or in media industry.</li>
+						<li class="qualifications-li">Some experience with A | B testing is a plus; comfort in working at a company where data really matters is a requirement.</li>
+						<li class="qualifications-li">Passionately track growth and retention numbers, and imagine ways to consistently improve these fundamental metrics</li>
+						<li class="qualifications-li">Love interacting with content creatives and backend engineers alike</li>
+						<li class="qualifications-li">Have knowledge and experience of building a brand and community exposure through product's blog/social media</li>
+						<li class="qualifications-li">Have Experienced in building wordpress site</li>
+						<li class="qualifications-li">Must thrive in a dynamic, fast-paced environment, be a highly-motivated self-starter, flourish on a multi-cultural team, and have a brilliant sense of humor</li>
+					</ul>
+			</div>
 
-		<div class="software-engineer job-content" id="cc" style="display: none">
-			<p class="software-description">We are looking for itemku Expert. This role is will be in charge of our community, planning a strategical contents marketing to distribute to our users in various social networking service channels and the most important being the expertise for our users (buyer and seller side).</p>
-			<br>
-			<p class="qualifications">Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Bachelor degree in Journalist, Visual Communication Design, or related field - GPA over 3.00 - Advanced in English both oral and written.</li>
-					<li class="qualifications-li">At least 2 years work experiences.</li>
-					<li class="qualifications-li">Have good writing skills.</li>
-					<li class="qualifications-li">Have knowledge of game industry to understand gamers and of course play games as well.</li>
-					<li class="qualifications-li">Have knowledge and experience of building brand and community exposure through product's blog/social media.</li>
-				</ul>
-			<br>
-			<p class="qualifications">Preferred Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Smart hardcore gamer.</li>
-					<li class="qualifications-li">Have portfolio in writing for games industry (game's articles or blogs).</li>
-					<li class="qualifications-li">Have experience in industrial Graphic design.</li>
-					<li class="qualifications-li">Must thrive in a dynamic, fast-paced environment, be a highly-motivated self-starter, flourish on a multi-cultural team, and have a brilliant sense of humor.</li>
-				</ul>
-		</div>
+			<div class="software-engineer job-content" id="sdm" style="display: none">
+				<p class="software-description">We are looking for Senior Digital Marketer. This role will be in charge of delivering our campaign and monitoring our data for making decision. Successful candidates must be able to manage and delivery information and needs for game market in Indonesia and other countries..</p>
+				<br>
+				<p class="qualifications">Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Bachelor degree or Master degree in mathematics, statistics, business management or related field.</li>
+						<li class="qualifications-li">GPA over 3.00.</li>
+						<li class="qualifications-li">Advanced in English both oral and written.</li>
+						<li class="qualifications-li">Minimum 2 years online marketing field experience in/with IT industry and/or e-commerce.</li>
+						<li class="qualifications-li">Have knowledge of game industry to understand gamers.</li>
+						<li class="qualifications-li">Have knowledge of Facebook Ads / GSN / GDN / SEO.</li>
+					</ul>
+				<br>
+				<p class="qualifications">Preferred Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Data-driven marketing and user experience improvements to improve traction and conversion.</li>
+						<li class="qualifications-li">Must thrive in a dynamic, fast-paced environment, be a highly-motivated self-starter, flourish on a multi-cultural team, and have a brilliant sense of humor.</li>
+					</ul>
+			</div>
 
-		<div class="software-engineer job-content" id="sdm" style="display: none">
-			<p class="software-description">We are looking for Senior Digital Marketer. This role will be in charge of delivery our campaign and monitor our data for making decision. Successful candidates must be able to manage and delivery information and needs for game market in Indonesia and other countries..</p>
-			<br>
-			<p class="qualifications">Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Bachelor degree or Master degree in mathematics, statistics, business management or related field.</li>
-					<li class="qualifications-li">GPA over 3.00.</li>
-					<li class="qualifications-li">Advanced in English both oral and written.</li>
-					<li class="qualifications-li">Minimum 2 years online marketing field experience in/with IT industry and/or e-commerce.</li>
-					<li class="qualifications-li">Have knowledge of game industry to understand gamers.</li>
-					<li class="qualifications-li">Have knowledge of Facebook Ads / GSN / GDN / SEO.</li>
-				</ul>
-			<br>
-			<p class="qualifications">Preferred Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Data-driven marketing and user experience improvements to improve traction and conversion.</li>
-					<li class="qualifications-li">Must thrive in a dynamic, fast-paced environment, be a highly-motivated self-starter, flourish on a multi-cultural team, and have a brilliant sense of humor.</li>
-				</ul>
-		</div>
+			<div class="software-engineer job-content" id="ggr" style="display: none">
+				<p class="software-description">We are looking for Global Game Researcher. This role will be in charge to <span style="font-weight: bold;">research global game that have a market value of real money trading either in Indonesia or overseas</span>. Successful candidates must able to find a game that have <span style="font-weight: bold;">high RMT (Real Money Trading) transactions, research how the practice of RMT for each global game and how it can be applied to itemku users</span>. The research itself are planed by yourself and your target is we can open more and more variety RMT game for our users.</p>
+				<br>
+				<p class="qualifications">Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Bachelors Degree in mathematics, statistics, business management or related field.</li>
+						<li class="qualifications-li">Fresh graduate are welcome.</li>
+						<li class="qualifications-li">GPA over 3.00 (Prefer over 3.50).</li>
+						<li class="qualifications-li">Play any kinds of game (Mobile game, PC Online game and Console game) and can differentiate which one are the best for RMT.</li>
+						<li class="qualifications-li">English skill (Oral and Written) is needed.</li>
+					</ul>
+				<br>
+				<p class="qualifications">Preferred Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Smart hardcore gamer.</li>
+						<li class="qualifications-li">Have a great experience in RMT.</li>
+						<li class="qualifications-li">Smart in use google or other search engine to assist the research.</li>
+						<li class="qualifications-li">Have passion in games, and/or e-commerce industry.</li>
+						<li class="qualifications-li">1 or 2+ years working experience in related field.</li>
+						<li class="qualifications-li">Good analytical thinking in providing solutions to problems.</li>
+					</ul>
+			</div>
 
-		<div class="software-engineer job-content" id="ggr" style="display: none">
-			<p class="software-description">We are looking for Global Game Researcher. This role will be in charge to research global game that have a market value of real money trading either in Indonesia or overseas. Successful candidates must able to find a game that have high RMT (Real Money Trading) transactions, research how the practice of RMT for each global game and how it can be applied to itemku users. The research itself are planed by yourself and your target is we can open more and more variety RMT game for our users.</p>
-			<br>
-			<p class="qualifications">Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Bachelors Degree in mathematics, statistics, business management or related field.</li>
-					<li class="qualifications-li">Fresh graduate are welcome.</li>
-					<li class="qualifications-li">GPA over 3.00 (Prefer over 3.50).</li>
-					<li class="qualifications-li">Play any kinds of game (Mobile game, PC Online game and Console game) and can differentiate which one are the best for RMT.</li>
-					<li class="qualifications-li">English skill (Oral and Written) is needed.</li>
-				</ul>
-			<br>
-			<p class="qualifications">Preferred Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Smart hardcore gamer.</li>
-					<li class="qualifications-li">Have a great experience in RMT.</li>
-					<li class="qualifications-li">Smart in use google or other search engine to assist the research.</li>
-					<li class="qualifications-li">Have passion in games, and/or e-commerce industry.</li>
-					<li class="qualifications-li">1 or 2+ years working experience in related field.</li>
-					<li class="qualifications-li">Good analytical thinking in providing solutions to problems.</li>
-				</ul>
-		</div>
-
-		<div class="software-engineer job-content" id="finance" style="display: none">
-			<p class="software-description">We are looking for a sharp, good-humored Finance and Accounting Coordinator who enjoys working in a constantly changing environment and streamlining a hectic day. You will primarily provide reports dedicated from Director and lead advisers. You will be working in a fast-paced, creative environment with passionate team members who are focused on quality and execution. If you like to tame chaos while remaining calm and flexible in the face of ever-changing priorities and needs, then this is the role for you.</p>
-			<br>
-			<p class="qualifications">Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Transactions inputs on integrated accounting systems.</li>
-					<li class="qualifications-li">Create invoices/receive invoices from customers/vendors.</li>
-					<li class="qualifications-li">Prepare monthly income-expense reports for leads and coordinate special projects as needed.</li>
-					<li class="qualifications-li">Determines cost of operations by establishing standard costs; collecting operational data.</li>
-					<li class="qualifications-li">Identified financial status by comparing and analyzing actual results with plans and forecast.</li>
-					<li class="qualifications-li">Perform monthly bank reconciliation processes.</li>
-					<li class="qualifications-li">Report on monthly taxes.</li>
-					<li class="qualifications-li">Co-ordinate with other departments and Lead Advisers on closing monthly reports.</li>
-					<li class="qualifications-li">Maintains database by entering, verifying, and backing up data.</li>
-					<li class="qualifications-li">Protects operation by keeping financial information confidential.</li>
-					<li class="qualifications-li">Involved in making Finance system in company working together with develop team.</li>
-				</ul>
-			<br>
-			<p class="qualifications">Preferred Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Bachelor’s Degree in Accounting, qualified and highly exception accounting major.</li>
-					<li class="qualifications-li">Graduate from well-known University with GPA of Minimum 3.5 and above.</li>
-					<li class="qualifications-li">Have 1 years’ experience working is an advantage.</li>
-					<li class="qualifications-li">Fresh graduates are welcome to apply.</li>
-					<li class="qualifications-li">Can Writing and Speak in English very well.</li>
-					<li class="qualifications-li">know basic about Tax issue.</li>
-					<li class="qualifications-li">Awesome time management skills.</li>
-					<li class="qualifications-li">Excellent commitment to results.</li>
-					<li class="qualifications-li">Ability to juggle multiple projects and priorities at once.</li>
-					<li class="qualifications-li">Great communication skills and the ability to work effectively with a spectrum of personalities.</li>
-					<li class="qualifications-li">Strong Excel, PowerPoint, and Google email/calendar/doc skills.</li>
-					<li class="qualifications-li">Ability to maintain composure and sense of humor in high-pressure situations.</li>
-				</ul>
-		</div>
-
-		<div class="software-engineer job-content" id="cs" style="display: none">
-			<p class="software-description">We are looking for Customer Service. This role will be in charge of ensuring the needs of users are being satisfied and maintaining the good and helpful relationship with the itemku users. Successful candidates must able to manage and develop a customer service policy and keep finding ways to measure customer satisfaction and improve services.</p>
-			<br>
-			<p class="qualifications">Qualifications</p>
-				<ul>
-					<li class="qualifications-li">Fresh Graduate are welcome.</li>
-					<li class="qualifications-li">Good interpersonal, written, and verbal communication skills in English.</li>
-					<li class="qualifications-li">Native Indonesian language, both oral and written, in accordance with EYD "Ejaan Yang Disempurnakan".</li>
-					<li class="qualifications-li">Excellent in listening skills, understand exactly what customers require.</li>
-					<li class="qualifications-li">Strong problem solving skill.</li>
-					<li class="qualifications-li">Working available at weekend and holiday (5 days working per 1 week).</li>
-				</ul>
-			<br>
-			<p class="qualifications">Preferred Qualifications</p>
-				<ul>
-					<li class="qualifications-li">1 or 2+ years customer service field experience in/with IT industry and/or e-commerce.</li>
-					<li class="qualifications-li">Able to Communicates courteously with customers by email, phone and/or face to face if needed.</li>
-					<li class="qualifications-li">Skills in analysis, planning, management of competing priorities to meet multiple deliverables and deadlines, creativity in seeking new and better solutions, and forward thinking.</li>
-				</ul>
+			<div class="software-engineer job-content" id="finance" style="display: none">
+				<p class="software-description">We are looking for a sharp, good-humored Finance and Accounting Coordinator who enjoys working in a constantly changing environment and streamlining a hectic day. You will primarily provide reports dedicated from Director and lead advisers. You will be working in a fast-paced, creative environment with passionate team members who are focused on quality and execution. If you like to tame chaos while remaining calm and flexible in the face of ever-changing priorities and needs, then this is the role for you.</p>
+				<br>
+				<p class="qualifications">Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Transactions inputs on integrated accounting systems.</li>
+						<li class="qualifications-li">Create invoices/receive invoices from customers/vendors.</li>
+						<li class="qualifications-li">Prepare monthly income-expense reports for leads and coordinate special projects as needed.</li>
+						<li class="qualifications-li">Determines cost of operations by establishing standard costs; collecting operational data.</li>
+						<li class="qualifications-li">Identified financial status by comparing and analyzing actual results with plans and forecast.</li>
+						<li class="qualifications-li">Perform monthly bank reconciliation processes.</li>
+						<li class="qualifications-li">Report on monthly taxes.</li>
+						<li class="qualifications-li">Co-ordinate with other departments and Lead Advisers on closing monthly reports.</li>
+						<li class="qualifications-li">Maintains database by entering, verifying, and backing up data.</li>
+						<li class="qualifications-li">Protects operation by keeping financial information confidential.</li>
+						<li class="qualifications-li">Involved in making Finance system in company working together with develop team.</li>
+					</ul>
+				<br>
+				<p class="qualifications">Preferred Qualifications</p>
+					<ul>
+						<li class="qualifications-li">Bachelor’s Degree in Accounting, qualified and highly exception accounting major.</li>
+						<li class="qualifications-li">Graduate from well-known University with GPA of Minimum 3.5 and above.</li>
+						<li class="qualifications-li">Have 1 years’ experience working is an advantage.</li>
+						<li class="qualifications-li">Fresh graduates are welcome to apply.</li>
+						<li class="qualifications-li">Can Writing and Speak in English very well.</li>
+						<li class="qualifications-li">Know basic about Tax issue.</li>
+						<li class="qualifications-li">Awesome time management skills.</li>
+						<li class="qualifications-li">Excellent commitment to results.</li>
+						<li class="qualifications-li">Ability to juggle multiple projects and priorities at once.</li>
+						<li class="qualifications-li">Great communication skills and the ability to work effectively with a spectrum of personalities.</li>
+						<li class="qualifications-li">Strong Excel, PowerPoint, and Google email/calendar/doc skills.</li>
+						<li class="qualifications-li">Ability to maintain composure and sense of humor in high-pressure situations.</li>
+					</ul>
+			</div>
 		</div>
 	</div>
 </div>
@@ -373,6 +324,10 @@ $(document).ready(function(){
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kanan.png" }}}' class="BG">
 	</div>
 
+	<div><p class="sendcv">Please send your CV and Portfolio to <span style="font-weight: bold; font-style: italic;">recruit@fivejack.com</span></p></div>
+	<div class="other-jobs"><a href="#career" class="menu-link" style="position: relative"><i class="fa fa-chevron-circle-up"></i></a><div class="other-jobs-text">Other Jobs</div></div>
+
+	<br>
 	<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/orang.png" }}}' class="mascot">
 </section>
 
@@ -385,15 +340,15 @@ $(document).ready(function(){
 		<div class="icons-container">
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/time.png" }}}' class="icons-img">
-				<p class="icons-text-time">Flexible working hour:<br>Flexible creates higher responsibility</p>
+				<p class="icons-text-time">Flexible working hour.<br>Flexible creates higher responsibility</p>
 			</div>
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/food.png" }}}' class="icons-img">
-				<p class="icons-text-food">Free lunch:<br>You will never get hungry</p>
+				<p class="icons-text-food">Free lunch.<br>You will never get hungry</p>
 			</div>
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/voucher.png" }}}' class="icons-img">
-				<p class="icons-text-voucher">Monthly itemku member voucher: For every game you love to play</p>
+				<p class="icons-text-voucher">Monthly itemku member voucher. For every game you love to play</p>
 			</div>
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/Challenge.png" }}}' class="icons-img">
@@ -403,7 +358,7 @@ $(document).ready(function(){
 		<div class="icons-container">
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/calendar.png" }}}' class="icons-img">
-				<p class="icons-text-calendar">14 Days Annual Leaves:<br>For every personal matter that you need to do</p>
+				<p class="icons-text-calendar">14 Days Annual Leaves.<br>For every personal matter that you need to do</p>
 			</div>
 			<div class="icons-row">
 				<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/agile-dev.png" }}}' class="icons-img">
@@ -420,34 +375,38 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
-	</section>
+</section>
 
 
 
+
+<div class="space"></div>
+<div class="contact">
+<section id="office_address">
+	<div id="map"></div>
+</section>
 <section id="contact">
-	<div class="space"></div>
-	<div class="contact">
-		<div id="map"></div>
 		<div class="contact-container">
 			<div class="about">
 				<h1 class="about-header">About Us</h1>
-				<p class="about-text">itemku.com, the marketplace for game item trading in Indonesia.<br><br>Five Jack is a company which creates an e-commerce platform focusing on trading virtual game items in Indonesia called itemku. In 2016, our GMV is growing monthly by 35%, purchase conversion rate by 27%, and user retention rate by 18%.</p>
+				<p class="about-text">Five Jack is the gaming related company which have mission to make changes and solutions for gaming industry in terms of e-commerce.
+By building itemku, which is a marketplace platform focusing on trading virtual game items in Indonesia, we provide the solution for every gamers who wants to trade their virtual items.</p>
 			</div>
 			<div class="contact-address-container">
 				<h1 class="about-header">Contact Us</h1>
 				<div class="contact-address">
 					<div class="contact-address-icons">
-						<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/location.png" }}}' class="contact-img-location">
+						<a href="#office_address" class="menu-link" style="position: relative"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/location.png" }}}' class="contact-img-location"></a>
 						<br>
 						<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/phone.png" }}}' class="contact-img-address">
 						<br>
 						<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/email.png" }}}' class="contact-img-email">
 					</div>
-					<div class="contact-address-text">
+					<a href="#office_address" class="menu-link" style="position: relative"><div class="contact-address-text">
 						<p class="contact-address-text">Jl. Kamboja Raya no 15 B,<br>Kel Kota Bambu Utara,<br>Kecamatan Palmerah,<br>Jakarta Barat,<br>11420</p>
 						<p class="contact-address-text">+62 - 21 - 567 - 2785</p>
 						<p class="contact-address-text">support@fivejack.com</p>
-					</div>
+					</div></a>
 				</div>
 			</div>
 			<div class="keep-in-touch">
@@ -458,8 +417,8 @@ $(document).ready(function(){
 				</div>
 			</div>
 		</div>
-	</div>
 </section>
+</div>
 
 
   

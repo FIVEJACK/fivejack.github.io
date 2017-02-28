@@ -26,7 +26,7 @@
 }
 
 .uvp-container {
-	bottom: 30%;
+	bottom: 35%;
 	position: relative;
 }
 
@@ -48,7 +48,7 @@
 
 .company-explained {
 	position: relative;
-	bottom: 33%;
+	bottom: 38%;
 	text-align: center;
 	max-width: 50%;
 	margin: 0 auto;
@@ -181,13 +181,13 @@
 	display: block;
 	font-size: 16px;
 	text-align: center;
-	margin: 0px auto;
+	margin: 0px auto 1%;
 	font-weight: bold;
 }
 
 .container-reviews {
 	text-align: center;
-    max-width: 40%;
+    max-width: 50%;
     position: relative;
     margin: 0px auto;
 }
@@ -195,15 +195,14 @@
 .review-content-outter-container {
 	display: flex;
 	justify-content: space-between;
-	vertical-align: middle;
-	margin-right: 5%;
+	align-items: center;
 }
 
 .review-content-container {
     max-width: 600px;
     text-align: left;
     vertical-align: middle;
-    margin-right: 5%;
+    margin-right: 0%;
 }
 
 .review-content-container-2 {
@@ -214,11 +213,11 @@
 }
 
 .review-image {
-    width: 160px;
+    width: 200px;
     vertical-align: middle;
 }
 
-.review-image-2 {
+.review-image-e27 {
     width: 140px;
     vertical-align: middle;
 }
@@ -234,7 +233,7 @@ a:hover {
 
 .review-text {
     display: block;
-    max-width: 210px;
+    max-width: 180px;
     margin: 10px auto;
     padding: 0px;
     text-align: justify;
@@ -288,10 +287,14 @@ a:hover {
 	transition: 0.8s;
 }
 
+#job_content {
+	margin-top: -147px;
+}
+
 .software-engineer {
 	display: block;
 	margin-left: 10%;
-	padding-top: 8px;
+	padding-top: 147px;
 }
 
 .software-description {
@@ -325,13 +328,21 @@ a:hover {
 	cursor: auto !important;
 }
 
+.sendcv {
+	margin: 35px auto;
+	text-align: center;
+	padding: 0px;
+	font-family: 'arial';
+	color: #444 !important;
+	}
+
 .mascot {
 	position: relative;
 	display: block;
 	text-align: center;
 	width: 250px;
 	margin: 0px auto;
-	padding: 50px 0px 0px 0px;
+	padding: 0px;
 }
 
 .what {
@@ -555,6 +566,10 @@ a.contact-link {
 	height: 450px;
 }
 
+.other-jobs {
+	display: none;
+}
+
 /*
 @media screen and (max-width: 500px) {
 	
@@ -626,16 +641,14 @@ a.contact-link {
 	.uvp-container {
 		position: absolute;
 		width: 100%;
-		margin-bottom: 40%;
-		bottom: 0%;
 	}
 
 	.uvpspace {
-		font-size: 28px;
+		font-size: 160%;
 		text-align: center;
 		font-family: keepCalm;
 		color: white;
-		margin-bottom: 15%;
+		margin-bottom: 9%;
 		text-shadow: 0px 2px 30px #000;
 		width: 80%;
 	}
@@ -795,6 +808,7 @@ a.contact-link {
 		position: relative;
 		font-size: 16px;
 		margin-top: 15%;
+		padding: 0px;
 	}
 
 	.container-reviews {
@@ -808,19 +822,27 @@ a.contact-link {
 
 	.review-content-container {
 	    text-align: center;
-	    margin: 0%;
+	    margin-top: 10%;
+	    margin-right: 0px;
+	    margin-left: 0px;
+	    vertical-align: middle;
 	}
 
 	.review-content-container-2 {
-	   
 	    text-align: center;
 	    margin-top: 10%;
+	    margin-left: 0px;
+	    vertical-align: middle;
 	}
 
 	.review-image {
 	    vertical-align: middle;
-	    width: 50%;
+	    width: 70%;
 	    position: relative;
+	}
+
+	.review-image-e27 {
+		width: 45%;
 	}
 
 	a {
@@ -835,38 +857,13 @@ a.contact-link {
 	}
 
 	.review-text {
-	   	text-align: left;
+	   	text-align: justify;
 	    font-size: 12px;
 	    color: #1982ad;
 	    vertical-align: middle;
-	}
-
-	.review-image-2 {
-	   	vertical-align: middle;
-	    width: 50%;
-	    position: relative;
-	}
-
-	.review-text-2 {
-	    text-align: left;
-	    font-size: 12px;
-	    color: #1982ad;
-	    vertical-align: middle;
-	    width: 50%;
-	    margin-left: 5%;
-	}
-
-	.review-text-2:active {
-		color: purple;
-		width: 100%;
 	}
 
 	.review-text:visited {
-		color: purple;
-		width: 100%;
-	}
-
-	.review-text-2:visited {
 		color: purple;
 		width: 100%;
 	}
@@ -911,7 +908,12 @@ a.contact-link {
 		width: 100%;
 	}
 
+	#job_content {
+	margin-top: 0px;
+}
+
 	.software-engineer {
+		padding-top: 24%;
 	}
 
 	.software-description {
@@ -921,7 +923,7 @@ a.contact-link {
 		width: 100%;
 	}
 
-	.qualifications {
+	.qualifications {o
 		font-weight: bold;
 		margin: 5% 0% 0% -8% !important;
 		padding: 0px !important;
@@ -1063,10 +1065,10 @@ a.contact-link {
 		width: 100%;
 	}
 
-	.contact-container{
+	.contact-container {
 		display: block;
 		background-color: #07445d;
-		height: 850px;
+		height: 800px;
 		width: 100%;
 	}
 
@@ -1165,13 +1167,13 @@ a.contact-link {
 
 	.contact-img-location {
 		width: 60%;
-		margin-bottom: 180%;
+		margin-bottom: 255%;
 		margin-top: 5%;
 	}
 
 	.contact-img-address {
 		width: 60%;
-		margin-bottom: 50%;
+		margin-bottom: 60%;
 	}
 
 	.contact-img-email {
@@ -1185,16 +1187,103 @@ a.contact-link {
 		width: 100%;
 	}
 
+	.sendcv {
+	margin: 35px auto;
+	text-align: center;
+	padding: 0px;
+	font-family: 'arial';
+	color: #444 !important;
+	}
+
 	.mascot {
 		display: block;
 		width: 48%;
-		padding: 5% 0% 0% 0%;
+		padding: 0%;
 		margin-top: 5%;
 		text-align: center;
 	}
 
-	.coba {
-		background-attachment: 
+	.other-jobs {
+		display: block;
+		vertical-align: middle;
+		width: 100%;
+		text-align: center;
+		margin: 10% auto 3%;
+		font-family: keepCalm;
 	}
 
+	.other-jobs-text {
+		color: #07445d;
+		font-weight: bold;
+		margin-top: 0.5%;
+	}
+
+	.fa-chevron-circle-up {
+		font-size: 30px;
+		color: #07445d;
+	}
+
+}
+
+@media screen and (max-width: 1025px) and (min-width: 501px) {
+
+	.icons-img {
+		max-width: 120px;
+	}
+
+	.icons-text-time {
+		width: 90%;
+	}
+
+	.icons-text-food {
+		width: 90%;
+	}
+
+	.icons-text-voucher {
+		width: 90%;
+	}
+
+	.icons-text-challenge {
+		width: 90%;
+	}
+
+	.icons-text-calendar {
+		width: 90%;
+	}
+
+	.icons-text-agile {
+		width: 90%;
+	}
+
+	.icons-text-fun {
+		width: 90%;
+	}
+
+	.icons-text-family {
+		width: 90%;
+	}
+
+	.icons-row {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+
+	.contact-container {
+		height: 400px;
+	}
+
+	.contact-img-location {
+		width: 60%;
+		margin-bottom: 335%;
+		margin-top: 5%;
+	}
+
+	.contact-img-address {
+		width: 60%;
+		margin-bottom: 70%;
+	}
+
+	.contact-img-email {
+		width: 60%;
+	}
 }
