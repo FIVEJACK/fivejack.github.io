@@ -132,7 +132,7 @@ $(document).ready(function(){
 			<div class="space"></div>
 		</div>
 		<div class="itemku-preview-container">
-			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku preview.png" }}}' alt="itemku preview" class="itemku-preview">
+			<a href="https://itemku.com/" target="_blank"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku preview.png" }}}' alt="itemku preview" class="itemku-preview"></a>
 		</div>
 	</div>
 
