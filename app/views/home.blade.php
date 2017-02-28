@@ -64,8 +64,9 @@ $(document).ready(function(){
 		e.preventDefault();
 		var target = this.hash;
 		var $target = $(target);
+		var scrollBuffer = 3;
 
-		$('html, body').stop().animate({ 'scrollTop': $target.offset().top }, 1000, 'swing', function () { window.location.hash = target; });
+		$('html, body').stop().animate({ 'scrollTop': $target.offset().top + scrollBuffer}, 1000, 'swing');
 	});
 		
 	// Highlight function
