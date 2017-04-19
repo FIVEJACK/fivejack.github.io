@@ -325,7 +325,8 @@ $(document).ready(function(){
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kanan.png" }}}' class="BG">
 	</div>
 
-	<div><p class="sendcv">Please send your CV and Portfolio to <span style="font-weight: bold; font-style: italic;">recruit@fivejack.com</span></p></div>
+	<div><p class="sendcv" style="margin-bottom: 0px;">Please send your CV and Portfolio to <span style="font-weight: bold; font-style: italic;">recruit@fivejack.com</span></p><p class="sendcv" style="margin-top: 0px;">All documents must be in <b>ENGLISH</b></p></div>
+	
 	<div class="other-jobs"><a href="#career" class="menu-link" style="position: relative"><i class="fa fa-chevron-circle-up"></i></a><div class="other-jobs-text">Other Jobs</div></div>
 
 	<br>
