@@ -127,13 +127,13 @@ $(document).ready(function(){
 <div class="space"></div>
 	<div class="product-page">
 		<div class="itemku">
-			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku logo.png" }}}' alt="itemku logo" class="itemku-logo">
+			<a href="https://itemku.com/" target="_blank"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku logo.png" }}}' alt="itemku logo" class="itemku-logo"></a>
 			<p class="itemku-description">itemku is the biggest <span class="situs-jualbeli">marketplace</span> in the Indonesian online game community and has the <span style="font-style: italic; font-weight: bold">"itemku Safe Trading"</span> service which guarantees 100% safe trading. In itemku, <span style="font-style: italic; font-weight: bold">safe trading</span> is not the only thing that our buyers and sellers have, but they also have the <span style="font-style: italic; font-weight: bold">easiness</span> and <span style="font-style: italic; font-weight: bold">convenience</span> when doing their transactions.</p>
 
 			<div class="space"></div>
 		</div>
 		<div class="itemku-preview-container">
-			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku preview.png" }}}' alt="itemku preview" class="itemku-preview">
+			<a href="https://itemku.com/" target="_blank"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/itemku preview.png" }}}' alt="itemku preview" class="itemku-preview"></a>
 		</div>
 	</div>
 
@@ -325,7 +325,8 @@ $(document).ready(function(){
 			<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/BG_kanan.png" }}}' class="BG">
 	</div>
 
-	<div><p class="sendcv">Please send your CV and Portfolio to <span style="font-weight: bold; font-style: italic;">recruit@fivejack.com</span></p></div>
+	<div><p class="sendcv" style="margin-bottom: 0px;">Please send your CV and Portfolio to <span style="font-weight: bold; font-style: italic;">recruit@fivejack.com</span></p><p class="sendcv" style="margin-top: 0px;">All documents must be in <b>ENGLISH</b></p></div>
+	
 	<div class="other-jobs"><a href="#career" class="menu-link" style="position: relative"><i class="fa fa-chevron-circle-up"></i></a><div class="other-jobs-text">Other Jobs</div></div>
 
 	<br>

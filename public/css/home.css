@@ -802,6 +802,10 @@ a.contact-link {
 		margin-top: 5%;
 	}
 
+	.itemku-preview:hover {
+		cursor: pointer;
+	}
+
 	.reviewed-by {
 		font-family: arial;
 		color: #444;
