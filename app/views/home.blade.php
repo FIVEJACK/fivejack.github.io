@@ -398,13 +398,10 @@ By building itemku, which is a marketplace platform focusing on trading virtual 
 					<div class="contact-address-icons">
 						<a href="#office_address" class="menu-link" style="position: relative"><img src='{{{ Config::get("constant.RESOURCE_URL") . "images/location.png" }}}' class="contact-img-location"></a>
 						<br>
-						<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/phone.png" }}}' class="contact-img-address">
-						<br>
 						<img src='{{{ Config::get("constant.RESOURCE_URL") . "images/email.png" }}}' class="contact-img-email">
 					</div>
 					<a href="#office_address" class="menu-link" style="position: relative"><div class="contact-address-text">
 						<p class="contact-address-text">Jl. Kamboja Raya no 15 B,<br>Kel Kota Bambu Utara,<br>Kecamatan Palmerah,<br>Jakarta Barat,<br>11420</p>
-						<p class="contact-address-text">+62 - 21 - 567 - 2785</p>
 						<p class="contact-address-text">support@fivejack.com</p>
 					</div></a>
 				</div>
